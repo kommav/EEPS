@@ -1,2 +1,45 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+import parsl
+import os
+from parsl.app.app import python_app, bash_app
+from parsl.configs.local_threads import config
+
+parsl.load(config)
+
+# Import Files
+
+from parsl.data_provider.files import File
+
+@bash_app
+def copy(inputs=[], outputs=[]):
+     return 'cat %s &> %s' % (inputs[0], outputs[0])
+
+open(os.path.join(os.getcwd(), 'cat-in.txt'), 'w').write('Hello World!\n')
+
+parsl_infile = File(os.path.join(os.getcwd(), 'cat-in.txt'),)
+parsl_outfile = File(os.path.join(os.getcwd(), 'cat-out.txt'),)
+
+copy_future = copy(inputs=[parsl_infile], outputs=[parsl_outfile])
+
+with open(copy_future.outputs[0].result(), 'r') as f:
+     print(f.read())
+     
+
+# File Concatenation
+
+from parsl.data_provider.files import File
+
+@bash_app
+def cat(inputs=[], outputs=[]):
+    return 'cat {} > {}'.format(" ".join([i.filepath for i in inputs]), outputs[0]) 
+
+concat = cat(inputs=[File(os.path.join(os.getcwd(), 'a.txt')),
+                    File(os.path.join(os.getcwd(), 'b.txt')),
+                    File(os.path.join(os.getcwd(), 'c.txt'))], 
+             outputs=[File(os.path.join(os.getcwd(), 'abc.txt'))])
+
+# Open the concatenated file
+with open(concat.outputs[0].result(), 'r') as f:
+     print(f.read())
