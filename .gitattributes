@@ -1,15 +1,97 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-
+# Setup
 import parsl
 import os
 from parsl.app.app import python_app, bash_app
 from parsl.configs.local_threads import config
 
+parsl.set_stream_logger()
+
+
+# Configuration
 parsl.load(config)
 
-# Import Files
 
+# Applications
+@python_app
+def test ():
+    return 'Test Message'
+
+print(test().result())
+
+def multiply(a, b):
+    return a * b
+
+print(multiply(7, 7).result())
+
+
+# Bash App
+@bash_app
+def echo_hello(stdout='echo-hello.stdout', stderr='echo-hello.stderr'):
+    return 'echo "Hello World!"'
+
+echo_hello().result()
+
+with open('echo-hello.stdout', 'r') as f:
+     print(f.read())
+     
+     
+# Data Passing
+for i in range(3):
+    with open(os.path.join(os.getcwd(), 'hello-{}.txt'.format(i)), 'w') as f:
+        f.write('hello {}'.format(i))
+
+from parsl.data_provider.files import File
+
+@bash_app
+def cat(inputs=[], outputs=[]):
+    return 'cat {} > {}'.format(" ".join([i.filepath for i in inputs]), outputs[0]) 
+
+concat = cat(inputs=[File(os.path.join(os.getcwd(), 'hello-0.txt')),
+                    File(os.path.join(os.getcwd(), 'hello-1.txt')),
+                    File(os.path.join(os.getcwd(), 'hello-2.txt'))], 
+             outputs=[File(os.path.join(os.getcwd(), 'all_hellos.txt'))])
+
+with open(concat.outputs[0].result(), 'r') as f:
+     print(f.read())
+     
+     
+# AppFutures
+@python_app
+def hello ():
+    import time
+    time.sleep(5)
+    return 'Hello World!'
+
+app_future = hello()
+
+# Check if the app_future is resolved, which it won't be
+print('Done: {}'.format(app_future.done()))
+
+# Print the result of the app_future. Note: this
+# call will block and wait for the future to resolve
+print('Result: {}'.format(app_future.result()))
+print('Done: {}'.format(app_future.done()))
+     
+     
+# DataFutures
+@bash_app
+def slowecho(message, outputs=[]):
+    return 'sleep 5; echo %s &> %s' % (message, outputs[0])
+
+hello = slowecho('Hello World!', outputs=[File(os.path.join(os.getcwd(), 'hello-world.txt'))])
+
+print(hello.outputs)
+
+print('Done: {}'.format(hello.done()))
+
+with open(hello.outputs[0].result(), 'r') as f:
+     print(f.read())
+        
+print(hello.outputs)
+print('Done: {}'.format(hello.done()))
+
+
+# Manage Files
 from parsl.data_provider.files import File
 
 @bash_app
@@ -25,21 +107,84 @@ copy_future = copy(inputs=[parsl_infile], outputs=[parsl_outfile])
 
 with open(copy_future.outputs[0].result(), 'r') as f:
      print(f.read())
-     
 
-# File Concatenation
 
+# Manage Remote Files
 from parsl.data_provider.files import File
 
+@python_app
+def sort_numbers(inputs=[]):
+    with open(inputs[0].filepath, 'r') as f:
+        strs = [n.strip() for n in f.readlines()]
+        strs.sort()
+        return strs
+
+unsorted_file = File('https://raw.githubusercontent.com/Parsl/parsl-tutorial/master/input/unsorted.txt')
+
+f = sort_numbers(inputs=[unsorted_file])
+print (f.result())
+
+
+# Sequential Workflow
+@python_app
+def generate(limit):
+      from random import randint
+      return randint(1,limit)
+
 @bash_app
-def cat(inputs=[], outputs=[]):
-    return 'cat {} > {}'.format(" ".join([i.filepath for i in inputs]), outputs[0]) 
+def save(variable, outputs=[]):
+      return 'echo %s &> %s' % (variable, outputs[0])
 
-concat = cat(inputs=[File(os.path.join(os.getcwd(), 'a.txt')),
-                    File(os.path.join(os.getcwd(), 'b.txt')),
-                    File(os.path.join(os.getcwd(), 'c.txt'))], 
-             outputs=[File(os.path.join(os.getcwd(), 'abc.txt'))])
+random = generate(10)
+print('Random number: %s' % random.result())
 
-# Open the concatenated file
-with open(concat.outputs[0].result(), 'r') as f:
-     print(f.read())
+saved = save(random, outputs=[File(os.path.join(os.getcwd(), 'sequential-output.txt'))])
+
+with open(saved.outputs[0].result(), 'r') as f:
+      print('File contents: %s' % f.read())
+      
+      
+# Parallel Workflow
+@python_app
+def generate(limit,delay):
+    from random import randint
+    import time
+    time.sleep(delay)
+    return randint(1,limit)
+
+rand_nums = []
+for i in range(5):
+    rand_nums.append(generate(10,i))
+
+outputs = [i.result() for i in rand_nums]
+
+print(outputs)
+
+
+# Parallel Dataflow
+@bash_app
+def generate(outputs=[]):
+    return "echo $(( RANDOM )) &> {}".format(outputs[0])
+
+@bash_app
+def concat(inputs=[], outputs=[]):
+    return "cat {0} > {1}".format(" ".join([i.filepath for i in inputs]), outputs[0])
+
+@python_app
+def total(inputs=[]):
+    total = 0
+    with open(inputs[0], 'r') as f:
+        for l in f:
+            total += int(l)
+    return total
+
+output_files = []
+for i in range (5):
+     output_files.append(generate(outputs=[File(os.path.join(os.getcwd(), 'random-{}.txt'.format(i)))]))
+
+cc = concat(inputs=[i.outputs[0] for i in output_files], 
+            outputs=[File(os.path.join(os.getcwd(), 'all.txt'))])
+
+# Calculate the sum of the random numbers
+total = total(inputs=[cc.outputs[0]])
+print (total.result())
