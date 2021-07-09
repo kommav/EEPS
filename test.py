@@ -1,6 +1,5 @@
 import parsl
 from parsl import python_app
-imports for monitoring:
 from parsl.monitoring import MonitoringHub
 
 import os
