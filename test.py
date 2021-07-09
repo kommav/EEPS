@@ -18,8 +18,6 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
-parsl.load(config)
-
 def fresh_config():
     return Config(
         executors=[
@@ -52,9 +50,9 @@ def fresh_config():
         )
     )
 
-
 config = fresh_config()
 
+parsl.load(config)
 
 @python_app
 def app_A():
