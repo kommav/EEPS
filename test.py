@@ -18,7 +18,7 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
-def parsl.load(config)
+parsl.load(config)
 
 def fresh_config():
     return Config(
