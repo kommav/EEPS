@@ -80,7 +80,7 @@ def app_E(x):
     return x * x
 
 def app_F():
-    iterations = randint(0,10) // Do I need to change the seed everytime to change the value?
+    iterations = randint(0,10)
     return iterations
 total = 0
 for x in range(app_F()):
