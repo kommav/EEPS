@@ -86,4 +86,4 @@ total = 0
 for x in range(app_F()):
     total += app_E(app_D(10, 7, app_C(app_A(), app_B()).result()))
 print(total)
-# total will be random but should be iterations * 7
+# total will be random but should be iterations * 100
