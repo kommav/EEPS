@@ -1,0 +1,8 @@
+2021-07-09 14:13:54.307 monitoring_filesystem_radio:514 [INFO]  Starting filesystem radio receiver
+2021-07-09 14:13:54.308 monitoring_filesystem_radio:522 [DEBUG]  Creating new and tmp paths
+2021-07-09 14:13:54.309 monitoring_filesystem_radio:529 [INFO]  Start filesystem radio receiver loop
+2021-07-09 14:13:55.311 monitoring_filesystem_radio:529 [INFO]  Start filesystem radio receiver loop
+2021-07-09 14:13:56.312 monitoring_filesystem_radio:529 [INFO]  Start filesystem radio receiver loop
+2021-07-09 14:13:57.319 monitoring_filesystem_radio:529 [INFO]  Start filesystem radio receiver loop
+2021-07-09 14:13:58.342 monitoring_filesystem_radio:529 [INFO]  Start filesystem radio receiver loop
+2021-07-09 14:13:59.343 monitoring_filesystem_radio:529 [INFO]  Start filesystem radio receiver loop

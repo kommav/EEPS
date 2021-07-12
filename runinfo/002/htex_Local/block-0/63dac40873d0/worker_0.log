@@ -1,0 +1,12 @@
+2021-07-12 15:31:23.330 worker_log:519 Rank:0 [INFO]  Worker 0 started
+2021-07-12 15:31:23.331 worker_log:521 Rank:0 [DEBUG]  Debug logging enabled
+2021-07-12 15:31:23.476 worker_log:549 Rank:0 [INFO]  Received task 2
+2021-07-12 15:31:23.493 worker_log:567 Rank:0 [INFO]  Completed task 2
+2021-07-12 15:31:24.904 worker_log:549 Rank:0 [INFO]  Received task 12
+2021-07-12 15:31:24.915 worker_log:567 Rank:0 [INFO]  Completed task 12
+2021-07-12 15:31:25.514 worker_log:549 Rank:0 [INFO]  Received task 17
+2021-07-12 15:31:25.532 worker_log:567 Rank:0 [INFO]  Completed task 17
+2021-07-12 15:31:26.123 worker_log:549 Rank:0 [INFO]  Received task 21
+2021-07-12 15:31:26.136 worker_log:567 Rank:0 [INFO]  Completed task 21
+2021-07-12 15:31:26.754 worker_log:549 Rank:0 [INFO]  Received task 25
+2021-07-12 15:31:26.769 worker_log:567 Rank:0 [INFO]  Completed task 25

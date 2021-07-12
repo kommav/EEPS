@@ -1,0 +1,576 @@
+2021-07-12 15:30:21.069 interchange:192 [DEBUG]  Initializing Interchange process
+2021-07-12 15:30:21.071 interchange:198 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55886,55349,55802
+2021-07-12 15:30:21.074 interchange:218 [INFO]  Connected to client
+2021-07-12 15:30:21.076 interchange:248 [INFO]  Bound to ports 54633,54330 for incoming worker connections
+2021-07-12 15:30:21.077 interchange:263 [INFO]  Platform info: {'parsl_v': '1.1.0+desc-2021.07.09a', 'python_v': '3.9.6', 'os': 'Darwin', 'hostname': 'Veds-MacBook-Pro.local', 'dir': '/Users/vedkommalapati/Documents/GitHub/Parsl'}
+2021-07-12 15:30:21.079 interchange:416 [INFO]  Incoming ports bound
+2021-07-12 15:30:21.079 interchange:323 [INFO]  Connecting to monitoring
+2021-07-12 15:30:21.080 interchange:327 [INFO]  Monitoring enabled and connected to hub
+2021-07-12 15:30:21.082 interchange:299 [INFO]  [TASK_PULL_THREAD] Starting
+2021-07-12 15:30:21.084 interchange:346 [DEBUG]  [COMMAND] Command Server Starting
+2021-07-12 15:30:21.084 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:21.085 interchange:323 [INFO]  Connecting to monitoring
+2021-07-12 15:30:21.086 interchange:327 [INFO]  Monitoring enabled and connected to hub
+2021-07-12 15:30:21.112 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:1
+2021-07-12 15:30:21.120 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:2
+2021-07-12 15:30:22.057 interchange:354 [DEBUG]  [COMMAND] Received command request: OUTSTANDING_C
+2021-07-12 15:30:22.058 interchange:400 [DEBUG]  [COMMAND] Reply: 2
+2021-07-12 15:30:22.060 interchange:354 [DEBUG]  [COMMAND] Received command request: WORKERS
+2021-07-12 15:30:22.061 interchange:400 [DEBUG]  [COMMAND] Reply: 0
+2021-07-12 15:30:22.062 interchange:354 [DEBUG]  [COMMAND] Received command request: WORKERS
+2021-07-12 15:30:22.063 interchange:400 [DEBUG]  [COMMAND] Reply: 0
+2021-07-12 15:30:22.087 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:22.088 interchange:533 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-12 15:30:22.089 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:22.091 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:23.065 interchange:404 [DEBUG]  [COMMAND] is alive
+2021-07-12 15:30:23.092 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:23.094 interchange:533 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-12 15:30:23.095 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:23.096 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.067 interchange:404 [DEBUG]  [COMMAND] is alive
+2021-07-12 15:30:24.098 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.143 interchange:533 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-12 15:30:24.144 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.145 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.291 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.292 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.295 interchange:491 [INFO]  [MAIN] Adding manager: b'4b92697a4c51' to ready queue
+2021-07-12 15:30:24.296 interchange:493 [INFO]  [MAIN] Registration info for manager b'4b92697a4c51': {'parsl_v': '1.1.0+desc-2021.07.09a', 'python_v': '3.9.6', 'worker_count': 4, 'uid': '4b92697a4c51', 'block_id': '1', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Darwin', 'hostname': 'Veds-MacBook-Pro.local', 'dir': '/Users/vedkommalapati/Documents/GitHub/Parsl', 'cpu_count': 2, 'total_memory': 8589934592}
+2021-07-12 15:30:24.298 interchange:334 [INFO]  Sending message {'last_heartbeat': 1626121824.295289, 'idle_since': 1626121824.29529, 'free_capacity': 0, 'block_id': '1', 'max_capacity': 4, 'worker_count': 4, 'active': True, 'tasks': [], 'parsl_v': '1.1.0+desc-2021.07.09a', 'python_v': '3.9.6', 'uid': '4b92697a4c51', 'prefetch_capacity': 0, 'os': 'Darwin', 'hostname': 'Veds-MacBook-Pro.local', 'dir': '/Users/vedkommalapati/Documents/GitHub/Parsl', 'cpu_count': 2, 'total_memory': 8589934592} to hub
+2021-07-12 15:30:24.302 interchange:511 [INFO]  [MAIN] Manager b'4b92697a4c51' has compatible Parsl version 1.1.0+desc-2021.07.09a
+2021-07-12 15:30:24.303 interchange:512 [INFO]  [MAIN] Manager b'4b92697a4c51' has compatible Python version 3.9
+2021-07-12 15:30:24.305 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.306 interchange:533 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-12 15:30:24.307 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 0 managers still interesting
+2021-07-12 15:30:24.308 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.308 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.309 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.310 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 3 tasks
+2021-07-12 15:30:24.311 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.311 interchange:533 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-12 15:30:24.313 interchange:562 [DEBUG]  [MAIN] Sent tasks: [1, 2] to manager b'4b92697a4c51'
+2021-07-12 15:30:24.314 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 1
+2021-07-12 15:30:24.314 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-12 15:30:24.315 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.317 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.319 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.320 interchange:491 [INFO]  [MAIN] Adding manager: b'a8545c954685' to ready queue
+2021-07-12 15:30:24.322 interchange:493 [INFO]  [MAIN] Registration info for manager b'a8545c954685': {'parsl_v': '1.1.0+desc-2021.07.09a', 'python_v': '3.9.6', 'worker_count': 4, 'uid': 'a8545c954685', 'block_id': '0', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Darwin', 'hostname': 'Veds-MacBook-Pro.local', 'dir': '/Users/vedkommalapati/Documents/GitHub/Parsl', 'cpu_count': 2, 'total_memory': 8589934592}
+2021-07-12 15:30:24.323 interchange:334 [INFO]  Sending message {'last_heartbeat': 1626121824.320493, 'idle_since': 1626121824.3204942, 'free_capacity': 0, 'block_id': '0', 'max_capacity': 4, 'worker_count': 4, 'active': True, 'tasks': [], 'parsl_v': '1.1.0+desc-2021.07.09a', 'python_v': '3.9.6', 'uid': 'a8545c954685', 'prefetch_capacity': 0, 'os': 'Darwin', 'hostname': 'Veds-MacBook-Pro.local', 'dir': '/Users/vedkommalapati/Documents/GitHub/Parsl', 'cpu_count': 2, 'total_memory': 8589934592} to hub
+2021-07-12 15:30:24.328 interchange:511 [INFO]  [MAIN] Manager b'a8545c954685' has compatible Parsl version 1.1.0+desc-2021.07.09a
+2021-07-12 15:30:24.330 interchange:512 [INFO]  [MAIN] Manager b'a8545c954685' has compatible Python version 3.9
+2021-07-12 15:30:24.331 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.332 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.333 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.334 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.335 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.336 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.337 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:24.338 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.339 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.342 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.343 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.347 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.349 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.350 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:24.351 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.352 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.353 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.354 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.356 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.358 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.359 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:24.360 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.361 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.363 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.364 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.367 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.368 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.369 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.370 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:24.371 interchange:582 [DEBUG]  [MAIN] Got 4 result items in batch
+2021-07-12 15:30:24.372 interchange:616 [DEBUG]  [MAIN] Current tasks: [1, 2]
+2021-07-12 15:30:24.374 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:24.375 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.396 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.397 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.398 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:24.399 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.400 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.401 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.402 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.468 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.469 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.470 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.471 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:24.471 interchange:582 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-12 15:30:24.472 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:24.473 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:24.474 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.482 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:3
+2021-07-12 15:30:24.520 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.520 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.521 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:24.522 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.522 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.523 interchange:562 [DEBUG]  [MAIN] Sent tasks: [3] to manager b'4b92697a4c51'
+2021-07-12 15:30:24.524 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 3
+2021-07-12 15:30:24.526 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:24.527 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.528 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.529 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.530 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:24.531 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.533 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.534 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.535 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.535 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.536 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.537 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:24.537 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.538 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.539 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.541 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.602 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.603 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.604 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:24.605 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.606 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.607 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.608 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.663 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.664 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.665 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.665 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:24.666 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:24.667 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:24.668 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:24.669 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.675 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:4
+2021-07-12 15:30:24.681 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:5
+2021-07-12 15:30:24.737 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.738 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.740 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:24.741 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.742 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.744 interchange:562 [DEBUG]  [MAIN] Sent tasks: [4, 5] to manager b'a8545c954685'
+2021-07-12 15:30:24.745 interchange:564 [DEBUG]  [MAIN] Manager b'a8545c954685' has free_capacity 2
+2021-07-12 15:30:24.746 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:24.747 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.751 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.752 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.753 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:24.754 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.755 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.756 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.757 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.759 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.760 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.761 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:24.762 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.764 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.766 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.767 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.794 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.795 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.796 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.797 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:24.798 interchange:582 [DEBUG]  [MAIN] Got 4 result items in batch
+2021-07-12 15:30:24.800 interchange:616 [DEBUG]  [MAIN] Current tasks: [4, 5]
+2021-07-12 15:30:24.801 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:24.802 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.908 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.909 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.910 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.911 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:24.913 interchange:582 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-12 15:30:24.914 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:24.916 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:24.917 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.924 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:6
+2021-07-12 15:30:24.955 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.957 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.958 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:24.959 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.960 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.962 interchange:562 [DEBUG]  [MAIN] Sent tasks: [6] to manager b'4b92697a4c51'
+2021-07-12 15:30:24.964 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 3
+2021-07-12 15:30:24.966 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:24.967 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.971 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.972 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.973 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:24.974 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.975 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.976 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.977 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:24.983 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:24.984 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:24.985 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:24.988 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:24.989 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:24.990 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:24.991 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.074 interchange:404 [DEBUG]  [COMMAND] is alive
+2021-07-12 15:30:25.108 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.109 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.109 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.110 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:25.111 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:25.112 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:25.113 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:25.114 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.119 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:7
+2021-07-12 15:30:25.125 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:8
+2021-07-12 15:30:25.170 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.172 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.173 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:25.174 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.177 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.179 interchange:562 [DEBUG]  [MAIN] Sent tasks: [7, 8] to manager b'a8545c954685'
+2021-07-12 15:30:25.183 interchange:564 [DEBUG]  [MAIN] Manager b'a8545c954685' has free_capacity 2
+2021-07-12 15:30:25.184 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:25.185 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.187 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.188 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.189 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:25.190 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.191 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.192 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.193 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.194 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.195 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.201 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:25.204 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.205 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.206 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.208 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.237 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.238 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.239 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.240 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:25.241 interchange:582 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-12 15:30:25.243 interchange:616 [DEBUG]  [MAIN] Current tasks: [7, 8]
+2021-07-12 15:30:25.245 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:25.246 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.247 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.248 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.249 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.251 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:25.252 interchange:582 [DEBUG]  [MAIN] Got 4 result items in batch
+2021-07-12 15:30:25.253 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:25.254 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:25.255 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.263 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:9
+2021-07-12 15:30:25.391 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.392 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.393 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:25.393 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.394 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.395 interchange:562 [DEBUG]  [MAIN] Sent tasks: [9] to manager b'4b92697a4c51'
+2021-07-12 15:30:25.396 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 3
+2021-07-12 15:30:25.397 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:25.398 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.399 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.400 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.401 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:25.402 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.403 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.404 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.405 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.407 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.408 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.409 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:25.410 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.411 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.412 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.413 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.422 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.424 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.425 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.426 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:25.427 interchange:582 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-12 15:30:25.429 interchange:616 [DEBUG]  [MAIN] Current tasks: [9]
+2021-07-12 15:30:25.429 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:25.430 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.534 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.535 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.535 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.536 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:25.536 interchange:582 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-12 15:30:25.537 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:25.538 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:25.539 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.545 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:10
+2021-07-12 15:30:25.552 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:11
+2021-07-12 15:30:25.603 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.603 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.604 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:25.605 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.605 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.606 interchange:562 [DEBUG]  [MAIN] Sent tasks: [10, 11] to manager b'4b92697a4c51'
+2021-07-12 15:30:25.608 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 2
+2021-07-12 15:30:25.609 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:25.610 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.612 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.613 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.614 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:25.615 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.616 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.617 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.618 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.627 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.629 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.630 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:25.631 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.632 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.634 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.635 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.637 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.638 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.639 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.640 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:25.641 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:25.643 interchange:616 [DEBUG]  [MAIN] Current tasks: [10, 11]
+2021-07-12 15:30:25.644 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:25.645 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.745 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.746 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.746 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.747 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:25.747 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:25.748 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:25.749 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:25.750 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.755 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:12
+2021-07-12 15:30:25.793 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.794 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.795 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:25.795 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.796 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.797 interchange:562 [DEBUG]  [MAIN] Sent tasks: [12] to manager b'4b92697a4c51'
+2021-07-12 15:30:25.797 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 3
+2021-07-12 15:30:25.798 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:25.800 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.800 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.801 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.802 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:25.802 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.803 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.804 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.805 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.805 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.806 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:25.807 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:25.807 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:25.808 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.809 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.809 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.925 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:25.925 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:25.926 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:25.927 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:25.927 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:25.928 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:25.929 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:25.930 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:25.936 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:13
+2021-07-12 15:30:25.943 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:14
+2021-07-12 15:30:26.003 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.004 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.005 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.006 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.006 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.007 interchange:562 [DEBUG]  [MAIN] Sent tasks: [13, 14] to manager b'a8545c954685'
+2021-07-12 15:30:26.008 interchange:564 [DEBUG]  [MAIN] Manager b'a8545c954685' has free_capacity 2
+2021-07-12 15:30:26.009 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:26.010 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.011 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.012 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.013 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:26.014 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.015 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.016 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.017 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.018 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.019 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.021 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:26.022 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.023 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.024 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.025 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.041 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.042 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.042 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.043 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:26.043 interchange:582 [DEBUG]  [MAIN] Got 4 result items in batch
+2021-07-12 15:30:26.043 interchange:616 [DEBUG]  [MAIN] Current tasks: [13, 14]
+2021-07-12 15:30:26.044 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:26.044 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.078 interchange:404 [DEBUG]  [COMMAND] is alive
+2021-07-12 15:30:26.146 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.147 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.147 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.148 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:26.148 interchange:582 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-12 15:30:26.149 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:26.150 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:26.150 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.154 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:15
+2021-07-12 15:30:26.212 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.212 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.213 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:26.213 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.214 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.214 interchange:562 [DEBUG]  [MAIN] Sent tasks: [15] to manager b'4b92697a4c51'
+2021-07-12 15:30:26.215 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 3
+2021-07-12 15:30:26.215 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:26.216 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.216 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.217 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.217 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.218 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.218 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.218 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.219 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.219 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.220 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.220 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.221 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.222 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.222 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.222 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.331 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.332 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.332 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.333 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:26.333 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:26.334 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:26.334 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:26.335 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.339 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:16
+2021-07-12 15:30:26.342 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:17
+2021-07-12 15:30:26.420 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.421 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.421 interchange:523 [DEBUG]  [MAIN] Manager b'4b92697a4c51' sent heartbeat
+2021-07-12 15:30:26.422 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.422 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.423 interchange:562 [DEBUG]  [MAIN] Sent tasks: [16, 17] to manager b'4b92697a4c51'
+2021-07-12 15:30:26.423 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 2
+2021-07-12 15:30:26.424 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:26.424 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.425 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.426 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.427 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.428 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.428 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.429 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.429 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.430 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.430 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.431 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.434 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.435 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.435 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.436 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.436 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.437 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.437 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.438 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.438 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.439 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.439 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.440 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.441 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.441 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.441 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.442 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.442 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.442 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.443 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.443 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.443 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.444 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.444 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.444 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.444 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:26.445 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:26.445 interchange:616 [DEBUG]  [MAIN] Current tasks: [16, 17]
+2021-07-12 15:30:26.446 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:26.446 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.547 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.547 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.548 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.548 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:26.549 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:26.550 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:26.550 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:26.551 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.555 interchange:319 [DEBUG]  [TASK_PULL_THREAD] Fetched task:18
+2021-07-12 15:30:26.616 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.616 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.617 interchange:523 [DEBUG]  [MAIN] Manager b'a8545c954685' sent heartbeat
+2021-07-12 15:30:26.617 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.618 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.619 interchange:562 [DEBUG]  [MAIN] Sent tasks: [18] to manager b'4b92697a4c51'
+2021-07-12 15:30:26.619 interchange:564 [DEBUG]  [MAIN] Manager b'4b92697a4c51' has free_capacity 3
+2021-07-12 15:30:26.620 interchange:572 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 2 managers still interesting
+2021-07-12 15:30:26.620 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.621 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.621 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.622 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:26.622 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.623 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.623 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.624 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.624 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.625 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.625 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.626 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.626 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.627 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.627 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.628 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.629 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.629 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:26.630 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.630 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.631 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.631 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.633 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.633 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.634 interchange:526 [DEBUG]  [MAIN] Manager b'4b92697a4c51' requested 4 tasks
+2021-07-12 15:30:26.634 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.635 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.635 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.636 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.636 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.637 interchange:465 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-12 15:30:26.637 interchange:526 [DEBUG]  [MAIN] Manager b'a8545c954685' requested 4 tasks
+2021-07-12 15:30:26.637 interchange:529 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-12 15:30:26.638 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.638 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.638 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.739 interchange:461 [DEBUG]  BENC: ending poll
+2021-07-12 15:30:26.739 interchange:533 [DEBUG]  Managers count (interesting/total): 2/2
+2021-07-12 15:30:26.740 interchange:574 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-12 15:30:26.740 interchange:577 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-12 15:30:26.740 interchange:582 [DEBUG]  [MAIN] Got 3 result items in batch
+2021-07-12 15:30:26.741 interchange:616 [DEBUG]  [MAIN] Current tasks: []
+2021-07-12 15:30:26.742 interchange:619 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-12 15:30:26.742 interchange:459 [DEBUG]  BENC: starting poll
+2021-07-12 15:30:26.744 interchange:354 [DEBUG]  [COMMAND] Received command request: MANAGERS
+2021-07-12 15:30:26.745 interchange:400 [DEBUG]  [COMMAND] Reply: [{'manager': '4b92697a4c51', 'block_id': '1', 'worker_count': 4, 'tasks': 0, 'idle_duration': 0.003100156784057617, 'active': True}, {'manager': 'a8545c954685', 'block_id': '0', 'worker_count': 4, 'tasks': 0, 'idle_duration': 0.5950469970703125, 'active': True}]
+2021-07-12 15:30:26.746 interchange:354 [DEBUG]  [COMMAND] Received command request: MANAGERS
+2021-07-12 15:30:26.746 interchange:400 [DEBUG]  [COMMAND] Reply: [{'manager': '4b92697a4c51', 'block_id': '1', 'worker_count': 4, 'tasks': 0, 'idle_duration': 0.0044841766357421875, 'active': True}, {'manager': 'a8545c954685', 'block_id': '0', 'worker_count': 4, 'tasks': 0, 'idle_duration': 0.5964479446411133, 'active': True}]
+2021-07-12 15:30:26.747 interchange:354 [DEBUG]  [COMMAND] Received command request: HOLD_WORKER;4b92697a4c51
+2021-07-12 15:30:26.747 interchange:384 [INFO]  [CMD] Received HOLD_WORKER for b'4b92697a4c51'
+2021-07-12 15:30:26.748 interchange:334 [INFO]  Sending message {'last_heartbeat': 1626121826.63408, 'idle_since': 1626121826.742014, 'free_capacity': 4, 'block_id': '1', 'max_capacity': 4, 'worker_count': 4, 'active': False, 'tasks': [], 'parsl_v': '1.1.0+desc-2021.07.09a', 'python_v': '3.9.6', 'uid': '4b92697a4c51', 'prefetch_capacity': 0, 'os': 'Darwin', 'hostname': 'Veds-MacBook-Pro.local', 'dir': '/Users/vedkommalapati/Documents/GitHub/Parsl', 'cpu_count': 2, 'total_memory': 8589934592} to hub
+2021-07-12 15:30:26.749 interchange:400 [DEBUG]  [COMMAND] Reply: True
+2021-07-12 15:30:26.749 interchange:354 [DEBUG]  [COMMAND] Received command request: MANAGERS
+2021-07-12 15:30:26.750 interchange:400 [DEBUG]  [COMMAND] Reply: [{'manager': '4b92697a4c51', 'block_id': '1', 'worker_count': 4, 'tasks': 0, 'idle_duration': 0.008238077163696289, 'active': False}, {'manager': 'a8545c954685', 'block_id': '0', 'worker_count': 4, 'tasks': 0, 'idle_duration': 0.6001830101013184, 'active': True}]
+2021-07-12 15:30:26.750 interchange:354 [DEBUG]  [COMMAND] Received command request: HOLD_WORKER;a8545c954685
+2021-07-12 15:30:26.751 interchange:384 [INFO]  [CMD] Received HOLD_WORKER for b'a8545c954685'
+2021-07-12 15:30:26.751 interchange:334 [INFO]  Sending message {'last_heartbeat': 1626121826.637502, 'idle_since': 1626121826.150073, 'free_capacity': 4, 'block_id': '0', 'max_capacity': 4, 'worker_count': 4, 'active': False, 'tasks': [], 'parsl_v': '1.1.0+desc-2021.07.09a', 'python_v': '3.9.6', 'uid': 'a8545c954685', 'prefetch_capacity': 0, 'os': 'Darwin', 'hostname': 'Veds-MacBook-Pro.local', 'dir': '/Users/vedkommalapati/Documents/GitHub/Parsl', 'cpu_count': 2, 'total_memory': 8589934592} to hub
+2021-07-12 15:30:26.752 interchange:400 [DEBUG]  [COMMAND] Reply: True

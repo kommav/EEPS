@@ -1,0 +1,55 @@
+2021-07-12 15:55:08.913 monitoring_router:608 [INFO]  Initialized the UDP socket on 0.0.0.0:55055
+2021-07-12 15:55:08.921 monitoring_router:732 [INFO]  Starting MonitoringRouter in router_starter
+2021-07-12 15:55:10.088 monitoring_router:659 [INFO]  Putting message to block_msgs: ((<MessageType.BLOCK_INFO: 4>, []), 0)
+2021-07-12 15:55:10.132 monitoring_router:659 [INFO]  Putting message to block_msgs: ((<MessageType.BLOCK_INFO: 4>, [{'run_id': '991b763b-5e73-43de-b123-89c01e331f0f', 'status': 'PENDING', 'timestamp': datetime.datetime(2021, 7, 12, 15, 55, 10, 132078), 'executor_label': 'htex_Local', 'job_id': '52986', 'block_id': '0'}, {'run_id': '991b763b-5e73-43de-b123-89c01e331f0f', 'status': 'PENDING', 'timestamp': datetime.datetime(2021, 7, 12, 15, 55, 10, 132087), 'executor_label': 'htex_Local', 'job_id': '52991', 'block_id': '1'}]), 0)
+2021-07-12 15:55:11.279 monitoring_router:644 [INFO]  message is NODE_INFO
+2021-07-12 15:55:11.302 monitoring_router:644 [INFO]  message is NODE_INFO
+2021-07-12 15:55:11.411 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.412 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.413 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.414 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.610 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.610 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.824 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.824 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.825 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:11.938 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.030 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.031 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.233 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.234 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.235 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.345 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.434 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.434 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.636 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.643 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.644 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.644 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.936 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:12.937 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.057 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.057 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.058 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.059 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.254 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.254 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.462 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.463 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.463 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.464 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.653 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.654 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.866 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.867 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.868 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:13.978 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:14.069 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:14.180 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-12 15:55:14.184 monitoring_router:644 [INFO]  message is NODE_INFO
+2021-07-12 15:55:14.187 monitoring_router:644 [INFO]  message is NODE_INFO
+2021-07-12 15:55:14.233 monitoring_router:659 [INFO]  Putting message to block_msgs: ((<MessageType.BLOCK_INFO: 4>, [{'run_id': '991b763b-5e73-43de-b123-89c01e331f0f', 'status': 'CANCELLED', 'timestamp': datetime.datetime(2021, 7, 12, 15, 55, 14, 223575), 'executor_label': 'htex_Local', 'job_id': '52991', 'block_id': '1'}, {'run_id': '991b763b-5e73-43de-b123-89c01e331f0f', 'status': 'CANCELLED', 'timestamp': datetime.datetime(2021, 7, 12, 15, 55, 14, 223693), 'executor_label': 'htex_Local', 'job_id': '52986', 'block_id': '0'}]), 0)
+2021-07-12 15:55:14.246 monitoring_router:683 [INFO]  Monitoring router draining
+2021-07-12 15:55:17.256 monitoring_router:698 [INFO]  Monitoring router finishing normally
+2021-07-12 15:55:17.257 monitoring_router:700 [INFO]  Monitoring router finished
+2021-07-12 15:55:17.258 monitoring_router:739 [INFO]  End of router_starter

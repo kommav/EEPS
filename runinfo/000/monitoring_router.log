@@ -1,0 +1,19 @@
+2021-07-09 14:13:54.304 monitoring_router:608 [INFO]  Initialized the UDP socket on 0.0.0.0:55055
+2021-07-09 14:13:54.306 monitoring_router:732 [INFO]  Starting MonitoringRouter in router_starter
+2021-07-09 14:13:55.450 monitoring_router:659 [INFO]  Putting message to block_msgs: ((<MessageType.BLOCK_INFO: 4>, []), 0)
+2021-07-09 14:13:55.476 monitoring_router:659 [INFO]  Putting message to block_msgs: ((<MessageType.BLOCK_INFO: 4>, [{'run_id': '93ac1527-d62b-4724-9925-2ebce4318b49', 'status': 'PENDING', 'timestamp': datetime.datetime(2021, 7, 9, 14, 13, 55, 475926), 'executor_label': 'htex_Local', 'job_id': '38401', 'block_id': '0'}, {'run_id': '93ac1527-d62b-4724-9925-2ebce4318b49', 'status': 'PENDING', 'timestamp': datetime.datetime(2021, 7, 9, 14, 13, 55, 475937), 'executor_label': 'htex_Local', 'job_id': '38405', 'block_id': '1'}]), 0)
+2021-07-09 14:13:56.499 monitoring_router:644 [INFO]  message is NODE_INFO
+2021-07-09 14:13:56.500 monitoring_router:644 [INFO]  message is NODE_INFO
+2021-07-09 14:13:56.597 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-09 14:13:56.597 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-09 14:13:56.598 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-09 14:13:56.598 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-09 14:13:56.823 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-09 14:13:56.824 monitoring_router:656 [INFO]  Handling as RESOURCE_INFO
+2021-07-09 14:13:56.855 monitoring_router:644 [INFO]  message is NODE_INFO
+2021-07-09 14:13:56.878 monitoring_router:644 [INFO]  message is NODE_INFO
+2021-07-09 14:13:56.924 monitoring_router:659 [INFO]  Putting message to block_msgs: ((<MessageType.BLOCK_INFO: 4>, [{'run_id': '93ac1527-d62b-4724-9925-2ebce4318b49', 'status': 'CANCELLED', 'timestamp': datetime.datetime(2021, 7, 9, 14, 13, 56, 913139), 'executor_label': 'htex_Local', 'job_id': '38405', 'block_id': '1'}, {'run_id': '93ac1527-d62b-4724-9925-2ebce4318b49', 'status': 'CANCELLED', 'timestamp': datetime.datetime(2021, 7, 9, 14, 13, 56, 913174), 'executor_label': 'htex_Local', 'job_id': '38401', 'block_id': '0'}]), 0)
+2021-07-09 14:13:56.936 monitoring_router:683 [INFO]  Monitoring router draining
+2021-07-09 14:13:59.941 monitoring_router:698 [INFO]  Monitoring router finishing normally
+2021-07-09 14:13:59.942 monitoring_router:700 [INFO]  Monitoring router finished
+2021-07-09 14:13:59.942 monitoring_router:739 [INFO]  End of router_starter

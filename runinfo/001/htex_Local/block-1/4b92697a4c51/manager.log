@@ -1,0 +1,311 @@
+2021-07-12 15:30:23.843 parsl:650 Rank:0 [INFO]  Python version: 3.9.6 (v3.9.6:db3ff76da1, Jun 28 2021, 11:49:53) 
+[Clang 6.0 (clang-600.0.57)]
+2021-07-12 15:30:23.844 parsl:651 Rank:0 [INFO]  Debug logging: True
+2021-07-12 15:30:23.844 parsl:652 Rank:0 [INFO]  Log dir: /Users/vedkommalapati/Documents/GitHub/Parsl/runinfo/001/htex_Local
+2021-07-12 15:30:23.844 parsl:653 Rank:0 [INFO]  Manager ID: 4b92697a4c51
+2021-07-12 15:30:23.845 parsl:654 Rank:0 [INFO]  Block ID: 1
+2021-07-12 15:30:23.845 parsl:655 Rank:0 [INFO]  cores_per_worker: 1
+2021-07-12 15:30:23.845 parsl:656 Rank:0 [INFO]  mem_per_worker: None
+2021-07-12 15:30:23.846 parsl:657 Rank:0 [INFO]  task_port: 54633
+2021-07-12 15:30:23.846 parsl:658 Rank:0 [INFO]  result_port: 54330
+2021-07-12 15:30:23.846 parsl:659 Rank:0 [INFO]  addresses: 192.168.1.6,73.211.248.63,Veds-MacBook-Pro.local
+2021-07-12 15:30:23.847 parsl:660 Rank:0 [INFO]  max_workers: inf
+2021-07-12 15:30:23.847 parsl:661 Rank:0 [INFO]  poll_period: 100
+2021-07-12 15:30:23.847 parsl:662 Rank:0 [INFO]  address_probe_timeout: 30
+2021-07-12 15:30:23.847 parsl:663 Rank:0 [INFO]  Prefetch capacity: 0
+2021-07-12 15:30:23.847 parsl:664 Rank:0 [INFO]  Heartbeat threshold: 5
+2021-07-12 15:30:23.847 parsl:665 Rank:0 [INFO]  Heartbeat period: 2
+2021-07-12 15:30:23.848 parsl:666 Rank:0 [INFO]  CPU affinity: none
+2021-07-12 15:30:23.848 parsl:125 Rank:0 [INFO]  Manager started
+2021-07-12 15:30:23.850 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://192.168.1.6:54633
+2021-07-12 15:30:23.851 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://73.211.248.63:54633
+2021-07-12 15:30:23.852 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://Veds-MacBook-Pro.local:54633
+2021-07-12 15:30:23.853 parsl.executors.high_throughput.probe:47 Rank:0 [INFO]  Connected to interchange on 192.168.1.6
+2021-07-12 15:30:24.059 parsl:132 Rank:0 [INFO]  Connection to Interchange successful on 192.168.1.6
+2021-07-12 15:30:24.060 parsl:135 Rank:0 [INFO]  Task url : tcp://192.168.1.6:54633
+2021-07-12 15:30:24.060 parsl:136 Rank:0 [INFO]  Result url : tcp://192.168.1.6:54330
+2021-07-12 15:30:24.061 parsl:154 Rank:0 [INFO]  Manager connected
+2021-07-12 15:30:24.061 parsl:180 Rank:0 [INFO]  Manager will spawn 4 workers
+2021-07-12 15:30:24.277 parsl:421 Rank:0 [DEBUG]  Workers started
+2021-07-12 15:30:24.287 parsl:235 Rank:0 [INFO]  [TASK PULL THREAD] starting
+2021-07-12 15:30:24.289 parsl:241 Rank:0 [DEBUG]  Sending registration message: b'{"parsl_v": "1.1.0+desc-2021.07.09a", "python_v": "3.9.6", "worker_count": 4, "uid": "4b92697a4c51", "block_id": "1", "prefetch_capacity": 0, "max_capacity": 4, "os": "Darwin", "hostname": "Veds-MacBook-Pro.local", "dir": "/Users/vedkommalapati/Documents/GitHub/Parsl", "cpu_count": 2, "total_memory": 8589934592}'
+2021-07-12 15:30:24.289 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 3, pending tasks: 0
+2021-07-12 15:30:24.290 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-12 15:30:24.295 parsl:318 Rank:0 [DEBUG]  [RESULT_PUSH_THREAD] Starting thread
+2021-07-12 15:30:24.295 parsl:326 Rank:0 [DEBUG]  [RESULT_PUSH_THREAD] push poll period: 0.1
+2021-07-12 15:30:24.296 parsl:360 Rank:0 [DEBUG]  [WORKER_WATCHDOG_THREAD] Starting thread
+2021-07-12 15:30:24.296 parsl:363 Rank:0 [DEBUG]  [WORKER_WATCHDOG_THREAD] Loop
+2021-07-12 15:30:24.297 parsl:392 Rank:0 [INFO]  [WORKER_WATCHDOG_THREAD] Worker 0 is alive
+2021-07-12 15:30:24.298 parsl:436 Rank:0 [INFO]  Loop start
+2021-07-12 15:30:24.313 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121824.313865
+2021-07-12 15:30:24.314 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [1, 2] of 2
+2021-07-12 15:30:24.315 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 2
+2021-07-12 15:30:24.316 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:24.317 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:24.317 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:24.318 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:24.323 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:24.324 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:24.325 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.326 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.329 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:24.331 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:24.330 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:24.332 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:24.333 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:24.334 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:24.337 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52398
+2021-07-12 15:30:24.339 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52397
+2021-07-12 15:30:24.341 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:24.342 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:24.343 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:24.343 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:24.344 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:24.345 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:24.345 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:24.346 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:24.347 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.348 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.351 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:24.352 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:24.353 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:24.354 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:24.354 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:24.356 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:24.357 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:24.359 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:24.518 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:24.519 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:24.519 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:24.524 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121824.52411
+2021-07-12 15:30:24.524 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [3] of 3
+2021-07-12 15:30:24.524 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 1
+2021-07-12 15:30:24.525 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:24.525 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:24.526 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:24.526 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:24.531 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:24.532 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.535 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:24.536 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:24.537 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:24.541 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52400
+2021-07-12 15:30:24.543 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:24.544 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:24.545 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:24.545 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:24.546 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.550 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:24.552 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:24.554 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:24.555 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:24.735 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:24.736 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:24.736 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:24.962 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121824.962861
+2021-07-12 15:30:24.963 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [6] of 4
+2021-07-12 15:30:24.963 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 1
+2021-07-12 15:30:24.963 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:24.964 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:24.964 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:24.964 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:24.969 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:24.970 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.973 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:24.974 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:24.975 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:24.980 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52407
+2021-07-12 15:30:24.983 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:24.984 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:24.985 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:24.986 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:24.987 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.990 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:24.992 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:24.994 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:24.995 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:24.998 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:25.169 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:25.169 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:25.170 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:25.395 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121825.395686
+2021-07-12 15:30:25.396 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [9] of 5
+2021-07-12 15:30:25.396 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 1
+2021-07-12 15:30:25.396 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:25.397 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:25.397 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:25.397 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:25.399 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:25.401 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.403 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:25.404 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:25.405 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:25.409 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52411
+2021-07-12 15:30:25.412 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:25.413 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:25.414 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:25.415 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:25.416 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.419 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:25.419 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.421 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:25.422 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:25.424 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:25.601 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:25.602 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:25.602 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:25.607 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121825.607062
+2021-07-12 15:30:25.607 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [10, 11] of 7
+2021-07-12 15:30:25.607 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 2
+2021-07-12 15:30:25.608 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:25.608 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:25.609 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:25.609 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:25.611 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:25.611 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:25.612 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.612 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.614 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:25.614 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:25.615 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:25.616 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:25.617 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:25.617 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:25.621 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52412
+2021-07-12 15:30:25.621 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52413
+2021-07-12 15:30:25.623 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:25.623 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:25.625 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:25.625 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:25.626 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:25.626 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:25.627 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:25.627 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:25.628 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.628 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.631 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:25.631 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:25.633 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:25.633 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:25.634 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:25.634 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:25.637 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:25.637 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:25.797 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121825.7975638
+2021-07-12 15:30:25.797 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [12] of 8
+2021-07-12 15:30:25.798 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 1
+2021-07-12 15:30:25.798 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:25.798 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:25.799 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:25.799 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:25.800 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:25.801 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.802 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:25.803 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:25.804 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:25.807 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52414
+2021-07-12 15:30:25.810 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:25.811 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:25.811 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:25.812 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:25.813 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:25.815 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:25.817 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:25.818 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:25.819 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:26.002 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:26.003 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:26.003 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.215 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121826.215111
+2021-07-12 15:30:26.215 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [15] of 9
+2021-07-12 15:30:26.215 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 1
+2021-07-12 15:30:26.215 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.215 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:26.216 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:26.216 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.217 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:26.217 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.218 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:26.218 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:26.219 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:26.221 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52417
+2021-07-12 15:30:26.222 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:26.223 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:26.223 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:26.223 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:26.224 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.225 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:26.226 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:26.226 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:26.227 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:26.419 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:26.420 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:26.420 parsl:223 Rank:0 [DEBUG]  Sent heartbeat, return code None
+2021-07-12 15:30:26.420 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.422 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121826.422416
+2021-07-12 15:30:26.422 parsl:281 Rank:0 [DEBUG]  Got heartbeat from interchange
+2021-07-12 15:30:26.422 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:26.422 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.422 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:26.422 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:26.423 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.423 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121826.423378
+2021-07-12 15:30:26.423 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [16, 17] of 11
+2021-07-12 15:30:26.423 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 2
+2021-07-12 15:30:26.423 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.424 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:26.424 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:26.424 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.425 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:26.425 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:26.425 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.426 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.427 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:26.427 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:26.428 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:26.428 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:26.428 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:26.428 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:26.430 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52418
+2021-07-12 15:30:26.431 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:26.431 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52419
+2021-07-12 15:30:26.432 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:26.432 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:26.433 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:26.433 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:26.433 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:26.433 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:26.434 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:26.434 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.434 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.435 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:26.436 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:26.436 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:26.437 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:26.437 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:26.437 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:26.438 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:26.439 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
+2021-07-12 15:30:26.619 parsl:273 Rank:0 [DEBUG]  Updating time of last heartbeat from interchange at 1626121826.6192288
+2021-07-12 15:30:26.619 parsl:285 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [18] of 12
+2021-07-12 15:30:26.619 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 1
+2021-07-12 15:30:26.619 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.619 parsl:294 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-12 15:30:26.619 parsl:254 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers: 4, pending tasks: 0
+2021-07-12 15:30:26.620 parsl:262 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 4
+2021-07-12 15:30:26.621 parsl.monitoring.monitoring:450 Rank:0 [DEBUG]  wrapped: 1. start of wrapped
+2021-07-12 15:30:26.622 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.623 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-12 15:30:26.623 parsl.monitoring.monitoring:458 Rank:0 [DEBUG]  wrapped: 2. sent first message
+2021-07-12 15:30:26.624 parsl.monitoring.monitoring:473 Rank:0 [DEBUG]  wrapped: 3. created monitor process, pid None
+2021-07-12 15:30:26.626 parsl.monitoring.monitoring:475 Rank:0 [DEBUG]  wrapped: 4. started monitor process, pid 52420
+2021-07-12 15:30:26.628 parsl.monitoring.monitoring:485 Rank:0 [DEBUG]  wrapped: 5. invoking wrapped function
+2021-07-12 15:30:26.628 parsl.monitoring.monitoring:487 Rank:0 [DEBUG]  wrapped: 6. back from wrapped function ok
+2021-07-12 15:30:26.629 parsl.monitoring.monitoring:490 Rank:0 [DEBUG]  wrapped: 10 in 2nd finally
+2021-07-12 15:30:26.629 parsl.monitoring.monitoring:491 Rank:0 [DEBUG]  wrapped: 10.1 sending last message
+2021-07-12 15:30:26.630 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.632 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_last_message on thread MainThread
+2021-07-12 15:30:26.632 parsl.monitoring.monitoring:132 Rank:0 [INFO]  htex-based monitoring channel initialising
+2021-07-12 15:30:26.633 parsl.monitoring.monitoring:497 Rank:0 [DEBUG]  wrapped: 10.1 sent last message
+2021-07-12 15:30:26.634 parsl.monitoring.monitoring:501 Rank:0 [DEBUG]  wrapped: 11 done terminating monitor
+2021-07-12 15:30:26.636 parsl.monitoring.monitoring:503 Rank:0 [DEBUG]  wrapped: 12 done joining monitor again
