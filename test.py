@@ -88,7 +88,7 @@ def app_F():
     return iterations
 
 total = 0
-for x in range(app_F()):
+for x in range(app_F().result()):
     total += app_E(app_D(10, 7, app_C(app_A(), app_B()).result()))
     print(x)
 print(total)
