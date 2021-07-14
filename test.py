@@ -74,15 +74,19 @@ def app_B():
 def app_C(x, y):
     return x + y
 
+@python_app
 def app_D(x, y, z):
     return x * y // 7
 
+@python_app
 def app_E(x):
     return x * x
 
+@python_app
 def app_F():
     iterations = randint(0,10)
     return iterations
+
 total = 0
 for x in range(app_F()):
     total += app_E(app_D(10, 7, app_C(app_A(), app_B()).result()))
