@@ -76,7 +76,7 @@ def app_C(x, y):
 
 @python_app
 def app_D(x, y, z):
-    return x * y // 7
+    return x * y // z
 
 @python_app
 def app_E(x):
@@ -90,9 +90,7 @@ def app_F():
 '''
 total = 0
 #loop = app_F()
-for x in range(5):
-    current = app_E(app_D(10, 7, app_C(app_A(), app_B()).result()))
-    total = total + current
-    print(x)
+#for x in range(5):
+total = app_E(app_D(10, 7, app_C(app_A(), app_B()).result()))
 print(total)
 # total will be random but should be iterations * 100
