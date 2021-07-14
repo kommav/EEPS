@@ -91,7 +91,8 @@ def app_F():
 total = 0
 #loop = app_F()
 for x in range(5):
-    total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()).result()))
+    current = app_E(app_D(10, 7, app_C(app_A(), app_B()).result()))
+    total = total + current
     print(x)
 print(total)
 # total will be random but should be iterations * 100
