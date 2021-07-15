@@ -1,3 +1,4 @@
+#CODE
 import parsl
 from parsl import python_app
 from parsl.monitoring import MonitoringHub
@@ -17,9 +18,6 @@ from parsl.data_provider.http import HTTPInTaskStaging
 from parsl.data_provider.ftp import FTPInTaskStaging
 from parsl.data_provider.file_noop import NoOpFileStaging
 
-
-from random import randint
-from random import seed
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
@@ -82,15 +80,17 @@ def app_D(x, y, z):
 def app_E(x):
     return x * x
 
-'''
+
 @python_app
 def app_F():
-    iterations = random.randint(0,10)
+    import random
+    from random import randint
+    iterations = randint(0,10)
     return iterations
-'''
+
 total = 0
-#loop = app_F().result()
-for x in range(5):
+loop = app_F().result()
+for x in range(loop):
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
     print(x)
 print(total)
