@@ -82,15 +82,15 @@ def app_D(x, y, z):
 def app_E(x):
     return x * x
 
-'''
+
 @python_app
 def app_F():
-    iterations = randint(0,10)
+    iterations = random.randint(1,10)
     return iterations
-'''
+
 total = 0
-#loop = app_F().result()
-for x in range(5):
+loop = app_F().result()
+for x in range(loop):
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
     print(x)
 print(total)
