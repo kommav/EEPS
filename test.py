@@ -76,21 +76,22 @@ def app_C(x, y):
 
 @python_app
 def app_D(x, y, z):
-    return x * y // z
+    return x * y // 7
 
 @python_app
 def app_E(x):
     return x * x
 
-'''
+
 @python_app
 def app_F():
     iterations = randint(0,10)
     return iterations
-'''
+
 total = 0
-#loop = app_F()
-#for x in range(5):
-total = app_E(app_D(10, 7, app_C(app_A(), app_B()).result()))
+loop = app_F().result()
+for x in range(loop):
+    total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
+    print(x)
 print(total)
 # total will be random but should be iterations * 100
