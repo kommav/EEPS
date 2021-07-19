@@ -104,9 +104,9 @@ for x in range(loop):
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
     print("Working")
     print(x)
-
+print("Total")
 print(total)
-print("Total Runtime: ")
+print("Total Runtime: " + str(tF-t0)
 print(tF-t0)
 print("Time to run A: ")
 print(tA-t0)
