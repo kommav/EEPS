@@ -18,6 +18,10 @@ from parsl.data_provider.http import HTTPInTaskStaging
 from parsl.data_provider.ftp import FTPInTaskStaging
 from parsl.data_provider.file_noop import NoOpFileStaging
 
+import time
+
+t0 = time.perf_counter()
+
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
@@ -62,24 +66,28 @@ parsl.load(config)
 def app_A():
     a = 2 * 3 + 1
     return a
+tA = time.perf_counter()
 
 @python_app
 def app_B():
     b = 2 + 2 / 2
     return b
+tB = time.perf_counter()
 
 @python_app
 def app_C(x, y):
     return x + y
+tC = time.perf_counter()
 
 @python_app
 def app_D(x, y, z):
     return x * y // 7
+tD = time.perf_counter()
 
 @python_app
 def app_E(x):
     return x * x
-
+tE = time.perf_counter()
 
 @python_app
 def app_F():
@@ -87,6 +95,7 @@ def app_F():
     from random import randint
     iterations = randint(0,10)
     return iterations
+tF = time.perf_counter()
 
 total = 0
 loop = app_F().result()
@@ -94,4 +103,13 @@ for x in range(loop):
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
     print(x)
 print(total)
+print("Total Runtime: " + tF-t0 + " seconds")
+print("Time to run A: " + tA-t0 + " seconds")
+print("Time to run B: " + tB-tA + " seconds")
+print("Time to run C: " + tC-tB + " seconds")
+print("Time to run D: " + tD-tC + " seconds")
+print("Time to run E: " + tE-tD + " seconds")
+print("Time to run F: " + tF-tE + " seconds")
+
+
 # total will be random but should be iterations * 100
