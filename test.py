@@ -5,7 +5,6 @@ from parsl.monitoring import MonitoringHub
 
 
 import os
-import random
 
 from parsl.providers import LocalProvider
 from parsl.channels import LocalChannel
@@ -30,7 +29,7 @@ def fresh_config():
                 working_dir=working_dir,
                 storage_access=[FTPInTaskStaging(), HTTPInTaskStaging(), NoOpFileStaging()],
                 worker_debug=True,
-                cores_per_worker=1,
+                cores_per_worker=.5,
                 max_workers = 3,
                 heartbeat_period=2,
                 heartbeat_threshold=5,
@@ -93,7 +92,6 @@ total = 0
 loop = app_F().result()
 for x in range(loop):
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
-    print("Working")
     print(x)
 print(total)
 # total will be random but should be iterations * 100
