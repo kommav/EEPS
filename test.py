@@ -106,7 +106,7 @@ for x in range(loop):
     print(x)
 print("Total")
 print(total)
-print("Total Runtime: " + str(tF-t0)
+print("Total Runtime: " + str(tF-t0))
 print(tF-t0)
 print("Time to run A: ")
 print(tA-t0)
