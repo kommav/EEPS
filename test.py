@@ -105,7 +105,7 @@ for x in range(loop):
     print("Working")
     print(x)
 print()
-print("Total: " + str(total))
+print("Total: " + str(total) + " seconds")
 print("Total Runtime: " + str(tF-t0) + " seconds")
 print("Time to run A: " + str(tA-t0) + " seconds")
 print("Time to run B: " + str(tB-tA) + " seconds")
