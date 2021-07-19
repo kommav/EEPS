@@ -1,0 +1,259 @@
+2021-07-19 09:10:38.515 database_manager:661 [INFO] [MainThread 4699864576] Starting dbm in dbm starter
+2021-07-19 09:10:38.516 database_manager:523 [INFO] [Monitoring-migrate-priority 123145563250688] Starting processing for queue priority
+2021-07-19 09:10:38.516 database_manager:523 [INFO] [Monitoring-migrate-node 123145580040192] Starting processing for queue node
+2021-07-19 09:10:38.517 database_manager:523 [INFO] [Monitoring-migrate-block 123145596829696] Starting processing for queue block
+2021-07-19 09:10:38.518 database_manager:523 [INFO] [Monitoring-migrate-resource 123145613619200] Starting processing for queue resource
+2021-07-19 09:10:39.040 database_manager:604 [ERROR] [MainThread 4699864576] Got exception when trying to insert to table task
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: task.task_fail_cost
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 589, in _insert
+    self.db.insert(table=table, messages=messages)
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 89, in insert
+    self.session.bulk_insert_mappings(mapper, mappings)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2880, in bulk_insert_mappings
+    self._bulk_save_mappings(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2979, in _bulk_save_mappings
+    transaction.rollback(_capture_exception=True)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2967, in _bulk_save_mappings
+    persistence._bulk_insert(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 95, in _bulk_insert
+    _emit_insert_statements(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: task.task_fail_cost
+[SQL: INSERT INTO task (task_id, run_id, task_depends, task_func_name, task_memoize, task_inputs, task_outputs, task_time_invoked, task_fail_count) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (0, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '', 'app_F', False, 'None', 'None', '2021-07-19 09:10:38.661958', 0)]
+(Background on this error at: http://sqlalche.me/e/13/gkpj)
+2021-07-19 09:10:39.049 database_manager:578 [ERROR] [MainThread 4699864576] Got exception when trying to update table task
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 559, in _update
+    self.db.update(table=table, columns=columns, messages=messages)
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 82, in update
+    self.session.bulk_update_mappings(mapper, mappings)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2939, in bulk_update_mappings
+    self._bulk_save_mappings(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2979, in _bulk_save_mappings
+    transaction.rollback(_capture_exception=True)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2959, in _bulk_save_mappings
+    persistence._bulk_update(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 173, in _bulk_update
+    _emit_update_statements(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1025, in _emit_update_statements
+    raise orm_exc.StaleDataError(
+sqlalchemy.orm.exc.StaleDataError: UPDATE statement on table 'task' expected to update 1 row(s); 0 were matched.
+2021-07-19 09:10:41.308 database_manager:604 [ERROR] [MainThread 4699864576] Got exception when trying to insert to table task
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1256, in _execute_context
+    self.dialect.do_executemany(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 605, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: task.task_fail_cost
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 589, in _insert
+    self.db.insert(table=table, messages=messages)
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 89, in insert
+    self.session.bulk_insert_mappings(mapper, mappings)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2880, in bulk_insert_mappings
+    self._bulk_save_mappings(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2979, in _bulk_save_mappings
+    transaction.rollback(_capture_exception=True)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2967, in _bulk_save_mappings
+    persistence._bulk_insert(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 95, in _bulk_insert
+    _emit_insert_statements(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1256, in _execute_context
+    self.dialect.do_executemany(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 605, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: task.task_fail_cost
+[SQL: INSERT INTO task (task_id, run_id, task_depends, task_func_name, task_memoize, task_inputs, task_outputs, task_time_invoked, task_fail_count) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ((1, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '', 'app_A', False, 'None', 'None', '2021-07-19 09:10:40.847059', 0), (2, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '', 'app_B', False, 'None', 'None', '2021-07-19 09:10:40.855047', 0), (3, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '1,2', 'app_C', False, 'None', 'None', '2021-07-19 09:10:40.858540', 0), (4, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '3', 'app_D', False, 'None', 'None', '2021-07-19 09:10:40.859464', 0), (5, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '4', 'app_E', False, 'None', 'None', '2021-07-19 09:10:40.860367', 0))]
+(Background on this error at: http://sqlalche.me/e/13/gkpj)
+2021-07-19 09:10:41.313 database_manager:578 [ERROR] [MainThread 4699864576] Got exception when trying to update table task
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 559, in _update
+    self.db.update(table=table, columns=columns, messages=messages)
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 82, in update
+    self.session.bulk_update_mappings(mapper, mappings)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2939, in bulk_update_mappings
+    self._bulk_save_mappings(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2979, in _bulk_save_mappings
+    transaction.rollback(_capture_exception=True)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2959, in _bulk_save_mappings
+    persistence._bulk_update(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 173, in _bulk_update
+    _emit_update_statements(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1025, in _emit_update_statements
+    raise orm_exc.StaleDataError(
+sqlalchemy.orm.exc.StaleDataError: UPDATE statement on table 'task' expected to update 8 row(s); 0 were matched.
+2021-07-19 09:10:41.958 database_manager:604 [ERROR] [MainThread 4699864576] Got exception when trying to insert to table task
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1256, in _execute_context
+    self.dialect.do_executemany(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 605, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: task.task_fail_cost
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 589, in _insert
+    self.db.insert(table=table, messages=messages)
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 89, in insert
+    self.session.bulk_insert_mappings(mapper, mappings)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2880, in bulk_insert_mappings
+    self._bulk_save_mappings(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2979, in _bulk_save_mappings
+    transaction.rollback(_capture_exception=True)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2967, in _bulk_save_mappings
+    persistence._bulk_insert(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 95, in _bulk_insert
+    _emit_insert_statements(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1256, in _execute_context
+    self.dialect.do_executemany(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 605, in do_executemany
+    cursor.executemany(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: task.task_fail_cost
+[SQL: INSERT INTO task (task_id, run_id, task_depends, task_func_name, task_memoize, task_inputs, task_outputs, task_time_invoked, task_fail_count) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ((6, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '', 'app_A', False, 'None', 'None', '2021-07-19 09:10:41.580795', 0), (7, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '', 'app_B', False, 'None', 'None', '2021-07-19 09:10:41.587594', 0), (8, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '6,7', 'app_C', False, 'None', 'None', '2021-07-19 09:10:41.591831', 0), (9, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '8', 'app_D', False, 'None', 'None', '2021-07-19 09:10:41.592830', 0), (10, 'd06bed20-dd7c-4a17-8dfa-7f3672cc349a', '9', 'app_E', False, 'None', 'None', '2021-07-19 09:10:41.593891', 0))]
+(Background on this error at: http://sqlalche.me/e/13/gkpj)
+2021-07-19 09:10:41.962 database_manager:578 [ERROR] [MainThread 4699864576] Got exception when trying to update table task
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 559, in _update
+    self.db.update(table=table, columns=columns, messages=messages)
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 82, in update
+    self.session.bulk_update_mappings(mapper, mappings)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2939, in bulk_update_mappings
+    self._bulk_save_mappings(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2979, in _bulk_save_mappings
+    transaction.rollback(_capture_exception=True)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2959, in _bulk_save_mappings
+    persistence._bulk_update(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 173, in _bulk_update
+    _emit_update_statements(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1025, in _emit_update_statements
+    raise orm_exc.StaleDataError(
+sqlalchemy.orm.exc.StaleDataError: UPDATE statement on table 'task' expected to update 8 row(s); 0 were matched.
+2021-07-19 09:10:42.398 database_manager:578 [ERROR] [MainThread 4699864576] Got exception when trying to update table task
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 559, in _update
+    self.db.update(table=table, columns=columns, messages=messages)
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 82, in update
+    self.session.bulk_update_mappings(mapper, mappings)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2939, in bulk_update_mappings
+    self._bulk_save_mappings(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2979, in _bulk_save_mappings
+    transaction.rollback(_capture_exception=True)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2959, in _bulk_save_mappings
+    persistence._bulk_update(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 173, in _bulk_update
+    _emit_update_statements(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1025, in _emit_update_statements
+    raise orm_exc.StaleDataError(
+sqlalchemy.orm.exc.StaleDataError: UPDATE statement on table 'task' expected to update 4 row(s); 0 were matched.
+2021-07-19 09:10:42.864 database_manager:578 [ERROR] [MainThread 4699864576] Got exception when trying to update table task
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 559, in _update
+    self.db.update(table=table, columns=columns, messages=messages)
+  File "/opt/anaconda3/lib/python3.8/site-packages/parsl/monitoring/db_manager.py", line 82, in update
+    self.session.bulk_update_mappings(mapper, mappings)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2939, in bulk_update_mappings
+    self._bulk_save_mappings(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2979, in _bulk_save_mappings
+    transaction.rollback(_capture_exception=True)
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2959, in _bulk_save_mappings
+    persistence._bulk_update(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 173, in _bulk_update
+    _emit_update_statements(
+  File "/opt/anaconda3/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1025, in _emit_update_statements
+    raise orm_exc.StaleDataError(
+sqlalchemy.orm.exc.StaleDataError: UPDATE statement on table 'task' expected to update 1 row(s); 0 were matched.
+2021-07-19 09:10:45.503 database_manager:627 [INFO] [Monitoring-migrate-priority 123145563250688] Database Manager cleanup initiated.
+2021-07-19 09:10:45.601 database_manager:672 [INFO] [MainThread 4699864576] End of dbm_starter

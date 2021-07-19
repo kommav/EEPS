@@ -1,0 +1,2011 @@
+2021-07-19 16:57:28.241 interchange:158 [DEBUG]  Initializing Interchange process
+2021-07-19 16:57:28.242 interchange:164 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55253,55075,55197
+2021-07-19 16:57:28.244 interchange:178 [INFO]  Connected to client
+2021-07-19 16:57:28.246 interchange:208 [INFO]  Bound to ports 54708,54103 for incoming worker connections
+2021-07-19 16:57:28.246 interchange:223 [INFO]  Platform info: {'parsl_v': '1.1.0', 'python_v': '3.8.8', 'os': 'Darwin', 'hostname': 'Ananths-Macbook.local', 'dir': '/Users/ananthhariharan/Documents/Code/GitHub/Parsl-Project'}
+2021-07-19 16:57:28.247 interchange:371 [INFO]  Incoming ports bound
+2021-07-19 16:57:28.248 interchange:282 [INFO]  Connecting to monitoring
+2021-07-19 16:57:28.249 interchange:286 [INFO]  Monitoring enabled and connected to hub
+2021-07-19 16:57:28.250 interchange:259 [INFO]  [TASK_PULL_THREAD] Starting
+2021-07-19 16:57:28.251 interchange:302 [DEBUG]  [COMMAND] Command Server Starting
+2021-07-19 16:57:28.252 interchange:282 [INFO]  Connecting to monitoring
+2021-07-19 16:57:28.253 interchange:286 [INFO]  Monitoring enabled and connected to hub
+2021-07-19 16:57:28.264 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:28.270 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:1
+2021-07-19 16:57:28.283 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.296 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.308 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.322 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.334 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.345 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.353 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:28.354 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:28.357 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.368 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.380 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.394 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.406 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.419 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.431 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.445 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.456 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:28.457 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:28.458 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.470 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.484 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.497 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.511 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.525 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.536 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.550 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.558 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:28.560 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:28.562 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.575 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.587 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.599 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.612 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.626 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.639 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.652 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.662 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:28.663 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:28.664 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.678 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.692 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.703 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.717 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.729 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.742 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.756 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.765 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:28.766 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:28.767 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.781 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.795 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.808 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.822 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.835 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.847 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.858 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.869 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:28.870 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:28.871 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.884 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.896 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.908 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.922 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.935 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.949 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.963 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.972 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:28.973 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:28.977 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:28.991 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.004 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.017 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.029 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.042 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.054 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.068 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.075 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.076 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.081 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.093 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.107 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.119 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.131 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.142 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.154 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.167 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.178 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.179 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.181 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.193 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.205 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.219 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.233 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.236 interchange:310 [DEBUG]  [COMMAND] Received command request: OUTSTANDING_C
+2021-07-19 16:57:29.237 interchange:356 [DEBUG]  [COMMAND] Reply: 1
+2021-07-19 16:57:29.240 interchange:310 [DEBUG]  [COMMAND] Received command request: WORKERS
+2021-07-19 16:57:29.241 interchange:356 [DEBUG]  [COMMAND] Reply: 0
+2021-07-19 16:57:29.242 interchange:310 [DEBUG]  [COMMAND] Received command request: WORKERS
+2021-07-19 16:57:29.243 interchange:356 [DEBUG]  [COMMAND] Reply: 0
+2021-07-19 16:57:29.245 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.258 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.270 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.281 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.282 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.282 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.292 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.304 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.316 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.329 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.342 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.353 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.364 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.375 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.384 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.384 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.386 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.399 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.410 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.423 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.433 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.447 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.460 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.472 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.483 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.485 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.486 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.494 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.505 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.516 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.527 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.538 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.549 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.562 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.573 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.586 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.587 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.588 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.598 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.611 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.623 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.636 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.648 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.659 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.672 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.683 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.690 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.691 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.696 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.708 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.720 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.734 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.746 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.758 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.771 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.783 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.792 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.792 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.796 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.809 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.821 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.833 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.845 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.858 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.869 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.882 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.894 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.895 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.895 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:29.907 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.919 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.932 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.943 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.954 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.965 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.976 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.989 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:29.996 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:29.997 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.002 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.014 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.027 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.040 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.053 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.066 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.078 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.091 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.098 interchange:476 [DEBUG]  Managers count (interesting/total): 0/0
+2021-07-19 16:57:30.099 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.105 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.115 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.129 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.141 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.153 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.164 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.176 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.177 interchange:434 [INFO]  [MAIN] Adding manager: b'57d8586e4b1d' to ready queue
+2021-07-19 16:57:30.178 interchange:436 [INFO]  [MAIN] Registration info for manager b'57d8586e4b1d': {'parsl_v': '1.1.0', 'python_v': '3.8.8', 'worker_count': 3, 'uid': '57d8586e4b1d', 'block_id': '0', 'prefetch_capacity': 0, 'max_capacity': 3, 'os': 'Darwin', 'hostname': 'Ananths-Macbook.local', 'dir': '/Users/ananthhariharan/Documents/Code/GitHub/Parsl-Project', 'cpu_count': 2, 'total_memory': 8589934592}
+2021-07-19 16:57:30.179 interchange:293 [INFO]  Sending message {'last_heartbeat': 1626731850.177202, 'idle_since': 1626731850.177202, 'free_capacity': 0, 'block_id': '0', 'max_capacity': 3, 'worker_count': 3, 'active': True, 'tasks': [], 'parsl_v': '1.1.0', 'python_v': '3.8.8', 'uid': '57d8586e4b1d', 'prefetch_capacity': 0, 'os': 'Darwin', 'hostname': 'Ananths-Macbook.local', 'dir': '/Users/ananthhariharan/Documents/Code/GitHub/Parsl-Project', 'cpu_count': 2, 'total_memory': 8589934592} to hub
+2021-07-19 16:57:30.179 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.181 interchange:454 [INFO]  [MAIN] Manager b'57d8586e4b1d' has compatible Parsl version 1.1.0
+2021-07-19 16:57:30.182 interchange:455 [INFO]  [MAIN] Manager b'57d8586e4b1d' has compatible Python version 3.8
+2021-07-19 16:57:30.182 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.182 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.183 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 0 managers still interesting
+2021-07-19 16:57:30.191 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.205 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.218 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.229 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.242 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.249 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:30.256 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.267 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.278 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.280 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.281 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.282 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.283 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.284 interchange:500 [DEBUG]  [MAIN] Sent tasks: [1] to manager b'57d8586e4b1d'
+2021-07-19 16:57:30.285 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:30.285 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:30.287 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.288 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.289 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.290 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.290 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.291 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.292 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.293 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.293 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.294 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.294 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.304 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.317 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.330 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.342 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.356 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.370 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.381 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.395 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.396 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.397 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.404 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.405 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.406 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:30.407 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:30.408 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.409 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:30.410 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:30.417 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:2
+2021-07-19 16:57:30.420 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:3
+2021-07-19 16:57:30.434 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:30.447 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:30.461 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:30.474 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:30.486 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:30.493 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.494 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.495 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.496 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.497 interchange:500 [DEBUG]  [MAIN] Sent tasks: [2, 3] to manager b'57d8586e4b1d'
+2021-07-19 16:57:30.498 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:30.499 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:30.501 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.502 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.503 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.504 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.505 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.506 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.507 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.508 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.509 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.510 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.511 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.514 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.527 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.539 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.553 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.566 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.579 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.591 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.605 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.613 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.614 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.619 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.622 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.623 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.624 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:30.625 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:30.626 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:30.627 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:30.631 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.635 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:4
+2021-07-19 16:57:30.646 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.660 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.673 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.686 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.699 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.703 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.704 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.705 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.706 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.707 interchange:500 [DEBUG]  [MAIN] Sent tasks: [4] to manager b'57d8586e4b1d'
+2021-07-19 16:57:30.708 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:30.708 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:30.709 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.709 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.710 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.710 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.711 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.711 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.712 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.712 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.713 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.714 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.714 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.722 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.735 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.750 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.763 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.774 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.787 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.800 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.812 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.816 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.817 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.818 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.818 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.819 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:30.820 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:30.821 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:30.822 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:30.825 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.827 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:5
+2021-07-19 16:57:30.840 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.853 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.866 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.880 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.892 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.906 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:30.910 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.911 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.911 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.912 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.913 interchange:500 [DEBUG]  [MAIN] Sent tasks: [5] to manager b'57d8586e4b1d'
+2021-07-19 16:57:30.914 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:30.915 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:30.916 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.916 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.917 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.918 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.918 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.919 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.920 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:30.920 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:30.921 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:30.921 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:30.922 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:30.931 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.945 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.958 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.970 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.984 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:30.995 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.008 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.020 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.023 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.024 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.027 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.028 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.029 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:31.030 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:31.031 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:31.032 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:31.033 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.036 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:6
+2021-07-19 16:57:31.048 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.059 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.071 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.082 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.093 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.107 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.117 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.118 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.119 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.120 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.121 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.122 interchange:500 [DEBUG]  [MAIN] Sent tasks: [6] to manager b'57d8586e4b1d'
+2021-07-19 16:57:31.123 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:31.124 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:31.126 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.127 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.127 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.128 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.129 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.129 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.130 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.131 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.131 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.132 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.132 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.146 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.158 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.169 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.183 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.197 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.210 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.224 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.234 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.235 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.236 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.238 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.239 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.239 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:31.240 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:31.241 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:31.241 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:31.245 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:7
+2021-07-19 16:57:31.248 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:8
+2021-07-19 16:57:31.254 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:31.261 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:31.275 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:31.289 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:31.300 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:31.315 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:31.329 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:31.330 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.331 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.332 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.333 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.334 interchange:500 [DEBUG]  [MAIN] Sent tasks: [7, 8] to manager b'57d8586e4b1d'
+2021-07-19 16:57:31.335 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:31.337 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:31.338 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.339 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.340 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.341 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.341 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.343 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.345 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.345 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.346 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.346 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.347 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.354 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.367 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.378 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.392 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.405 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.419 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.433 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.444 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.449 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.450 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.451 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.452 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.452 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:31.453 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:31.454 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:31.455 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:31.456 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.461 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:9
+2021-07-19 16:57:31.474 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.488 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.500 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.513 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.527 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.541 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.543 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.544 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.545 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.545 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.546 interchange:500 [DEBUG]  [MAIN] Sent tasks: [9] to manager b'57d8586e4b1d'
+2021-07-19 16:57:31.548 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:31.549 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:31.551 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.552 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.553 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.554 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.554 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.555 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.556 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.557 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.557 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.558 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.558 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.565 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.576 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.590 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.602 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.615 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.628 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.642 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.654 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.660 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.661 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.665 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.666 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.666 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.668 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:31.669 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:31.670 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:31.671 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:31.675 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:10
+2021-07-19 16:57:31.686 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.698 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.712 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.726 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.740 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.753 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.755 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.756 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.757 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.758 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.759 interchange:500 [DEBUG]  [MAIN] Sent tasks: [10] to manager b'57d8586e4b1d'
+2021-07-19 16:57:31.760 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:31.761 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:31.762 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.763 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.764 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.766 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.766 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.767 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.768 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.769 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.770 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.770 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.771 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.779 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.792 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.806 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.819 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.831 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.842 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.856 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.870 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.873 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.874 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.875 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.876 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.877 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:31.878 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:31.878 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:31.879 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:31.883 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.884 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:11
+2021-07-19 16:57:31.897 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.908 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.922 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.936 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.949 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.963 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:31.965 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.966 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.967 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.968 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.969 interchange:500 [DEBUG]  [MAIN] Sent tasks: [11] to manager b'57d8586e4b1d'
+2021-07-19 16:57:31.971 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:31.972 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:31.973 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.974 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.974 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.975 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:31.975 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.976 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.977 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:31.978 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:31.979 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:31.979 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:31.980 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:31.986 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.000 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.012 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.026 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.040 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.052 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.064 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.075 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.081 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.082 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.086 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.087 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.087 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.089 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:32.090 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:32.091 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:32.093 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:32.098 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:12
+2021-07-19 16:57:32.102 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:13
+2021-07-19 16:57:32.115 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.128 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.142 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.156 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.167 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.178 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.179 interchange:466 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' sent heartbeat
+2021-07-19 16:57:32.180 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.181 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.182 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.183 interchange:500 [DEBUG]  [MAIN] Sent tasks: [12, 13] to manager b'57d8586e4b1d'
+2021-07-19 16:57:32.184 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:32.186 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:32.187 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.188 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.189 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.190 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.191 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.192 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.194 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.195 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.195 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.196 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.197 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.197 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.198 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.198 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.198 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.199 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.199 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.200 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.200 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.201 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.201 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.202 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.202 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.203 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.203 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.203 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.205 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.217 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.228 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.239 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.253 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.259 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:32.264 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.278 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.292 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.297 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.298 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.299 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:32.300 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:32.301 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:32.302 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:32.303 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.307 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:14
+2021-07-19 16:57:32.320 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.334 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.347 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.360 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.372 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.386 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.390 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.391 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.392 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.393 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.394 interchange:500 [DEBUG]  [MAIN] Sent tasks: [14] to manager b'57d8586e4b1d'
+2021-07-19 16:57:32.395 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:32.396 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:32.397 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.398 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.400 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.401 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.401 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.402 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.403 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.404 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.405 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.406 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.406 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.411 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.423 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.436 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.449 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.463 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.476 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.488 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.502 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.508 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.509 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.510 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.511 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.512 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:32.512 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:32.513 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.514 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:32.515 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:32.519 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:15
+2021-07-19 16:57:32.533 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.546 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.558 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.569 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.581 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.594 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.603 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.604 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.604 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.605 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.606 interchange:500 [DEBUG]  [MAIN] Sent tasks: [15] to manager b'57d8586e4b1d'
+2021-07-19 16:57:32.607 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.607 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:32.610 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:32.610 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.611 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.612 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.613 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.614 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.615 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.615 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.616 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.616 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.617 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.622 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.634 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.648 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.659 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.673 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.687 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.700 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.713 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.719 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.720 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.723 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.724 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.724 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:32.725 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:32.726 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:32.727 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.727 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:32.731 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:16
+2021-07-19 16:57:32.744 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.755 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.767 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.778 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.792 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.805 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:32.811 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.812 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.813 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.814 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.814 interchange:500 [DEBUG]  [MAIN] Sent tasks: [16] to manager b'57d8586e4b1d'
+2021-07-19 16:57:32.816 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:32.817 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.817 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:32.819 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.820 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.820 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.821 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.822 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.823 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.824 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.824 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.825 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.825 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.827 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.827 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.827 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:32.828 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:32.828 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.829 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:32.830 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:32.832 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:17
+2021-07-19 16:57:32.835 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:18
+2021-07-19 16:57:32.848 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.861 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.875 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.886 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.898 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.909 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.923 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:32.931 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.932 interchange:500 [DEBUG]  [MAIN] Sent tasks: [17, 18] to manager b'57d8586e4b1d'
+2021-07-19 16:57:32.933 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:32.935 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:32.936 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.937 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.938 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.940 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.941 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.943 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.945 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:32.945 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:32.946 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:32.946 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:32.947 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:32.952 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.966 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.979 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:32.992 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.006 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.020 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.032 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.046 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.049 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.050 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.051 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.052 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.052 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:33.053 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:33.055 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:33.056 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:33.059 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.064 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:19
+2021-07-19 16:57:33.077 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.090 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.102 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.116 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.128 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.141 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.148 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.150 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.150 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.150 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.151 interchange:500 [DEBUG]  [MAIN] Sent tasks: [19] to manager b'57d8586e4b1d'
+2021-07-19 16:57:33.152 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:33.152 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:33.156 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.158 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.159 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.159 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.160 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.160 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.161 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.161 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.161 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.162 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.162 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.169 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.181 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.196 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.208 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.222 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.236 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.249 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.263 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.265 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:33.265 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.267 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.267 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.268 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.269 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:33.270 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:33.271 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:33.272 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:33.276 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:20
+2021-07-19 16:57:33.290 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.303 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.317 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.330 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.342 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.356 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.357 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.358 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.359 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.360 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.361 interchange:500 [DEBUG]  [MAIN] Sent tasks: [20] to manager b'57d8586e4b1d'
+2021-07-19 16:57:33.361 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:33.363 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:33.364 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.365 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.365 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.366 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.367 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.368 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.369 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.370 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.370 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.371 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.372 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.384 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.397 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.411 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.424 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.438 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.452 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.466 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.473 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.474 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.475 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.475 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.476 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:33.477 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.478 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:33.479 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:33.480 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:33.483 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:21
+2021-07-19 16:57:33.497 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.511 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.523 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.536 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.549 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.562 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.569 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.570 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.571 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.572 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.572 interchange:500 [DEBUG]  [MAIN] Sent tasks: [21] to manager b'57d8586e4b1d'
+2021-07-19 16:57:33.574 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:33.575 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.575 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:33.577 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.578 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.578 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.579 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.580 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.580 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.581 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.582 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.583 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.583 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.587 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.599 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.612 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.625 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.638 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.651 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.665 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.677 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.685 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.686 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.687 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.688 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.689 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:33.690 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:33.691 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.692 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:33.693 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:33.697 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:22
+2021-07-19 16:57:33.701 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:23
+2021-07-19 16:57:33.714 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:33.727 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:33.741 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:33.753 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:33.765 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:33.779 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:33.780 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.781 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.782 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.783 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.784 interchange:500 [DEBUG]  [MAIN] Sent tasks: [22, 23] to manager b'57d8586e4b1d'
+2021-07-19 16:57:33.785 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:33.786 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:33.788 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.789 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.790 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.791 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.792 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.792 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.794 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.795 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.796 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.796 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.797 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.805 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.818 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.831 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.845 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.859 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.873 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.886 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.899 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.900 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.901 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.902 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.903 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:33.903 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:33.904 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:33.905 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:33.906 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:33.910 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.912 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:24
+2021-07-19 16:57:33.925 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.937 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.948 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.962 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.975 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.987 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:33.992 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:33.993 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:33.994 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:33.995 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:33.996 interchange:500 [DEBUG]  [MAIN] Sent tasks: [24] to manager b'57d8586e4b1d'
+2021-07-19 16:57:33.997 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:33.998 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:33.998 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:34.000 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.001 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.002 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.003 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.004 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.005 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.006 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.006 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.007 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.007 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.011 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.025 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.036 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.050 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.064 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.078 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.090 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.103 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.108 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.109 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.110 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.111 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.112 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:34.113 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:34.114 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:34.114 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:34.116 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.118 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:25
+2021-07-19 16:57:34.133 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.146 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.160 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.174 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.187 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.200 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.203 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.204 interchange:466 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' sent heartbeat
+2021-07-19 16:57:34.205 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.206 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.207 interchange:500 [DEBUG]  [MAIN] Sent tasks: [25] to manager b'57d8586e4b1d'
+2021-07-19 16:57:34.208 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:34.210 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:34.211 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.211 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.212 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.213 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.213 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.214 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.215 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.216 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.217 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.217 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.217 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.218 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.218 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.219 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.219 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.220 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.220 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.220 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.221 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.221 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.221 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.222 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.222 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.223 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.223 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.223 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.227 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.240 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.251 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.264 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.268 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:34.270 interchange:310 [DEBUG]  [COMMAND] Received command request: OUTSTANDING_C
+2021-07-19 16:57:34.270 interchange:356 [DEBUG]  [COMMAND] Reply: 1
+2021-07-19 16:57:34.272 interchange:310 [DEBUG]  [COMMAND] Received command request: WORKERS
+2021-07-19 16:57:34.273 interchange:356 [DEBUG]  [COMMAND] Reply: 3
+2021-07-19 16:57:34.275 interchange:310 [DEBUG]  [COMMAND] Received command request: WORKERS
+2021-07-19 16:57:34.275 interchange:356 [DEBUG]  [COMMAND] Reply: 3
+2021-07-19 16:57:34.276 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.289 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.300 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.311 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.323 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.324 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.325 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.326 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:34.327 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:34.327 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:34.328 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:34.334 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:26
+2021-07-19 16:57:34.348 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.362 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.376 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.389 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.403 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.414 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.415 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.416 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.417 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.417 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.419 interchange:500 [DEBUG]  [MAIN] Sent tasks: [26] to manager b'57d8586e4b1d'
+2021-07-19 16:57:34.419 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:34.421 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:34.422 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.423 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.424 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.424 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.425 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.426 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.427 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.427 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.428 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.428 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.429 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.440 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.453 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.464 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.478 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.492 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.506 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.519 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.531 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.532 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.533 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.534 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.535 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.535 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:34.536 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:34.537 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:34.538 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:34.542 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.545 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:27
+2021-07-19 16:57:34.548 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:28
+2021-07-19 16:57:34.561 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:34.575 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:34.586 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:34.599 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:34.613 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:34.626 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:34.627 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.628 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.629 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.630 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.631 interchange:500 [DEBUG]  [MAIN] Sent tasks: [27, 28] to manager b'57d8586e4b1d'
+2021-07-19 16:57:34.632 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:34.634 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:34.636 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.637 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.638 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.640 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.641 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.642 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.644 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.645 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.646 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.647 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.647 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.654 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.668 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.682 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.696 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.708 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.721 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.735 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.747 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.749 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.750 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.753 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.754 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.755 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:34.755 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:34.757 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:34.758 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.758 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:34.763 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:29
+2021-07-19 16:57:34.775 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.786 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.800 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.812 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.826 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.840 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.841 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.842 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.843 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.843 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.844 interchange:500 [DEBUG]  [MAIN] Sent tasks: [29] to manager b'57d8586e4b1d'
+2021-07-19 16:57:34.845 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:34.847 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:34.848 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.849 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.849 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.850 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.851 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.852 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:34.852 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:34.853 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:34.854 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.854 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.855 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.865 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.879 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.892 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.906 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.919 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.931 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.941 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.955 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.956 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.957 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.958 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:34.959 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:34.960 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:34.961 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:34.962 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:34.963 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:34.966 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:34.968 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:30
+2021-07-19 16:57:34.981 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:34.995 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.008 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.020 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.033 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.047 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.049 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.050 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.051 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.052 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.053 interchange:500 [DEBUG]  [MAIN] Sent tasks: [30] to manager b'57d8586e4b1d'
+2021-07-19 16:57:35.054 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:35.055 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:35.056 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.057 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.058 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.059 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.060 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.061 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.061 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.062 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.063 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.063 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.063 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.074 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.087 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.100 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.113 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.127 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.139 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.153 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.164 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.166 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.166 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.167 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:35.168 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:35.169 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:35.170 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:35.174 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:31
+2021-07-19 16:57:35.186 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.199 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.213 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.226 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.240 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.253 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.259 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.260 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.261 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.262 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.263 interchange:500 [DEBUG]  [MAIN] Sent tasks: [31] to manager b'57d8586e4b1d'
+2021-07-19 16:57:35.263 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:35.265 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:35.266 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.267 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.268 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.269 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.270 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.270 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.271 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.272 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.273 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.273 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.274 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.279 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.282 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:35.292 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.306 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.320 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.331 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.345 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.358 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.370 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.376 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.377 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.380 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.381 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.381 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:35.382 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.382 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:35.384 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:35.385 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:35.390 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:32
+2021-07-19 16:57:35.393 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:33
+2021-07-19 16:57:35.406 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:35.420 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:35.433 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:35.445 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:35.458 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:35.469 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.470 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.471 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.472 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.473 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.474 interchange:500 [DEBUG]  [MAIN] Sent tasks: [32, 33] to manager b'57d8586e4b1d'
+2021-07-19 16:57:35.475 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:35.476 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:35.477 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.478 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.480 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.481 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.482 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.483 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.484 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.485 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.485 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.486 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.486 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.500 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.514 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.525 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.537 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.550 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.564 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.578 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.589 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.590 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.590 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.592 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.593 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.594 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:35.595 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:35.596 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:35.597 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:35.601 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.602 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:34
+2021-07-19 16:57:35.616 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.629 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.641 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.654 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.666 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.677 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.678 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.680 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.680 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.681 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.682 interchange:500 [DEBUG]  [MAIN] Sent tasks: [34] to manager b'57d8586e4b1d'
+2021-07-19 16:57:35.684 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:35.685 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:35.686 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.687 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.688 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.689 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.689 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.691 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.692 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.692 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.693 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.693 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.693 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.703 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.717 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.730 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.742 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.756 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.770 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.784 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.794 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.795 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.797 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.797 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.799 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.800 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:35.800 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:35.801 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:35.802 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:35.805 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:35
+2021-07-19 16:57:35.818 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.830 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.842 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.856 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.870 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.883 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:35.890 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.891 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.892 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.893 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.894 interchange:500 [DEBUG]  [MAIN] Sent tasks: [35] to manager b'57d8586e4b1d'
+2021-07-19 16:57:35.895 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:35.896 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:35.897 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.898 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.899 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.900 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.901 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.901 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.902 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:35.903 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:35.904 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:35.904 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:35.905 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:35.911 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.925 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.937 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.948 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.962 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.974 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:35.987 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.000 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.006 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.007 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.008 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.009 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.010 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:36.011 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:36.012 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:36.013 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:36.014 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.017 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:36
+2021-07-19 16:57:36.028 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.042 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.056 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.068 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.082 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.096 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.100 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.101 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.102 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.103 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.104 interchange:500 [DEBUG]  [MAIN] Sent tasks: [36] to manager b'57d8586e4b1d'
+2021-07-19 16:57:36.105 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:36.106 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:36.107 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.108 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.109 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.110 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.111 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.112 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.112 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.113 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.114 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.114 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.115 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.120 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.134 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.146 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.158 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.171 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.183 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.194 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.205 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.216 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.217 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.218 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.219 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.220 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.221 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:36.222 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:36.222 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:36.223 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:36.229 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.230 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:37
+2021-07-19 16:57:36.234 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:38
+2021-07-19 16:57:36.246 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:36.258 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:36.270 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:36.283 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:36.288 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:36.295 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:36.308 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:36.309 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.310 interchange:466 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' sent heartbeat
+2021-07-19 16:57:36.311 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.312 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.313 interchange:500 [DEBUG]  [MAIN] Sent tasks: [37, 38] to manager b'57d8586e4b1d'
+2021-07-19 16:57:36.314 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:36.316 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:36.318 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.319 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.320 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.320 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.322 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.323 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.324 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.324 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.325 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.325 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.326 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.327 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.327 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.328 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.328 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.329 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.329 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.330 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.330 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.330 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.331 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.331 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.331 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.332 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.332 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.332 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.334 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.347 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.359 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.370 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.383 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.396 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.410 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.424 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.429 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.430 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.431 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:36.431 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:36.432 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:36.433 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:36.437 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.439 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:39
+2021-07-19 16:57:36.453 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.467 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.480 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.492 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.506 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.518 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.519 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.520 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.521 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.522 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.523 interchange:500 [DEBUG]  [MAIN] Sent tasks: [39] to manager b'57d8586e4b1d'
+2021-07-19 16:57:36.523 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:36.525 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:36.526 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.527 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.528 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.529 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.530 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.531 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.532 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.533 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.533 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.534 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.534 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.542 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.556 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.569 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.580 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.592 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.604 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.618 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.629 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.636 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.637 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.640 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.641 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.642 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:36.643 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.643 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:36.645 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:36.646 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:36.650 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:40
+2021-07-19 16:57:36.663 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.677 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.691 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.704 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.717 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.726 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.727 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.728 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.729 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.730 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.730 interchange:500 [DEBUG]  [MAIN] Sent tasks: [40] to manager b'57d8586e4b1d'
+2021-07-19 16:57:36.731 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:36.733 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:36.734 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.735 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.735 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.736 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.737 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.738 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.739 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.739 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.740 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.740 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.741 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.753 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.764 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.778 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.790 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.804 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.816 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.828 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.842 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.843 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.845 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.847 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.848 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.849 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:36.850 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:36.851 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:36.852 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:36.855 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.856 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:41
+2021-07-19 16:57:36.868 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.881 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.894 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.907 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.919 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.933 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:36.938 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.939 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.939 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.940 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.941 interchange:500 [DEBUG]  [MAIN] Sent tasks: [41] to manager b'57d8586e4b1d'
+2021-07-19 16:57:36.942 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:36.943 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:36.944 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.945 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.946 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.947 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.947 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.948 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.949 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:36.950 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:36.951 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:36.951 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:36.952 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:36.958 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.972 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.986 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:36.999 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.011 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.023 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.036 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.050 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.053 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.054 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.058 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.059 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.060 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:37.060 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:37.061 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:37.062 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.062 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:37.068 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:42
+2021-07-19 16:57:37.073 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:43
+2021-07-19 16:57:37.087 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.100 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.114 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.128 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.142 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.146 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.147 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.148 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.149 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.150 interchange:500 [DEBUG]  [MAIN] Sent tasks: [42, 43] to manager b'57d8586e4b1d'
+2021-07-19 16:57:37.151 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:37.153 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:37.154 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.155 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.155 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.156 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.157 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.158 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.159 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.159 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.160 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.161 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.161 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.166 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.178 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.191 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.205 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.219 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.233 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.245 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.258 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.263 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.264 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.265 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.266 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.267 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:37.268 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:37.269 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:37.270 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:37.271 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.276 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:44
+2021-07-19 16:57:37.287 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.294 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:37.301 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.313 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.324 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.337 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.351 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.354 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.355 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.356 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.357 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.358 interchange:500 [DEBUG]  [MAIN] Sent tasks: [44] to manager b'57d8586e4b1d'
+2021-07-19 16:57:37.359 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:37.361 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:37.361 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.362 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.363 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.363 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.365 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.365 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.366 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.367 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.367 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.368 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.368 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.374 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.387 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.401 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.413 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.424 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.437 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.450 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.463 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.470 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.471 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.472 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.472 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.473 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:37.474 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:37.474 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:37.475 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.475 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:37.478 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:45
+2021-07-19 16:57:37.491 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.505 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.519 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.533 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.546 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.558 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.565 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.566 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.566 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.567 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.568 interchange:500 [DEBUG]  [MAIN] Sent tasks: [45] to manager b'57d8586e4b1d'
+2021-07-19 16:57:37.569 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:37.570 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:37.572 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.572 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.573 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.575 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.576 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.576 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.578 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.578 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.579 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.579 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.580 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.583 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.597 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.608 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.620 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.631 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.644 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.656 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.667 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.678 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.682 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.683 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.684 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.685 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.686 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:37.686 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:37.687 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:37.688 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:37.692 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.693 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:46
+2021-07-19 16:57:37.707 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.718 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.732 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.743 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.755 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.768 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:37.773 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.774 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.776 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.777 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.778 interchange:500 [DEBUG]  [MAIN] Sent tasks: [46] to manager b'57d8586e4b1d'
+2021-07-19 16:57:37.779 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:37.780 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:37.782 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.783 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.784 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.784 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.785 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.785 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.786 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.786 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.787 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.788 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.788 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.796 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.808 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.822 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.836 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.849 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.863 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.876 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.889 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.890 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.891 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.893 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.894 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:37.894 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:37.896 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:37.897 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:37.898 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:37.901 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.904 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:47
+2021-07-19 16:57:37.907 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:48
+2021-07-19 16:57:37.920 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.932 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.945 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.959 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.973 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.987 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 2 tasks in internal queue
+2021-07-19 16:57:37.988 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.989 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.989 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.990 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:37.991 interchange:500 [DEBUG]  [MAIN] Sent tasks: [47, 48] to manager b'57d8586e4b1d'
+2021-07-19 16:57:37.992 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 1
+2021-07-19 16:57:37.994 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:37.995 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:37.997 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:37.998 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:37.999 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:37.999 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.000 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.001 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.002 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.003 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.004 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.004 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.012 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.024 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.037 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.051 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.063 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.075 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.087 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.101 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.106 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.107 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.109 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.110 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.110 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:38.111 interchange:520 [DEBUG]  [MAIN] Got 2 result items in batch
+2021-07-19 16:57:38.112 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.113 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:38.114 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:38.119 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:49
+2021-07-19 16:57:38.132 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.145 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.158 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.172 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.186 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.199 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.200 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.201 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.202 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.203 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.204 interchange:500 [DEBUG]  [MAIN] Sent tasks: [49] to manager b'57d8586e4b1d'
+2021-07-19 16:57:38.205 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:38.206 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:38.208 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.209 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.209 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.211 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.211 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.211 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.213 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.214 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.214 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.215 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.215 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.224 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.237 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.250 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.264 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.278 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.289 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.295 interchange:360 [DEBUG]  [COMMAND] is alive
+2021-07-19 16:57:38.301 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.312 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.317 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.318 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.319 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.320 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.321 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:38.322 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:38.323 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:38.324 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.324 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:38.328 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:50
+2021-07-19 16:57:38.340 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.352 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.365 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.378 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.389 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.402 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.412 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.413 interchange:466 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' sent heartbeat
+2021-07-19 16:57:38.414 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.415 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.415 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.417 interchange:500 [DEBUG]  [MAIN] Sent tasks: [50] to manager b'57d8586e4b1d'
+2021-07-19 16:57:38.418 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:38.420 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:38.421 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.422 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.423 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.423 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.424 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.425 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.426 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.427 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.427 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.428 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.429 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.429 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.430 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.430 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.431 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.431 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.432 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.432 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.432 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.433 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.433 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.434 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.434 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.434 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.435 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.435 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.440 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.454 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.468 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.482 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.495 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.508 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.522 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.533 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.534 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.535 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:38.535 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:38.536 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.537 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:38.538 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:38.541 interchange:278 [DEBUG]  [TASK_PULL_THREAD] Fetched task:51
+2021-07-19 16:57:38.554 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.566 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.580 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.592 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.606 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.620 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 1 tasks in internal queue
+2021-07-19 16:57:38.626 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.627 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.628 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.629 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.630 interchange:500 [DEBUG]  [MAIN] Sent tasks: [51] to manager b'57d8586e4b1d'
+2021-07-19 16:57:38.631 interchange:502 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' has free_capacity 2
+2021-07-19 16:57:38.632 interchange:510 [DEBUG]  [MAIN] leaving _ready_manager_queue section, with 1 managers still interesting
+2021-07-19 16:57:38.633 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.634 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.635 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.636 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.637 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.638 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.638 interchange:408 [DEBUG]  [MAIN] starting task_outgoing section
+2021-07-19 16:57:38.639 interchange:469 [DEBUG]  [MAIN] Manager b'57d8586e4b1d' requested 3 tasks
+2021-07-19 16:57:38.640 interchange:472 [DEBUG]  [MAIN] leaving task_outgoing section
+2021-07-19 16:57:38.640 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.641 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.646 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.659 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.673 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.687 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.699 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.710 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.722 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.735 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.742 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.744 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.744 interchange:476 [DEBUG]  Managers count (interesting/total): 1/1
+2021-07-19 16:57:38.745 interchange:512 [DEBUG]  [MAIN] either no interesting managers or no tasks, so skipping manager pass
+2021-07-19 16:57:38.746 interchange:515 [DEBUG]  [MAIN] entering results_incoming section
+2021-07-19 16:57:38.747 interchange:520 [DEBUG]  [MAIN] Got 1 result items in batch
+2021-07-19 16:57:38.748 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.749 interchange:533 [DEBUG]  [MAIN] Current tasks: []
+2021-07-19 16:57:38.750 interchange:536 [DEBUG]  [MAIN] leaving results_incoming section
+2021-07-19 16:57:38.754 interchange:310 [DEBUG]  [COMMAND] Received command request: MANAGERS
+2021-07-19 16:57:38.754 interchange:356 [DEBUG]  [COMMAND] Reply: [{'manager': '57d8586e4b1d', 'block_id': '0', 'worker_count': 3, 'tasks': 0, 'idle_duration': 0.0039560794830322266, 'active': True}]
+2021-07-19 16:57:38.756 interchange:310 [DEBUG]  [COMMAND] Received command request: MANAGERS
+2021-07-19 16:57:38.756 interchange:356 [DEBUG]  [COMMAND] Reply: [{'manager': '57d8586e4b1d', 'block_id': '0', 'worker_count': 3, 'tasks': 0, 'idle_duration': 0.005970954895019531, 'active': True}]
+2021-07-19 16:57:38.758 interchange:310 [DEBUG]  [COMMAND] Received command request: HOLD_WORKER;57d8586e4b1d
+2021-07-19 16:57:38.758 interchange:340 [INFO]  [CMD] Received HOLD_WORKER for b'57d8586e4b1d'
+2021-07-19 16:57:38.759 interchange:293 [INFO]  Sending message {'last_heartbeat': 1626731858.6397681, 'idle_since': 1626731858.750901, 'free_capacity': 3, 'block_id': '0', 'max_capacity': 3, 'worker_count': 3, 'active': False, 'tasks': [], 'parsl_v': '1.1.0', 'python_v': '3.8.8', 'uid': '57d8586e4b1d', 'prefetch_capacity': 0, 'os': 'Darwin', 'hostname': 'Ananths-Macbook.local', 'dir': '/Users/ananthhariharan/Documents/Code/GitHub/Parsl-Project', 'cpu_count': 2, 'total_memory': 8589934592} to hub
+2021-07-19 16:57:38.760 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.760 interchange:356 [DEBUG]  [COMMAND] Reply: True
+2021-07-19 16:57:38.771 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
+2021-07-19 16:57:38.782 interchange:269 [DEBUG]  [TASK_PULL_THREAD] 0 tasks in internal queue
