@@ -21,6 +21,7 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 
 import time
 
+t0 = time.perf_counter()
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
@@ -60,8 +61,6 @@ def fresh_config():
 config = fresh_config()
 
 parsl.load(config)
-
-t0 = time.perf_counter()
 
 @python_app
 def app_A():
@@ -115,8 +114,6 @@ total = 0
 loop = app_F().result()
 for x in range(loop):
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
-    print("Working")
-    print(x)
 print()
 print("Total: " + str(total))
 print("Total Runtime: " + str(tF-t0) + " seconds")
