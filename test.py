@@ -67,37 +67,37 @@ def app_A():
     print("A Started")
     time.sleep(2)
     a = 2 * 3 + 1
+    tA = time.perf_counter()
     return a
-tA = time.perf_counter()
 
 @python_app
 def app_B():
     print("B Started")
     time.sleep(3)
     b = 2 + 2 / 2
+    tB = time.perf_counter()
     return b
-tB = time.perf_counter()
 
 @python_app
 def app_C(x, y):
     print("C Started")
     time.sleep(5)
+    tC = time.perf_counter()
     return x + y
-tC = time.perf_counter()
 
 @python_app
 def app_D(x, y, z):
     print("D Started")
     time.sleep(4)
+    tD = time.perf_counter()
     return x * y // z
-tD = time.perf_counter()
 
 @python_app
 def app_E(x):
     print("E Started")
     time.sleep(10)
+    tE = time.perf_counter()
     return x * x
-tE = time.perf_counter()
 
 @python_app
 def app_F():
@@ -107,16 +107,17 @@ def app_F():
     from random import randint
     iterations = randint(0,10)
 #   return iterations
+    tF = time.perf_counter()
     return 1 #Test to reduce variability
-tF = time.perf_counter()
 
 total = 0
 loop = app_F().result()
 for x in range(loop):
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
+tFinal = time.perf_counter()
 print()
 print("Total: " + str(total))
-print("Total Runtime: " + str(tF-t0) + " seconds")
+print("Total Runtime: " + str(tFinal-t0) + " seconds")
 print("Time to run A: " + str(tA-t0) + " seconds")
 print("Time to run B: " + str(tB-tA) + " seconds")
 print("Time to run C: " + str(tC-tB) + " seconds")
@@ -124,4 +125,3 @@ print("Time to run D: " + str(tD-tC) + " seconds")
 print("Time to run E: " + str(tE-tD) + " seconds")
 print("Time to run F: " + str(tF-tE) + " seconds")
 
-# total will be random but should be iterations * 100
