@@ -82,7 +82,7 @@ tC = time.perf_counter()
 
 @python_app
 def app_D(x, y, z):
-    return x * y // 7
+    return x * y // z
 tD = time.perf_counter()
 
 @python_app
