@@ -32,7 +32,7 @@ def fresh_config():
                 working_dir=working_dir,
                 storage_access=[FTPInTaskStaging(), HTTPInTaskStaging(), NoOpFileStaging()],
                 worker_debug=True,
-                cores_per_worker = 0.5,
+                cores_per_worker = 0.25,
                 max_workers = 3,
                 heartbeat_period=2,
                 heartbeat_threshold=5,
@@ -102,7 +102,7 @@ def app_F():
     from random import randint
     iterations = randint(0,10)
 #   return iterations
-    return 10 #Test to reduce variability
+    return 1 #Test to reduce variability
 tF = time.perf_counter()
 
 total = 0
