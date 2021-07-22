@@ -65,33 +65,39 @@ t0 = time.perf_counter()
 
 @python_app
 def app_A():
+    time.sleep(2)
     a = 2 * 3 + 1
     return a
 tA = time.perf_counter()
 
 @python_app
 def app_B():
+    time.sleep(3)
     b = 2 + 2 / 2
     return b
 tB = time.perf_counter()
 
 @python_app
 def app_C(x, y):
+    time.sleep(5)
     return x + y
 tC = time.perf_counter()
 
 @python_app
 def app_D(x, y, z):
+    time.sleep(4)
     return x * y // z
 tD = time.perf_counter()
 
 @python_app
 def app_E(x):
+    time.sleep(10)
     return x * x
 tE = time.perf_counter()
 
 @python_app
 def app_F():
+    time.sleep(6)
     import random
     from random import randint
     iterations = randint(0,10)
