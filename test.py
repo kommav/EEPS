@@ -21,8 +21,6 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 
 import time
 
-t0 = time.perf_counter()
-
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
@@ -62,6 +60,8 @@ def fresh_config():
 config = fresh_config()
 
 parsl.load(config)
+
+t0 = time.perf_counter()
 
 @python_app
 def app_A():
