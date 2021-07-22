@@ -22,12 +22,6 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 import time
 
 t0 = time.perf_counter()
-tA = 0
-tB = 0
-tC = 0
-tD = 0
-tE = 0
-tF = 0
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
@@ -70,6 +64,7 @@ parsl.load(config)
 
 @python_app
 def app_A():
+    import time
     print("A Started")
     time.sleep(2)
     a = 2 * 3 + 1
@@ -78,6 +73,7 @@ def app_A():
 
 @python_app
 def app_B():
+    import time
     print("B Started")
     time.sleep(3)
     b = 2 + 2 / 2
@@ -86,6 +82,7 @@ def app_B():
 
 @python_app
 def app_C(x, y):
+    import time
     print("C Started")
     time.sleep(5)
     tC = time.perf_counter()
@@ -93,6 +90,7 @@ def app_C(x, y):
 
 @python_app
 def app_D(x, y, z):
+    import time
     print("D Started")
     time.sleep(4)
     tD = time.perf_counter()
@@ -100,6 +98,7 @@ def app_D(x, y, z):
 
 @python_app
 def app_E(x):
+    import time
     print("E Started")
     time.sleep(10)
     tE = time.perf_counter()
@@ -107,6 +106,7 @@ def app_E(x):
 
 @python_app
 def app_F():
+    import time
     print("F Started")
     time.sleep(6)
     import random
