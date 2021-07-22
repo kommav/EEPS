@@ -22,6 +22,12 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 import time
 
 t0 = time.perf_counter()
+tA = 0
+tB = 0
+tC = 0
+tD = 0
+tE = 0
+tF = 0
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
