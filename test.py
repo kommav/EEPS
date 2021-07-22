@@ -95,7 +95,8 @@ def app_F():
     import random
     from random import randint
     iterations = randint(0,10)
-    return iterations
+#   return iterations
+    return 10 #Test to reduce variability
 tF = time.perf_counter()
 
 total = 0
