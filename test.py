@@ -34,7 +34,6 @@ def fresh_config():
                 storage_access=[FTPInTaskStaging(), HTTPInTaskStaging(), NoOpFileStaging()],
                 worker_debug=True,
                 cores_per_worker = 2,
-                max_workers = 3,
                 heartbeat_period=2,
                 heartbeat_threshold=5,
                 poll_period=100,
