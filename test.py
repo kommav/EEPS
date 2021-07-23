@@ -33,7 +33,7 @@ def fresh_config():
                 working_dir=working_dir,
                 storage_access=[FTPInTaskStaging(), HTTPInTaskStaging(), NoOpFileStaging()],
                 worker_debug=True,
-                cores_per_worker = 1.5,
+                cores_per_worker = 2,
                 max_workers = 3,
                 heartbeat_period=2,
                 heartbeat_threshold=5,
