@@ -100,7 +100,7 @@ def app_E(x):
     import time
     print("E Started")
     time.sleep(10)
-#  tE = time.perf_counter()
+#   tE = time.perf_counter()
     return x * x
 
 @python_app
@@ -112,7 +112,7 @@ def app_F():
     from random import randint
     iterations = randint(0,10)
 #   return iterations
-#    tF = time.perf_counter()
+#   tF = time.perf_counter()
     return 1 #Test to reduce variability
 
 total = 0
