@@ -1,4 +1,4 @@
-# C/W = 1
+# C/W = 2
 import parsl
 from parsl import python_app
 from parsl.monitoring import MonitoringHub
@@ -33,7 +33,7 @@ def fresh_config():
                 working_dir=working_dir,
                 storage_access=[FTPInTaskStaging(), HTTPInTaskStaging(), NoOpFileStaging()],
                 worker_debug=True,
-                cores_per_worker = 1,
+                cores_per_worker = 2,
                 heartbeat_period=2,
                 heartbeat_threshold=5,
                 poll_period=100,
