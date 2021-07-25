@@ -21,7 +21,7 @@ import pandas as pd
 ## Table format is used by 'tabulate' to select the text-based output format
 ## 'grid' looks nice but is non-compact
 ## 'psql' looks almost as nice and is more compact
-tblfmt = 'psql'
+tblfmt = 'grid'
 
 ## Selection of SQL commands used within pmon
 
