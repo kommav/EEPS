@@ -31,7 +31,7 @@ cores = multiprocessing.cpu_count()
 multiprocessing.cpu_count()
 
 for j in range(1, cores+1):
-    cpw.append(1 / j)
+    cpw.append(cores / j)
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
