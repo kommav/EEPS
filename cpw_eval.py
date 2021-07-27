@@ -77,23 +77,28 @@ parsl.load(config)
 def app_A():
     a = 2 * 3 + 1
     return a
+    time.sleep(2)
 
 @python_app
 def app_B():
     b = 2 + 2 / 2
     return b
+    time.sleep(4)
 
 @python_app
 def app_C(x, y):
     return x + y
+    time.sleep(3)
 
 @python_app
 def app_D(x, y, z):
     return x * y // z
+    time.sleep(1)
 
 @python_app
 def app_E(x):
     return x * x
+    time.sleep(5)
 
 total = 0
 
@@ -107,6 +112,7 @@ for i in range(len(cpw)):
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
     tEnd = time.perf_counter()
     totalTimes.append(tEnd-tStart)
+    print totalTimes
     tStart = tEnd
     print()
     print("Cores per Worker: " + str(cores_per_worker))
