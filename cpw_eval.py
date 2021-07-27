@@ -117,7 +117,7 @@ for i in range(len(cpw)):
     tStart = tEnd
     print()
     print("Cores per Worker: " + str(cores_per_worker))
-    print("Time: " + time)
+    print("Time: " + str(time))
     print("Total: " + str(total))
     print()
 
