@@ -111,11 +111,13 @@ for i in range(len(cpw)):
     cores_per_worker = cpw[i]
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
     tEnd = time.perf_counter()
-    totalTimes.append(tEnd-tStart)
+    time = tEnd-tStart
+    totalTimes.append(time)
     print (totalTimes)
     tStart = tEnd
     print()
     print("Cores per Worker: " + str(cores_per_worker))
+    print("Time: " + time)
     print("Total: " + str(total))
     print()
 
