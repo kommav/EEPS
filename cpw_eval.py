@@ -3,6 +3,7 @@ import parsl
 from parsl import python_app
 from parsl.monitoring import MonitoringHub
 
+import multiprocessing
 
 import os
 
@@ -22,9 +23,15 @@ import time
 
 # Initialisation of functions and configurations
 
-t0 = time.perf_counter()
+cpw = []
+#Scanner for Cores of System
 
-cpw = [0.25, 0.5, 0.75, 1, 2, 3, 4]
+cores = multiprocessing.cpu_count()
+
+multiprocessing.cpu_count()
+
+for j in range(1, cores+1):
+    cpw.append(1 / j)
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
@@ -88,27 +95,22 @@ def app_D(x, y, z):
 def app_E(x):
     return x * x
 
-@python_app
-def app_F():
-    return 1
-
 total = 0
 
 totalTimes = []
 
 # Printing statistics for each runtime based on cores per worker
 
-loop = app_F().result()
+tStart = time.perf_counter()
 for i in range(len(cpw)):
     cores_per_worker = cpw[i]
-    for x in range(loop):
-        total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
-    tFinal = time.perf_counter()
-    totalTimes.append(tFinal)
+    total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
+    tEnd = time.perf_counter()
+    totalTimes.append(tEnd-tStart)
+    tStart = tEnd
     print()
     print("Cores per Worker: " + str(cores_per_worker))
     print("Total: " + str(total))
-    print("Total Runtime: " + str(tFinal-t0) + " seconds")
     print()
 
 # Finding and printing most efficient use of cores per worker
@@ -116,20 +118,19 @@ for i in range(len(cpw)):
 print()
 minTime = min(totalTimes)
 minIndex = totalTimes.index(minTime)
+optimalCPW = cpw[minIndex]
+nodesNecessary = cores / optimalCPW
 
-if minIndex == 0:
-    print("The most efficient cores-per-worker ratio is 0.25")
-elif minIndex == 1:
-    print("The most efficient cores-per-worker ratio is 0.5")
-elif minIndex == 2:
-    print("The most efficient cores-per-worker ratio is 0.75")
-elif minIndex == 3:
-    print("The most efficient cores-per-worker ratio is 1")
-elif minIndex == 4:
-    print("The most efficient cores-per-worker ratio is 2")
-elif minIndex == 5:
-    print("The most efficient cores-per-worker ratio is 3")
-elif minIndex == 6:
-    print("The most efficient cores-per-worker ratio is 4")
+print(nodesNecessary)
 
 print("")
+
+
+
+'''
+Goal: Least amount of nodes necessary
+Translation: Least amount of workers
+workers = C/ (C/W)
+Decrement forloop from top to bottom, then we can actually return cores of system / C/W
+C/W we have to make it fluid (the list)
+'''
