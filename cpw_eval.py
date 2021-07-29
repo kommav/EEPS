@@ -146,12 +146,12 @@ secondCPW = cpw[secondIndex]
 secondNodes = cores / secondCPW
 
 print("BEST: ")
-print("Optimal # of Cores: " + nodesNecessary)
+print("Optimal # of Cores: " + str(nodesNecessary))
 print("Core seconds: " + minCost)
 
 print("Second: ")
-print("# of Cores: " + secondNodes)
-print("Core seconds: " + minCost)
+print("# of Cores: " + str(secondNodes))
+print("Core seconds: " + secondCost)
 print((minCost - secondCost) + " core seconds off optimal value")
 
 print("")
