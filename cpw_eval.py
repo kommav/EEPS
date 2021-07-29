@@ -154,13 +154,15 @@ fastCost = minTime * fastNodes
 totalTimes.remove(minTime)
 secondTime = min(totalTimes)
 
-print("BEST: ")
+print("Cheapest: ")
 print("Optimal # of Cores: " + str(nodesNecessary))
 print("Core seconds: " + str(minCost))
+print("Seconds: " + str(minCost / nodesNecessary))
 
-print("Second: ")
+print("Second Cheapest: ")
 print("# of Cores: " + str(secondNodes))
 print("Core seconds: " + str(secondCost))
+print("Seconds: " + str(secondCost / secondNodes)
 print(str(secondCost - minCost) + " core seconds off optimal value")
 
 print("Fastest: ")
