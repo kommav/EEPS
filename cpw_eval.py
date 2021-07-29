@@ -109,7 +109,7 @@ totalCost = []
 tStart = time.perf_counter()
 for i in range(len(cpw)):
     cores_per_worker = cpw[i]
-    total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
+    total = total + app_E(app_D(app_A(), app_B(), app_C(app_A(), app_B()))).result()
     tEnd = time.perf_counter()
     totalCost.append((tEnd-tStart)*(cores/cores_per_worker))
     print (totalCost)
