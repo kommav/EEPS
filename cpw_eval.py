@@ -102,7 +102,7 @@ def app_E(x):
 
 total = 0
 
-totalTimes = []
+totalCost = []
 
 # Printing statistics for each runtime based on cores per worker
 
@@ -111,8 +111,8 @@ for i in range(len(cpw)):
     cores_per_worker = cpw[i]
     total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
     tEnd = time.perf_counter()
-    totalTimes.append(tEnd-tStart)
-    print (totalTimes)
+    totalCost.append((tEnd-tStart)*(cores/cores_per_worker))
+    print (totalCost)
     tStart = tEnd
     print()
     print("Cores per Worker: " + str(cores_per_worker))
@@ -122,8 +122,8 @@ for i in range(len(cpw)):
 # Finding and printing most efficient use of cores per worker
 
 print()
-minTime = min(totalTimes)
-minIndex = totalTimes.index(minTime)
+minCost = min(totalCost)
+minIndex = totalCost.index(minCost)
 optimalCPW = cpw[minIndex]
 nodesNecessary = cores / optimalCPW
 
