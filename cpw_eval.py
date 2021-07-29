@@ -75,30 +75,43 @@ parsl.load(config)
 
 @python_app
 def app_A():
+    time.sleep(2)
     a = 2 * 3 + 1
     return a
-    time.sleep(2)
 
 @python_app
 def app_B():
+    time.sleep(4)
     b = 2 + 2 / 2
     return b
-    time.sleep(4)
+
 
 @python_app
 def app_C(x, y):
-    return x + y
     time.sleep(3)
+    return x + y
+
 
 @python_app
 def app_D(x, y, z):
-    return x * y // z
     time.sleep(1)
+    return x * y // z
+
 
 @python_app
 def app_E(x):
-    return x * x
     time.sleep(5)
+    return x * x
+
+@python_app
+def app_F(x):
+    time.sleep(9)
+    return 2*x
+
+@python_app
+def app_G(x):
+    time.sleep(3)
+    return x/2
 
 total = 0
 
@@ -109,7 +122,7 @@ totalCost = []
 tStart = time.perf_counter()
 for i in range(len(cpw)):
     cores_per_worker = cpw[i]
-    total = total + app_E(app_D(app_A(), app_B(), app_C(app_A(), app_B()))).result()
+    total = total + app_E(app_D(app_G(10), app_F(7), app_C(app_A(), app_B()))).result()
     tEnd = time.perf_counter()
     totalCost.append((tEnd-tStart)*(cores/cores_per_worker))
     print (totalCost)
