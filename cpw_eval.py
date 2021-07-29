@@ -115,6 +115,7 @@ def app_G(x):
 
 total = 0
 
+totalTimes = []
 totalCost = []
 
 # Printing statistics for each runtime based on cores per worker
@@ -124,6 +125,7 @@ for i in range(len(cpw)):
     cores_per_worker = cpw[i]
     total = total + app_E(app_D(app_G(10), app_F(7), app_C(app_A(), app_B()))).result()
     tEnd = time.perf_counter()
+    totalTimes.append(tEnd - tStart)
     totalCost.append((tEnd-tStart)*(cores/cores_per_worker))
     print (totalCost)
     tStart = tEnd
@@ -144,6 +146,13 @@ secondCost = min(totalCost)
 secondIndex = totalCost.index(secondCost)
 secondCPW = cpw[secondIndex]
 secondNodes = cores / secondCPW
+minTime = min(totalTimes)
+fastIndex = totalTimes.index(minTime)
+fastCPW = cpw[fastIndex]
+fastNodes = cores / fastCPW
+fastCost = minTime * fastNodes
+totalTimes.remove(minTime)
+secondTime = min(totalTimes)
 
 print("BEST: ")
 print("Optimal # of Cores: " + str(nodesNecessary))
@@ -152,10 +161,13 @@ print("Core seconds: " + str(minCost))
 print("Second: ")
 print("# of Cores: " + str(secondNodes))
 print("Core seconds: " + str(secondCost))
-print(str(minCost - secondCost) + " core seconds off optimal value")
+print(str(secondCost - minCost) + " core seconds off optimal value")
 
-print("")
-
+print("Fastest: ")
+print("# of Cores: " + str(fastNodes))
+print("Core seconds: " + str(fastCost))
+print("Seconds: " + str(minTime))
+print(str(secondTime - minTime) + " seconds faster than next fastest")
 
 
 '''
