@@ -139,8 +139,20 @@ minCost = min(totalCost)
 minIndex = totalCost.index(minCost)
 optimalCPW = cpw[minIndex]
 nodesNecessary = cores / optimalCPW
+totalCost.remove(minCost)
+secondCost = min(totalCost)
+secondIndex = totalCost.index(secondCost)
+secondCPW = cpw[secondIndex]
+secondNodes = cores / secondCPW
 
-print(nodesNecessary)
+print("BEST: ")
+print("Optimal # of Cores: " + nodesNecessary)
+print("Core seconds: " + minCost)
+
+print("Second: ")
+print("# of Cores: " + secondNodes)
+print("Core seconds: " + minCost)
+print((minCost - second Cost) + " core seconds off optimal value")
 
 print("")
 
