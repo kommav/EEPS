@@ -143,7 +143,7 @@ optimalCPW = cpw[minIndex]
 nodesNecessary = cores / optimalCPW
 totalCost.remove(minCost)
 secondCost = min(totalCost)
-secondIndex = totalCost.index(secondCost+1)
+secondIndex = totalCost.index(secondCost) + 1
 secondCPW = cpw[secondIndex]
 secondNodes = cores / secondCPW
 minTime = min(totalTimes)
