@@ -147,12 +147,12 @@ secondNodes = cores / secondCPW
 
 print("BEST: ")
 print("Optimal # of Cores: " + str(nodesNecessary))
-print("Core seconds: " + minCost)
+print("Core seconds: " + str(minCost))
 
 print("Second: ")
 print("# of Cores: " + str(secondNodes))
-print("Core seconds: " + secondCost)
-print((minCost - secondCost) + " core seconds off optimal value")
+print("Core seconds: " + str(secondCost))
+print(str(minCost - secondCost) + " core seconds off optimal value")
 
 print("")
 
