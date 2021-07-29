@@ -152,7 +152,7 @@ print("Core seconds: " + minCost)
 print("Second: ")
 print("# of Cores: " + secondNodes)
 print("Core seconds: " + minCost)
-print((minCost - second Cost) + " core seconds off optimal value")
+print((minCost - secondCost) + " core seconds off optimal value")
 
 print("")
 
