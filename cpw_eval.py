@@ -169,13 +169,13 @@ print("Core seconds: " + str(round(secondCost, 2)))
 print("Seconds: " + str(round(secondCost / secondNodes, 2)))
 print(str(round(secondCost-minCost, 2)) + " core seconds off optimal value")
 print("Percentage greater than optimal cost: " + str(round(pctCost, 2)) + "%")
-print("Percentage faster: " + str(round(pctTime, 2)) + "%")
 print(" ")
 print("Fastest: ")
 print("Number of Cores: " + str(fastNodes))
 print("Core seconds: " + str(round(fastCost, 2)))
 print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
+print("Percentage faster: " + str(round(pctTime, 2)) + "%")
 
 
 '''
