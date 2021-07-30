@@ -1,4 +1,0 @@
-2021-07-30 10:45:57.854 worker_log:495 Rank:4 [INFO]  Worker 4 started
-2021-07-30 10:45:57.855 worker_log:497 Rank:4 [DEBUG]  Debug logging enabled
-2021-07-30 10:46:24.072 worker_log:525 Rank:4 [INFO]  Received task 14
-2021-07-30 10:46:29.084 worker_log:543 Rank:4 [INFO]  Completed task 14

@@ -1,6 +1,0 @@
-2021-07-29 20:14:40.269 monitoring_router:423 [INFO]  Initialized the UDP socket on 0.0.0.0:55055
-2021-07-29 20:14:40.272 monitoring_router:548 [INFO]  Starting MonitoringRouter in router_starter
-2021-07-29 20:15:48.228 monitoring_router:497 [INFO]  Monitoring router draining
-2021-07-29 20:15:51.234 monitoring_router:509 [INFO]  Monitoring router finishing normally
-2021-07-29 20:15:51.235 monitoring_router:511 [INFO]  Monitoring router finished
-2021-07-29 20:15:51.236 monitoring_router:555 [INFO]  End of router_starter
