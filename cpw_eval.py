@@ -21,10 +21,8 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 
 import time
 
-# Initialisation of functions and configurations
-
-cpw = []
 # Scanner for Cores of System
+cpw = []
 
 cores = multiprocessing.cpu_count()
 
