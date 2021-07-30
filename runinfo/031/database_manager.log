@@ -1,0 +1,7 @@
+2021-07-30 10:45:54.489 database_manager:661 [INFO] [MainThread 4525276672] Starting dbm in dbm starter
+2021-07-30 10:45:54.490 database_manager:523 [INFO] [Monitoring-migrate-priority 123145551376384] Starting processing for queue priority
+2021-07-30 10:45:54.491 database_manager:523 [INFO] [Monitoring-migrate-node 123145568165888] Starting processing for queue node
+2021-07-30 10:45:54.492 database_manager:523 [INFO] [Monitoring-migrate-block 123145584955392] Starting processing for queue block
+2021-07-30 10:45:54.493 database_manager:523 [INFO] [Monitoring-migrate-resource 123145601744896] Starting processing for queue resource
+2021-07-30 10:47:03.736 database_manager:627 [INFO] [Monitoring-migrate-priority 123145551376384] Database Manager cleanup initiated.
+2021-07-30 10:47:03.974 database_manager:672 [INFO] [MainThread 4525276672] End of dbm_starter

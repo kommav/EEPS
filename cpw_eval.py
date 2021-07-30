@@ -151,6 +151,8 @@ fastNodes = cores / fastCPW
 fastCost = minTime * fastNodes
 totalTimes.remove(minTime)
 secondTime = min(totalTimes)
+pctCost = round(secondCost / minCost, 2) - 1 * 100
+pctTime = round(secondTime / minTime, 2) - 1 * 100
 
 round(secondCost, 2)
 round(secondCost / secondNodes, 2)
@@ -166,8 +168,8 @@ print("Number of Cores: " + str(secondNodes))
 print("Core seconds: " + str(round(secondCost, 2)))
 print("Seconds: " + str(round(secondCost / secondNodes, 2)))
 print(str(round(secondCost-minCost, 2)) + " core seconds off optimal value")
-print("Percentage greater than optimal cost: " + str((round(secondCost/minCost, 2) - 1) * 100) + "%")
-print("Percentage faster: " + str((round(secondTime/minTime, 2) - 1) * 100) + "%")
+print("Percentage greater than optimal cost: " + pctCost + "%" )
+print("Percentage faster: " + pctTime + "%")
 print(" ")
 print("Fastest: ")
 print("Number of Cores: " + str(fastNodes))

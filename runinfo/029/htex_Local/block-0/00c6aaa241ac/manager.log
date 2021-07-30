@@ -458,3 +458,39 @@
 2021-07-29 20:15:51.680 parsl:421 Rank:0 [CRITICAL]  [MAIN] Received kill event, terminating worker processes
 2021-07-29 20:15:51.699 parsl:332 Rank:0 [CRITICAL]  [RESULT_PUSH_THREAD] Exiting
 2021-07-29 20:15:51.699 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for push_results on thread Result-Pusher
+2021-07-29 20:41:25.935 parsl:376 Rank:0 [CRITICAL]  [WORKER_WATCHDOG_THREAD] Exiting
+2021-07-29 20:41:25.939 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for worker_watchdog on thread worker-watchdog
+2021-07-29 20:41:25.940 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-0' pid=6273 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.946 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-0' pid=6273 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.946 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-1' pid=6276 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.950 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-1' pid=6276 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.950 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-2' pid=6279 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.954 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-2' pid=6279 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.954 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-3' pid=6284 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.957 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-3' pid=6284 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.958 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-4' pid=6286 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.961 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-4' pid=6286 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.961 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-5' pid=6288 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.964 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-5' pid=6288 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.964 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-6' pid=6290 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.967 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-6' pid=6290 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.967 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-7' pid=6293 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.970 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-7' pid=6293 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.971 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-8' pid=6298 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.974 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-8' pid=6298 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.974 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-9' pid=6301 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.977 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-9' pid=6301 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.978 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-10' pid=6316 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.981 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-10' pid=6316 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.981 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-11' pid=6326 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.985 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-11' pid=6326 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.985 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-12' pid=6327 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.989 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-12' pid=6327 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.989 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-13' pid=6330 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.993 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-13' pid=6330 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.993 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-14' pid=6331 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:25.996 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-14' pid=6331 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:25.996 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-15' pid=6333 parent=6231 started>: is_alive()=True
+2021-07-29 20:41:26.000 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-15' pid=6333 parent=6231 stopped exitcode=-SIGTERM> joined successfully
+2021-07-29 20:41:26.002 parsl:437 Rank:0 [INFO]  process_worker_pool ran for 1601.1268401145935 seconds
+2021-07-29 20:41:26.002 parsl:664 Rank:0 [INFO]  Process worker pool exiting normally
