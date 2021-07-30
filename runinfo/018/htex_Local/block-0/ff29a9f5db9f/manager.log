@@ -1,0 +1,87 @@
+2021-07-22 15:06:17.077 parsl:626 Rank:0 [INFO]  Python version: 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ]
+2021-07-22 15:06:17.077 parsl:627 Rank:0 [INFO]  Debug logging: True
+2021-07-22 15:06:17.077 parsl:628 Rank:0 [INFO]  Log dir: /Users/ananthhariharan/Documents/Code/GitHub/Parsl-Project/runinfo/018/htex_Local
+2021-07-22 15:06:17.077 parsl:629 Rank:0 [INFO]  Manager ID: ff29a9f5db9f
+2021-07-22 15:06:17.077 parsl:630 Rank:0 [INFO]  Block ID: 0
+2021-07-22 15:06:17.077 parsl:631 Rank:0 [INFO]  cores_per_worker: 1
+2021-07-22 15:06:17.077 parsl:632 Rank:0 [INFO]  mem_per_worker: None
+2021-07-22 15:06:17.077 parsl:633 Rank:0 [INFO]  task_port: 54574
+2021-07-22 15:06:17.077 parsl:634 Rank:0 [INFO]  result_port: 54977
+2021-07-22 15:06:17.077 parsl:635 Rank:0 [INFO]  addresses: 192.168.4.29,Ananths-Macbook.local,69.174.173.76
+2021-07-22 15:06:17.077 parsl:636 Rank:0 [INFO]  max_workers: 3
+2021-07-22 15:06:17.078 parsl:637 Rank:0 [INFO]  poll_period: 100
+2021-07-22 15:06:17.078 parsl:638 Rank:0 [INFO]  address_probe_timeout: 30
+2021-07-22 15:06:17.078 parsl:639 Rank:0 [INFO]  Prefetch capacity: 0
+2021-07-22 15:06:17.078 parsl:640 Rank:0 [INFO]  Heartbeat threshold: 5
+2021-07-22 15:06:17.078 parsl:641 Rank:0 [INFO]  Heartbeat period: 2
+2021-07-22 15:06:17.078 parsl:642 Rank:0 [INFO]  CPU affinity: none
+2021-07-22 15:06:17.078 parsl:118 Rank:0 [INFO]  Manager started
+2021-07-22 15:06:17.078 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://192.168.4.29:54574
+2021-07-22 15:06:17.079 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://Ananths-Macbook.local:54574
+2021-07-22 15:06:17.079 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://69.174.173.76:54574
+2021-07-22 15:06:17.080 parsl.executors.high_throughput.probe:47 Rank:0 [INFO]  Connected to interchange on 192.168.4.29
+2021-07-22 15:06:17.286 parsl:125 Rank:0 [INFO]  Connection to Interchange successful on 192.168.4.29
+2021-07-22 15:06:17.286 parsl:128 Rank:0 [INFO]  Task url : tcp://192.168.4.29:54574
+2021-07-22 15:06:17.286 parsl:129 Rank:0 [INFO]  Result url : tcp://192.168.4.29:54977
+2021-07-22 15:06:17.286 parsl:147 Rank:0 [INFO]  Manager connected
+2021-07-22 15:06:17.287 parsl:173 Rank:0 [INFO]  Manager will spawn 3 workers
+2021-07-22 15:06:17.338 parsl:401 Rank:0 [DEBUG]  Manager synced with workers
+2021-07-22 15:06:17.341 parsl:226 Rank:0 [INFO]  [TASK PULL THREAD] starting
+2021-07-22 15:06:17.342 parsl:232 Rank:0 [DEBUG]  Sending registration message: b'{"parsl_v": "1.1.0", "python_v": "3.8.8", "worker_count": 3, "uid": "ff29a9f5db9f", "block_id": "0", "prefetch_capacity": 0, "max_capacity": 3, "os": "Darwin", "hostname": "Ananths-Macbook.local", "dir": "/Users/ananthhariharan/Documents/Code/GitHub/Parsl-Project", "cpu_count": 2, "total_memory": 8589934592}'
+2021-07-22 15:06:17.344 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:0, pending tasks:0
+2021-07-22 15:06:17.345 parsl:307 Rank:0 [DEBUG]  [RESULT_PUSH_THREAD] Starting thread
+2021-07-22 15:06:17.346 parsl:310 Rank:0 [DEBUG]  [RESULT_PUSH_THREAD] push poll period: 0.1
+2021-07-22 15:06:17.348 parsl:344 Rank:0 [DEBUG]  [WORKER_WATCHDOG_THREAD] Starting thread
+2021-07-22 15:06:17.350 parsl:416 Rank:0 [INFO]  Loop start
+2021-07-22 15:06:17.450 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:17.451 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:17.451 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.455 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [1] of 1
+2021-07-22 15:06:17.456 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-22 15:06:17.456 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.457 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:17.457 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:17.458 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.470 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-22 15:06:17.663 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:17.663 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:17.664 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.668 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [2, 3] of 3
+2021-07-22 15:06:17.669 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-22 15:06:17.669 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.671 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:17.671 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:17.671 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.679 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-22 15:06:17.679 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-22 15:06:17.877 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:17.877 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:17.877 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.880 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [4] of 4
+2021-07-22 15:06:17.880 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-22 15:06:17.880 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.882 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:17.882 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:17.883 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:17.894 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-22 15:06:18.096 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:18.096 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:18.097 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:18.100 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [5] of 5
+2021-07-22 15:06:18.100 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-22 15:06:18.100 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:18.101 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:18.101 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:18.101 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:18.104 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-22 15:06:18.306 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:18.306 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:18.307 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:18.314 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [6] of 6
+2021-07-22 15:06:18.314 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-22 15:06:18.315 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:18.316 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-22 15:06:18.316 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-22 15:06:18.316 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-22 15:06:18.320 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread

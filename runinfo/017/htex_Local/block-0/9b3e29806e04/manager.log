@@ -1,0 +1,408 @@
+2021-07-19 17:06:18.431 parsl:626 Rank:0 [INFO]  Python version: 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ]
+2021-07-19 17:06:18.431 parsl:627 Rank:0 [INFO]  Debug logging: True
+2021-07-19 17:06:18.431 parsl:628 Rank:0 [INFO]  Log dir: /Users/ananthhariharan/Documents/Code/GitHub/Parsl-Project/runinfo/017/htex_Local
+2021-07-19 17:06:18.431 parsl:629 Rank:0 [INFO]  Manager ID: 9b3e29806e04
+2021-07-19 17:06:18.431 parsl:630 Rank:0 [INFO]  Block ID: 0
+2021-07-19 17:06:18.431 parsl:631 Rank:0 [INFO]  cores_per_worker: 1
+2021-07-19 17:06:18.431 parsl:632 Rank:0 [INFO]  mem_per_worker: None
+2021-07-19 17:06:18.431 parsl:633 Rank:0 [INFO]  task_port: 54996
+2021-07-19 17:06:18.431 parsl:634 Rank:0 [INFO]  result_port: 54441
+2021-07-19 17:06:18.431 parsl:635 Rank:0 [INFO]  addresses: 69.174.173.76,192.168.4.29,Ananths-Macbook.local
+2021-07-19 17:06:18.432 parsl:636 Rank:0 [INFO]  max_workers: 3
+2021-07-19 17:06:18.432 parsl:637 Rank:0 [INFO]  poll_period: 100
+2021-07-19 17:06:18.432 parsl:638 Rank:0 [INFO]  address_probe_timeout: 30
+2021-07-19 17:06:18.432 parsl:639 Rank:0 [INFO]  Prefetch capacity: 0
+2021-07-19 17:06:18.432 parsl:640 Rank:0 [INFO]  Heartbeat threshold: 5
+2021-07-19 17:06:18.432 parsl:641 Rank:0 [INFO]  Heartbeat period: 2
+2021-07-19 17:06:18.432 parsl:642 Rank:0 [INFO]  CPU affinity: none
+2021-07-19 17:06:18.432 parsl:118 Rank:0 [INFO]  Manager started
+2021-07-19 17:06:18.432 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://69.174.173.76:54996
+2021-07-19 17:06:18.433 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://192.168.4.29:54996
+2021-07-19 17:06:18.433 parsl.executors.high_throughput.probe:34 Rank:0 [DEBUG]  Trying to connect back on tcp://Ananths-Macbook.local:54996
+2021-07-19 17:06:18.447 parsl.executors.high_throughput.probe:47 Rank:0 [INFO]  Connected to interchange on 192.168.4.29
+2021-07-19 17:06:18.564 parsl:125 Rank:0 [INFO]  Connection to Interchange successful on 192.168.4.29
+2021-07-19 17:06:18.565 parsl:128 Rank:0 [INFO]  Task url : tcp://192.168.4.29:54996
+2021-07-19 17:06:18.565 parsl:129 Rank:0 [INFO]  Result url : tcp://192.168.4.29:54441
+2021-07-19 17:06:18.565 parsl:147 Rank:0 [INFO]  Manager connected
+2021-07-19 17:06:18.566 parsl:173 Rank:0 [INFO]  Manager will spawn 3 workers
+2021-07-19 17:06:18.619 parsl:401 Rank:0 [DEBUG]  Manager synced with workers
+2021-07-19 17:06:18.622 parsl:226 Rank:0 [INFO]  [TASK PULL THREAD] starting
+2021-07-19 17:06:18.623 parsl:307 Rank:0 [DEBUG]  [RESULT_PUSH_THREAD] Starting thread
+2021-07-19 17:06:18.625 parsl:310 Rank:0 [DEBUG]  [RESULT_PUSH_THREAD] push poll period: 0.1
+2021-07-19 17:06:18.624 parsl:232 Rank:0 [DEBUG]  Sending registration message: b'{"parsl_v": "1.1.0", "python_v": "3.8.8", "worker_count": 3, "uid": "9b3e29806e04", "block_id": "0", "prefetch_capacity": 0, "max_capacity": 3, "os": "Darwin", "hostname": "Ananths-Macbook.local", "dir": "/Users/ananthhariharan/Documents/Code/GitHub/Parsl-Project", "cpu_count": 2, "total_memory": 8589934592}'
+2021-07-19 17:06:18.626 parsl:344 Rank:0 [DEBUG]  [WORKER_WATCHDOG_THREAD] Starting thread
+2021-07-19 17:06:18.627 parsl:416 Rank:0 [INFO]  Loop start
+2021-07-19 17:06:18.627 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:1, pending tasks:0
+2021-07-19 17:06:18.628 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 1
+2021-07-19 17:06:18.637 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [1] of 1
+2021-07-19 17:06:18.637 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:18.638 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:18.638 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:18.638 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:18.639 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:18.644 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:18.842 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:18.842 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:18.842 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:18.847 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [2, 3] of 3
+2021-07-19 17:06:18.847 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-19 17:06:18.848 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:18.849 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:18.849 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:18.849 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:18.859 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:18.859 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:19.054 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.055 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.055 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.062 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [4] of 4
+2021-07-19 17:06:19.062 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:19.063 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.063 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.063 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.063 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.067 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:19.179 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [5] of 5
+2021-07-19 17:06:19.180 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:19.180 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.181 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.181 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.181 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.185 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:19.382 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.383 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.383 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.387 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [6] of 6
+2021-07-19 17:06:19.387 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:19.388 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.389 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.389 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.389 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.393 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:19.504 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [7, 8] of 8
+2021-07-19 17:06:19.505 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-19 17:06:19.505 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.506 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.506 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.507 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.512 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:19.512 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:19.707 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.708 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.708 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.712 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [9] of 9
+2021-07-19 17:06:19.712 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:19.712 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.712 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.713 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.713 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.715 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:19.918 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.918 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.918 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.922 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [10] of 10
+2021-07-19 17:06:19.922 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:19.922 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.923 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:19.923 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:19.923 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:19.926 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:20.125 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.126 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.126 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.129 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [11] of 11
+2021-07-19 17:06:20.129 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:20.129 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.130 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.130 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.130 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.132 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:20.335 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.336 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.336 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.340 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [12, 13] of 13
+2021-07-19 17:06:20.340 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-19 17:06:20.341 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.341 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.342 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.342 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.347 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:20.348 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:20.548 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.548 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.548 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.554 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [14] of 14
+2021-07-19 17:06:20.555 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:20.555 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.556 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.556 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.556 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.561 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:20.758 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.758 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.759 parsl:214 Rank:0 [DEBUG]  Return from heartbeat: None
+2021-07-19 17:06:20.759 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.761 parsl:270 Rank:0 [DEBUG]  Got heartbeat from interchange
+2021-07-19 17:06:20.761 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.761 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.762 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.762 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.762 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.763 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [15] of 15
+2021-07-19 17:06:20.763 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:20.763 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.764 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.764 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.764 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.767 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:20.883 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [16] of 16
+2021-07-19 17:06:20.884 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:20.884 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.885 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:20.885 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:20.885 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:20.889 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:21.089 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.089 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.089 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.093 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [17, 18] of 18
+2021-07-19 17:06:21.094 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-19 17:06:21.094 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.095 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.095 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.095 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.100 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:21.100 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:21.301 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.301 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.301 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.306 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [19] of 19
+2021-07-19 17:06:21.306 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:21.306 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.307 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.307 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.307 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.312 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:21.508 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.508 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.508 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.512 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [20] of 20
+2021-07-19 17:06:21.512 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:21.513 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.513 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.513 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.513 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.516 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:21.628 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [21] of 21
+2021-07-19 17:06:21.628 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:21.628 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.629 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.629 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.629 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.632 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:21.830 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.830 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.830 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.834 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [22, 23] of 23
+2021-07-19 17:06:21.835 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-19 17:06:21.835 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.835 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:21.835 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:21.836 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:21.839 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:21.839 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:22.039 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.039 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.039 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.044 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [24] of 24
+2021-07-19 17:06:22.044 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:22.045 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.045 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.045 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.046 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.050 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:22.251 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.251 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.251 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.256 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [25] of 25
+2021-07-19 17:06:22.256 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:22.256 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.257 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.257 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.257 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.262 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:22.459 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.459 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.459 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.464 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [26] of 26
+2021-07-19 17:06:22.464 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:22.464 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.465 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.465 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.465 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.468 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:22.579 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [27, 28] of 28
+2021-07-19 17:06:22.579 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-19 17:06:22.579 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.580 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.580 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.581 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.585 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:22.586 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:22.786 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.786 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.786 parsl:214 Rank:0 [DEBUG]  Return from heartbeat: None
+2021-07-19 17:06:22.787 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.789 parsl:270 Rank:0 [DEBUG]  Got heartbeat from interchange
+2021-07-19 17:06:22.790 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.790 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.790 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.790 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.790 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.791 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [29] of 29
+2021-07-19 17:06:22.792 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:22.792 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.793 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.793 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.793 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:22.797 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:22.995 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:22.996 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:22.996 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.001 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [30] of 30
+2021-07-19 17:06:23.001 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:23.002 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.002 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.002 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.002 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.007 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:23.207 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.207 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.208 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.213 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [31] of 31
+2021-07-19 17:06:23.214 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:23.214 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.214 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.215 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.215 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.218 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:23.420 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.420 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.420 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.425 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [32, 33] of 33
+2021-07-19 17:06:23.425 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-19 17:06:23.425 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.426 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.426 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.426 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.431 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:23.431 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:23.629 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.629 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.629 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.634 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [34] of 34
+2021-07-19 17:06:23.634 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:23.634 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.635 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.635 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.635 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.639 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:23.841 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.841 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.841 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.845 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [35] of 35
+2021-07-19 17:06:23.846 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:23.846 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.847 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:23.847 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:23.847 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:23.850 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:24.051 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.051 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.051 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.057 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [36] of 36
+2021-07-19 17:06:24.057 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:24.057 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.058 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.058 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.059 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.065 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:24.263 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.263 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.263 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.267 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [37, 38] of 38
+2021-07-19 17:06:24.267 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:2
+2021-07-19 17:06:24.268 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.268 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.268 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.268 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.271 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:24.271 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:24.472 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.472 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.473 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.475 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [39] of 39
+2021-07-19 17:06:24.475 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:24.475 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.476 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.476 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.476 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.478 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:24.679 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.679 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.679 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.685 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [40] of 40
+2021-07-19 17:06:24.685 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:24.685 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.686 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.686 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.686 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.690 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:24.889 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.889 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.890 parsl:214 Rank:0 [DEBUG]  Return from heartbeat: None
+2021-07-19 17:06:24.890 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.893 parsl:270 Rank:0 [DEBUG]  Got heartbeat from interchange
+2021-07-19 17:06:24.893 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.893 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.893 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.894 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.894 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.895 parsl:274 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Got tasks: [41] of 41
+2021-07-19 17:06:24.896 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:1
+2021-07-19 17:06:24.896 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.897 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:24.897 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:24.897 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:24.902 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for send_first_message on thread MainThread
+2021-07-19 17:06:25.101 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:25.101 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:25.101 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:25.505 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:25.505 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:25.505 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:26.308 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:26.308 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:26.308 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:27.910 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:27.910 parsl:244 Rank:0 [DEBUG]  [TASK_PULL_THREAD] ready workers:3, pending tasks:0
+2021-07-19 17:06:27.910 parsl:214 Rank:0 [DEBUG]  Return from heartbeat: None
+2021-07-19 17:06:27.910 parsl:252 Rank:0 [DEBUG]  [TASK_PULL_THREAD] Requesting tasks: 3
+2021-07-19 17:06:29.913 parsl:283 Rank:0 [DEBUG]  [TASK_PULL_THREAD] No incoming tasks
+2021-07-19 17:06:29.913 parsl:292 Rank:0 [CRITICAL]  [TASK_PULL_THREAD] Missing contact with interchange beyond heartbeat_threshold
+2021-07-19 17:06:29.913 parsl:294 Rank:0 [CRITICAL]  [TASK_PULL_THREAD] Exiting
+2021-07-19 17:06:29.913 parsl:421 Rank:0 [CRITICAL]  [MAIN] Received kill event, terminating worker processes
+2021-07-19 17:06:29.914 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for pull_tasks on thread Task-Puller
+2021-07-19 17:06:29.981 parsl:332 Rank:0 [CRITICAL]  [RESULT_PUSH_THREAD] Exiting
+2021-07-19 17:06:29.981 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for push_results on thread Result-Pusher
+2021-07-19 17:11:18.602 parsl:376 Rank:0 [CRITICAL]  [WORKER_WATCHDOG_THREAD] Exiting
+2021-07-19 17:11:18.602 parsl.process_loggers:28 Rank:0 [DEBUG]  Normal ending for worker_watchdog on thread worker-watchdog
+2021-07-19 17:11:18.602 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-0' pid=5205 parent=5199 started>: is_alive()=True
+2021-07-19 17:11:18.606 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-0' pid=5205 parent=5199 stopped exitcode=-SIGTERM> joined successfully
+2021-07-19 17:11:18.606 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-1' pid=5206 parent=5199 started>: is_alive()=True
+2021-07-19 17:11:18.609 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-1' pid=5206 parent=5199 stopped exitcode=-SIGTERM> joined successfully
+2021-07-19 17:11:18.610 parsl:428 Rank:0 [CRITICAL]  Terminating worker <ForkProcess name='HTEX-Worker-2' pid=5207 parent=5199 started>: is_alive()=True
+2021-07-19 17:11:18.613 parsl:431 Rank:0 [DEBUG]  Worker <ForkProcess name='HTEX-Worker-2' pid=5207 parent=5199 stopped exitcode=-SIGTERM> joined successfully
+2021-07-19 17:11:18.614 parsl:437 Rank:0 [INFO]  process_worker_pool ran for 300.0268921852112 seconds
+2021-07-19 17:11:18.615 parsl:664 Rank:0 [INFO]  Process worker pool exiting normally
