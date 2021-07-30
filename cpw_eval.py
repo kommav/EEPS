@@ -151,8 +151,8 @@ fastNodes = cores / fastCPW
 fastCost = minTime * fastNodes
 totalTimes.remove(minTime)
 secondTime = min(totalTimes)
-pctCost = round(secondCost / minCost, 2) - 1 * 100
-pctTime = round(secondTime / minTime, 2) - 1 * 100
+pctCost = round(((secondCost / minCost, 2) - 1) * 100, 2)
+pctTime = round(((secondTime / minTime, 2) - 1) * 100, 2)
 
 round(secondCost, 2)
 round(secondCost / secondNodes, 2)
