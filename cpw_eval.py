@@ -130,7 +130,7 @@ for i in range(len(cpw)):
     print (totalCost)
     tStart = tEnd
     print()
-    print("Cores per Worker: " + str(cores_per_worker))
+    print("Cores per worker: " + str(cores_per_worker))
     print("Total: " + str(total))
     print()
 
@@ -159,18 +159,18 @@ round(secondCost / secondNodes, 2)
 
 
 print("Cheapest: ")
-print("Optimal # of Cores: " + str(nodesNecessary))
+print("Optimal number of cores: " + str(nodesNecessary))
 print("Core seconds: " + str(round(minCost, 2)))
 print("Seconds: " + str(round(minCost / nodesNecessary, 2)))
 print(" ")
 print("Second Cheapest: ")
-print("# of Cores: " + str(secondNodes))
+print("Number of Cores: " + str(secondNodes))
 print("Core seconds: " + str(round(secondCost, 2)))
 print("Seconds: " + str(round(secondCost / secondNodes, 2)))
 print(str(round(secondCost-minCost, 2)) + " core seconds off optimal value")
 print(" ")
 print("Fastest: ")
-print("# of Cores: " + str(fastNodes))
+print("Number of Cores: " + str(fastNodes))
 print("Core seconds: " + str(round(fastCost, 2)))
 print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
@@ -180,6 +180,6 @@ print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 Goal: Least amount of nodes necessary
 Translation: Least amount of workers
 workers = C/ (C/W)
-Decrement forloop from top to bottom, then we can actually return cores of system / C/W
+Decrement for loop from top to bottom, then we can actually return cores of system / C/W
 C/W we have to make it fluid (the list)
 '''
