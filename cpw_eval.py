@@ -24,7 +24,7 @@ import time
 # Initialisation of functions and configurations
 
 cpw = []
-#Scanner for Cores of System
+# Scanner for Cores of System
 
 cores = multiprocessing.cpu_count()
 
