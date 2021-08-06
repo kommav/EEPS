@@ -179,10 +179,13 @@ def search(arr, key, start, end):
       else:
          return start
    mid = (start + end)//2
+
    if arr[mid] < key:
       return search(arr, key, mid, end)
+
    elif arr[mid] > key:
       return search(arr, key, start, mid)
+
    else:
       return mid
 
