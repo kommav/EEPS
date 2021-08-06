@@ -1,4 +1,3 @@
-# TEST3
 # Import Statements
 import parsl
 from parsl import python_app
@@ -70,6 +69,7 @@ config = fresh_config()
 
 parsl.load(config)
 
+
 # Applications
 
 @python_app
@@ -117,6 +117,7 @@ total = 0
 totalTimes = []
 totalCost = []
 
+
 # Printing statistics for each runtime based on cores per worker
 
 tStart = time.perf_counter()
@@ -132,6 +133,7 @@ for i in range(len(cpw)):
     print("Cores per worker: " + str(cores_per_worker))
     print("Total: " + str(total))
     print()
+
 
 # Finding and printing most efficient use of cores per worker
 
@@ -158,6 +160,33 @@ pctTime = ((secondTime / minTime) - 1) * 100
 round(secondCost, 2)
 round(secondCost / secondNodes, 2)
 
+
+# Sorting lists with a binary search
+
+def sort(arr):
+   for i in range(1, len(arr)):
+      temp = arr[i]
+      pos = binary_search(arr, temp, 0, i) + 1
+      for k in range(i, pos, -1):
+         arr[k] = arr[k - 1]
+      arr[pos] = temp
+
+def search(arr, key, start, end):
+   if end - start <= 1:
+      if key < arr[start]:
+         return start - 1
+      else:
+         return start
+   mid = (start + end)//2
+   if arr[mid] < key:
+      return binary_search(arr, key, mid, end)
+   elif arr[mid] > key:
+      return binary_search(arr, key, start, mid)
+   else:
+      return mid
+
+
+# Output Statements
 
 print("Cheapest: ")
 print("Optimal number of cores: " + str(nodesNecessary))
