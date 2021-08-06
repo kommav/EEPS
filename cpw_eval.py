@@ -168,8 +168,8 @@ def sort(arr):
    for i in range(1, len(arr)):
       temp = arr[i]
       pos = search(arr, temp, 0, i) + 1
-      for k in range(i, pos, -1):
-         arr[k] = arr[k - 1]
+      for j in range(i, pos, -1):
+         arr[j] = arr[j - 1]
       arr[pos] = temp
 
 def search(arr, key, start, end):
@@ -208,17 +208,15 @@ print("Core seconds: " + str(round(fastCost, 2)))
 print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 print("Percentage faster: " + str(round(pctTime, 2)) + "%")
-print()
-print()
-print()
+
 
 # Sort Test
 
 print()
 print("Initial Times: " + totalTimes)
 sort(totalTimes)
-print("Sorted: " + totalTimes)
-print()
+print("Sorted Times:  " + totalTimes)
+
 
 '''
 Goal: Least amount of nodes necessary
