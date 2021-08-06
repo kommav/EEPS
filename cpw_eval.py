@@ -21,7 +21,9 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 
 import time
 
+
 # Scanner for Cores of System
+
 cpw = []
 
 cores = multiprocessing.cpu_count()
@@ -208,7 +210,9 @@ print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 print("Percentage faster: " + str(round(pctTime, 2)) + "%")
 print()
 
+
 # Testing Sort
+
 print(totalTimes)
 sort(totalTimes)
 print(totalTimes)
