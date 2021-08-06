@@ -161,12 +161,12 @@ round(secondCost, 2)
 round(secondCost / secondNodes, 2)
 
 
-# Sorting lists with a binary search
+# Searching and Sorting Lists
 
 def sort(arr):
    for i in range(1, len(arr)):
       temp = arr[i]
-      pos = binary_search(arr, temp, 0, i) + 1
+      pos = search(arr, temp, 0, i) + 1
       for k in range(i, pos, -1):
          arr[k] = arr[k - 1]
       arr[pos] = temp
@@ -179,9 +179,9 @@ def search(arr, key, start, end):
          return start
    mid = (start + end)//2
    if arr[mid] < key:
-      return binary_search(arr, key, mid, end)
+      return search(arr, key, mid, end)
    elif arr[mid] > key:
-      return binary_search(arr, key, start, mid)
+      return search(arr, key, start, mid)
    else:
       return mid
 
@@ -207,6 +207,11 @@ print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 print("Percentage faster: " + str(round(pctTime, 2)) + "%")
 print()
+
+# Testing Sort
+print(totalTimes)
+sort(totalTimes)
+print(totalTimes)
 
 '''
 Goal: Least amount of nodes necessary
