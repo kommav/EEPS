@@ -213,9 +213,9 @@ print()
 
 # Testing Sort
 
-print(totalTimes)
+print("Initial" + totalTimes)
 sort(totalTimes)
-print(totalTimes)
+print("Sorted" totalTimes)
 
 '''
 Goal: Least amount of nodes necessary
