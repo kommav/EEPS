@@ -208,9 +208,11 @@ print("Core seconds: " + str(round(fastCost, 2)))
 print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 print("Percentage faster: " + str(round(pctTime, 2)) + "%")
+print()
+print()
+print()
 
-
-# Testing Sort
+# Sort Test
 
 print()
 print("Initial Times: " + totalTimes)
