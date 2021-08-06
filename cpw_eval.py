@@ -213,7 +213,7 @@ print()
 
 # Testing Sort
 
-print("Initial:" + totalTimes)
+print("Initial: " + totalTimes)
 sort(totalTimes)
 print("Sorted:" + totalTimes)
 
