@@ -216,7 +216,7 @@ print("Percentage faster: " + str(round(pctTime, 2)) + "%")
 # Sort Test
 
 print()
-print("Initial Times: " + totalTimes)
+print("Initial Times: " + str(totalTimes))
 sort(totalTimes)
 print("Sorted Times:  " + totalTimes)
 
