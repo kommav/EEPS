@@ -220,7 +220,7 @@ print(totalTimes)
 '''
 Goal: Least amount of nodes necessary
 Translation: Least amount of workers
-workers = C/ (C/W)
+Workers = C/(C/W)
 Decrement for loop from top to bottom, then we can actually return cores of system / C/W
 C/W we have to make it fluid (the list)
 '''
