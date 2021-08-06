@@ -210,6 +210,7 @@ print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 print("Percentage faster: " + str(round(pctTime, 2)) + "%")
 print()
 
+
 # Testing Sort
 
 print(totalTimes)
