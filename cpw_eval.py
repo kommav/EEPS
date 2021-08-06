@@ -218,7 +218,7 @@ print("Percentage faster: " + str(round(pctTime, 2)) + "%")
 print()
 print("Initial Times: " + str(totalTimes))
 sort(totalTimes)
-print("Sorted Times:  " + totalTimes)
+print("Sorted Times:  " + str(totalTimes))
 
 
 '''
