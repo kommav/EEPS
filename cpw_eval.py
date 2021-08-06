@@ -139,7 +139,6 @@ for i in range(len(cpw)):
 
 # Finding and printing most efficient use of cores per worker
 
-print()
 minCost = min(totalCost)
 minIndex = totalCost.index(minCost)
 optimalCPW = cpw[minIndex]
@@ -190,6 +189,7 @@ def search(arr, key, start, end):
 
 # Output Statements
 
+print()
 print("Cheapest: ")
 print("Optimal number of cores: " + str(nodesNecessary))
 print("Core seconds: " + str(round(minCost, 2)))
@@ -208,14 +208,15 @@ print("Core seconds: " + str(round(fastCost, 2)))
 print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 print("Percentage faster: " + str(round(pctTime, 2)) + "%")
-print()
 
 
 # Testing Sort
 
-print("Initial: " + totalTimes)
+print()
+print("Initial Times: " + totalTimes)
 sort(totalTimes)
-print("Sorted:  " + totalTimes)
+print("Sorted: " + totalTimes)
+print()
 
 '''
 Goal: Least amount of nodes necessary
