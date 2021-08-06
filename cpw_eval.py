@@ -215,7 +215,7 @@ print()
 
 print("Initial:" + totalTimes)
 sort(totalTimes)
-print("Sorted" + totalTimes)
+print("Sorted:" + totalTimes)
 
 '''
 Goal: Least amount of nodes necessary
