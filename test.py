@@ -262,18 +262,7 @@ t0 = time.perf_counter()
 
 '''
 
-total = app_Z(app_D(app_A(),app_G(),app_M()), app_E(app_B(3),app_C(5,18),app_D(app_A(), 3, app_B()),app_A()),
-              app_F(9,app_M(),app_E(19, app_N(6),24,34),45,app_B(8)),
-              app_J(app_H(app_G()),app_D(5,2,9),5), app_K(52,app_A(),13,54),
-              app_L(app_N(13),22,app_H(11),27,18), app_P(50,16,app_M()),
-              app_Q(14,23,20,45), app_R(48,20,30,app_O(21,38),23), app_S(app_I(47,7),29,48,3,5,24),
-              app_T(4,11,46,36,48,38,6), app_U(25,29,36,12,7,14,10,50),
-              app_V(44,30,35,10,app_Q(34,8,12,49),7,15,21,47), app_W(49,31,app_I(9,7),20,32,29,23,15,27,1),
-              app_X(41,20,app_B(44),21,48,45,41,20,app_C(24,33),7,36),
-              app_Y(0,31,5,app_N(40),46,40,22,1,16,32,12,42),
-              app_A(), app_B(28), app_C(45, app_B(app_P(42,37,app_M()))), app_H(6)).result()
-
-
+total = app_Z(app_D(app_A(),app_G(),app_M()), app_E(app_B(3),app_C(5,18),app_D(app_A(), 3, app_B()),app_A()), app_F(9,app_M(),app_E(19, app_N(6),24,34),45,app_B(8)),app_J(app_H(app_G()),app_D(5,2,9),5), app_K(52,app_A(),13,54), app_L(app_N(13),22,app_H(11),27,18), app_P(50,16,app_M()), app_Q(14,23,20,45), app_R(48,20,30,app_O(21,38),23), app_S(app_I(47,7),29,48,3,5,24), app_T(4,11,46,36,48,38,6), app_U(25,29,36,12,7,14,10,50), app_V(44,30,35,10,app_Q(34,8,12,49),7,15,21,47), app_W(49,31,app_I(9,7),20,32,29,23,15,27,1), app_X(41,20,app_B(44),21,48,45,41,20,app_C(24,33),7,36), app_Y(0,31,5,app_N(40),46,40,22,1,16,32,12,42), app_A(), app_B(28), app_C(45, app_B(app_P(42,37,app_M()))), app_H(6)).result()
 
 tFinal = time.perf_counter()
 print()
