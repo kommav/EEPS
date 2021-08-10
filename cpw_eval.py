@@ -161,35 +161,6 @@ pctTime = ((secondTime / minTime) - 1) * 100
 round(secondCost, 2)
 round(secondCost / secondNodes, 2)
 
-
-# Searching and Sorting Lists
-
-def sort(arr):
-   for i in range(1, len(arr)):
-      temp = arr[i]
-      pos = search(arr, temp, 0, i) + 1
-      for j in range(i, pos, -1):
-         arr[j] = arr[j - 1]
-      arr[pos] = temp
-
-def search(arr, key, start, end):
-   if end - start <= 1:
-      if key < arr[start]:
-         return start - 1
-      else:
-         return start
-   mid = (start + end)//2
-
-   if arr[mid] < key:
-      return search(arr, key, mid, end)
-
-   elif arr[mid] > key:
-      return search(arr, key, start, mid)
-
-   else:
-      return mid
-
-
 # Output Statements
 
 print()
@@ -212,13 +183,6 @@ print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 print("Percentage faster: " + str(round(pctTime, 2)) + "%")
 
-
-# Sort Test
-
-print()
-print("Initial Times: " + str(totalTimes))
-sort(totalTimes)
-print("Sorted Times:  " + str(totalTimes))
 
 
 '''
