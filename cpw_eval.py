@@ -124,6 +124,7 @@ totalCost = []
 
 for i in range(len(cpw)):
     cores_per_worker = cpw[i]
+    parsl.load(fresh_config(cores_per_worker))
     tStart = time.perf_counter()
     total = total + app_E(app_D(app_G(10), app_F(7), app_C(app_A(), app_B()))).result()
     tEnd = time.perf_counter()
