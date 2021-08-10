@@ -271,7 +271,7 @@ total = app_Z(app_D(app_A(),app_G(),app_M()), app_E(app_B(3),app_C(5,18),app_D(a
               app_V(44,30,35,10,app_Q(34,8,12,49),7,15,21,47), app_W(49,31,app_I(9,7),20,32,29,23,15,27,1),
               app_X(41,20,app_B(44),21,48,45,41,20,app_C(24,33),7,36),
               app_Y(0,31,5,app_N(40),46,40,22,1,16,32,12,42),
-              app_A(), app_B(28), app_C(45, app_B(app_P(42,37,app_M()))), app_B(9) + app_H(65)).result()
+              app_A(), app_B(28), app_C(45, app_B(app_P(42,37,app_M()))), app_H(6)).result()
 
 
 
