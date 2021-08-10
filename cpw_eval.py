@@ -67,11 +67,6 @@ def fresh_config(cpw_input):
         )
     )
 
-config = fresh_config(cpw[0])
-
-parsl.load(config)
-
-
 # Applications
 
 @python_app
