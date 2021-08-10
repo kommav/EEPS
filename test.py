@@ -238,7 +238,7 @@ total = 0
 
 t0 = time.perf_counter()
 
-total = app_E(app_D(app_G(10), app_F(7), app_C(app_A(), app_B()))).result()
+total = app_Z(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20).result()
 
 tFinal = time.perf_counter()
 print()
