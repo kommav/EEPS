@@ -1,11 +1,11 @@
-# Push Test
+# Import Statements
 import parsl
 from parsl import python_app
 from parsl.monitoring import MonitoringHub
 
+import multiprocessing
 
 import os
-import random
 
 from parsl.providers import LocalProvider
 from parsl.channels import LocalChannel
@@ -21,7 +21,17 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 
 import time
 
-t0 = time.perf_counter()
+
+# Scanner for Cores of System
+
+cpw = []
+
+cores = multiprocessing.cpu_count()
+
+multiprocessing.cpu_count()
+
+for j in range(1, cores+1):
+    cpw.append(cores / j)
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
@@ -33,7 +43,7 @@ def fresh_config():
                 working_dir=working_dir,
                 storage_access=[FTPInTaskStaging(), HTTPInTaskStaging(), NoOpFileStaging()],
                 worker_debug=True,
-                cores_per_worker = 2,
+                cores_per_worker = 0.25, # Varies based on list cpw
                 heartbeat_period=2,
                 heartbeat_threshold=5,
                 poll_period=100,
@@ -61,73 +71,54 @@ config = fresh_config()
 
 parsl.load(config)
 
+
+# Applications
+
 @python_app
 def app_A():
-    import time
-    print("A Started")
     time.sleep(2)
     a = 2 * 3 + 1
-#   tA = time.perf_counter()
     return a
 
 @python_app
 def app_B():
-    import time
-    print("B Started")
-    time.sleep(3)
+    time.sleep(4)
     b = 2 + 2 / 2
-#   tB = time.perf_counter()
     return b
+
 
 @python_app
 def app_C(x, y):
-    import time
-    print("C Started")
-    time.sleep(5)
-#   tC = time.perf_counter()
+    time.sleep(3)
     return x + y
+
 
 @python_app
 def app_D(x, y, z):
-    import time
-    print("D Started")
-    time.sleep(4)
-#   tD = time.perf_counter()
+    time.sleep(1)
     return x * y // z
+
 
 @python_app
 def app_E(x):
-    import time
-    print("E Started")
-    time.sleep(10)
-#   tE = time.perf_counter()
+    time.sleep(5)
     return x * x
 
 @python_app
-def app_F():
-    import time
-    print("F Started")
-    time.sleep(6)
-    import random
-    from random import randint
-    iterations = randint(0,10)
-#   return iterations
-#   tF = time.perf_counter()
-    return 1 #Test to reduce variability
+def app_F(x):
+    time.sleep(9)
+    return 2*x
+
+@python_app
+def app_G(x):
+    time.sleep(3)
+    return x/2
 
 total = 0
-loop = app_F().result()
-for x in range(loop):
-    total = total + app_E(app_D(10, 7, app_C(app_A(), app_B()))).result()
+
+total = app_E(app_D(app_G(10), app_F(7), app_C(app_A(), app_B()))).result()
+
 tFinal = time.perf_counter()
 print()
 print("Total: " + str(total))
 print("Total Runtime: " + str(tFinal-t0) + " seconds")
-'''
-print("Time to run A: " + str(tA-t0) + " seconds")
-print("Time to run B: " + str(tB-tA) + " seconds")
-print("Time to run C: " + str(tC-tB) + " seconds")
-print("Time to run D: " + str(tD-tC) + " seconds")
-print("Time to run E: " + str(tE-tD) + " seconds")
-print("Time to run F: " + str(tF-tE) + " seconds")
-'''
