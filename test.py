@@ -116,6 +116,8 @@ def app_G(x):
 
 total = 0
 
+t0 = time.perf_counter()
+
 total = app_E(app_D(app_G(10), app_F(7), app_C(app_A(), app_B()))).result()
 
 tFinal = time.perf_counter()
