@@ -229,10 +229,10 @@ def app_Y(a,b,c,d,e,f,g,h,i,j,k,l):
     return 18 * y / 2
 
 @python_app
-def app_Z(a,b,c,d,e,f,g,h,i,j,k,l,m):
+def app_Z(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t):
     time.sleep(6)
     z = (a + b) - c * d + e - f + (g - h) + i / j - (k + l)
-    return z * 3 / m + 1
+    return z * (n + r) / m + o + p - (q * t / s)
 
 total = 0
 
