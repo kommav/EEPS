@@ -129,8 +129,8 @@ for i in range(len(cpw)):
     tEnd = time.perf_counter()
     totalTimes.append(tEnd - tStart)
     totalCost.append((tEnd-tStart)*(cores/cores_per_worker))
-    print("Total Times: " + totalTimes)
-    print("Total Costs: " + totalCost)
+    print(totalTimes)
+    print(totalCost)
     tStart = tEnd
     print()
     print("Cores per worker: " + str(cores_per_worker))
