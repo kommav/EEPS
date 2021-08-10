@@ -35,7 +35,7 @@ for j in range(1, cores+1):
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
-def fresh_config():
+def fresh_config(cpw_input):
     return Config(
         executors=[
             HighThroughputExecutor(
@@ -43,7 +43,7 @@ def fresh_config():
                 working_dir=working_dir,
                 storage_access=[FTPInTaskStaging(), HTTPInTaskStaging(), NoOpFileStaging()],
                 worker_debug=True,
-                cores_per_worker = 0.25, # Varies based on list cpw
+                cores_per_worker = cpw_input,# Varies based on list cpw
                 heartbeat_period=2,
                 heartbeat_threshold=5,
                 poll_period=100,
@@ -136,7 +136,8 @@ for i in range(len(cpw)):
     print("Cores per worker: " + str(cores_per_worker))
     print("Total: " + str(total))
     print()
-
+    parsl.dfk().cleanup()
+    parsl.clear()
 
 # Finding and printing most efficient use of cores per worker
 
