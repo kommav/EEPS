@@ -51,7 +51,7 @@ def fresh_config(cpw_input):
                     channel=LocalChannel(),
                     init_blocks=0,
                     min_blocks=0,
-                    max_blocks=5,
+                    max_blocks=1,
                     launcher=SingleNodeLauncher(),
                 ),
             )
@@ -125,7 +125,9 @@ for i in range(len(cpw)):
     tEnd = time.perf_counter()
     totalTimes.append(tEnd - tStart)
     totalCost.append((tEnd-tStart)*(cores/cores_per_worker))
+    print("Total Times")
     print(totalTimes)
+    print("Total Costs")
     print(totalCost)
     print()
     print("Cores per worker: " + str(cores_per_worker))
