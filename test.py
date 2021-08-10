@@ -239,29 +239,30 @@ total = 0
 t0 = time.perf_counter()
 
 '''
-1 - 
-2 - 
-3 - 
-4 - 
-5 - 
-6 - 
-7 - 
-8 - 
-9 - 
-10 - 
-11 - 
-12 - 
-13 - 
-14 - 
-16 -
-17 - 
-18 - 
-19 - 
-20 -  
+
+1 - app_D(app_A(),app_G(),app_M())
+2 - app_E(a,a,a,a)
+3 - app_F(a,a,a,a,a)
+4 - app_J(a,a,a)
+5 - app_K(a,a,a,a)
+6 - app_L(a,a,a,a,a)
+7 - app_P(a,a,a)
+8 - app_Q(a,a,a,a)
+9 - app_R(a,a,a,a,a)
+10 - app_S(a,a,a,a,a,a)
+11 - app_T(a,a,a,a,a,a,a)
+12 - app_U(a,a,a,a,a,a,a,a)
+13 - app_V(a,a,a,a,a,a,a,a,a)
+14 - app_W(a,a,a,a,a,a,a,a,a,a)
+16 - app_X(a,a,a,a,a,a,a,a,a,a,a)
+17 - app_Y(a,a,a,a,a,a,a,a,a,a,a,a)
+18 - app_A()
+19 - app_B(a)
+20 - app_C(a,a)
 
 '''
 
-total = app_Z().result()
+total = app_Z(app_D(app_A(),app_G(),app_M()), ).result()
 
 
 
