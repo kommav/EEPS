@@ -188,12 +188,12 @@ def app_S(a,b,c,d,e,f):
 @python_app
 def app_T(a,b,c,d,e,f,g):
     time.sleep(3)
-    return x/2
+    return (b + c) / a - d * f + 2 * g - (7 - e)
 
 @python_app
 def app_U(a,b,c,d,e,f,g,h):
     time.sleep(6)
-    return x/2
+    return a + b - c * d / e + f - g * h
 
 @python_app
 def app_V(a,b,c,d,e,f,g,h,i):
