@@ -241,28 +241,30 @@ t0 = time.perf_counter()
 '''
 
 1 - app_D(app_A(),app_G(),app_M())
-2 - app_E(a,a,a,a)
-3 - app_F(a,a,a,a,a)
-4 - app_J(a,a,a)
-5 - app_K(a,a,a,a)
-6 - app_L(a,a,a,a,a)
-7 - app_P(a,a,a)
-8 - app_Q(a,a,a,a)
-9 - app_R(a,a,a,a,a)
-10 - app_S(a,a,a,a,a,a)
-11 - app_T(a,a,a,a,a,a,a)
-12 - app_U(a,a,a,a,a,a,a,a)
-13 - app_V(a,a,a,a,a,a,a,a,a)
-14 - app_W(a,a,a,a,a,a,a,a,a,a)
-16 - app_X(a,a,a,a,a,a,a,a,a,a,a)
-17 - app_Y(a,a,a,a,a,a,a,a,a,a,a,a)
+2 - app_E(app_B(3),app_C(5,18),app_D(app_A(), 3, app_B()),app_A())
+3 - app_F(9,app_M(),app_E(19, app_N(6),24,34),45,app_B(8))
+4 - app_J(app_H(app_G()),app_D(5,2,9),5)
+5 - app_K(52,app_A(),13,54)
+6 - app_L(app_N(13),22,app_H(11),27,18)
+7 - app_P(50,16,app_M())
+8 - app_Q(14,23,20,45)
+9 - app_R(48,20,30,app_O(21,38),23)
+10 - app_S(app_I(47,7),29,48,3,5,24)
+11 - app_T(4,11,46,36,48,38,6)
+12 - app_U(25,29,36,12,7,14,10,50)
+13 - app_V(44,30,35,10,app_Q(34,8,12,49),7,15,21,47)
+14 - app_W(49,31,app_I(9,7),20,32,29,23,15,27,1)
+16 - app_X(41,20,app_B(44),21,48,45,41,20,app_C(24,33),7,36)
+17 - app_Y(0,31,5,app_N(40),46,40,22,1,16,32,12,42)
 18 - app_A()
-19 - app_B(a)
-20 - app_C(a,a)
+19 - app_B(28)
+20 - app_C(45, app_B(app_P(42,37,app_M())))
 
 '''
 
-total = app_Z(app_D(app_A(),app_G(),app_M()), ).result()
+total = app_Z(app_D(app_A(),app_G(),app_M()), app_E(app_B(3),app_C(5,18),app_D(app_A(), 3, app_B()),app_A()),
+              app_F(9,app_M(),app_E(19, app_N(6),24,34),45,app_B(8)),
+              app_J(app_H(app_G()),app_D(5,2,9),5), 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1).result()
 
 
 
