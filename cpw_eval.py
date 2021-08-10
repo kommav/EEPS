@@ -122,16 +122,15 @@ totalCost = []
 
 # Printing statistics for each runtime based on cores per worker
 
-tStart = time.perf_counter()
 for i in range(len(cpw)):
     cores_per_worker = cpw[i]
+    tStart = time.perf_counter()
     total = total + app_E(app_D(app_G(10), app_F(7), app_C(app_A(), app_B()))).result()
     tEnd = time.perf_counter()
     totalTimes.append(tEnd - tStart)
     totalCost.append((tEnd-tStart)*(cores/cores_per_worker))
     print(totalTimes)
     print(totalCost)
-    tStart = tEnd
     print()
     print("Cores per worker: " + str(cores_per_worker))
     print("Total: " + str(total))
