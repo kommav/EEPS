@@ -264,7 +264,7 @@ t0 = time.perf_counter()
 '''
 
 total = app_Z(app_D(app_A(),app_G(),app_M()),
-                      app_E(app_B(3),app_C(5,18),app_D(app_A(), 3, app_B()),app_A()),
+                      app_E(5,10,15,20),
                       app_F(9,app_M(),app_E(19, app_N(6),24,34),45,app_B(8)),
                       app_J(app_H(app_G()),app_D(5,2,9),5),
                       app_K(52,app_A(),13,54),
