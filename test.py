@@ -282,7 +282,7 @@ total = app_Z(app_D(app_A(),app_G(),app_M()),
                       app_A(),
                       app_B(28),
                       app_C(45, app_B(app_P(42,37,app_M()))),
-                      app_M())
+                      app_M()).result()
 
 
 
