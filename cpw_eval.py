@@ -285,7 +285,7 @@ for x in range(len(cpw)):
 
 w = 0.4
 bar1 = np.arange(len(nodes))
-bar2 = [i+w for i bar1]
+bar2 = [i+w for i in bar1]
 
 plt.bar(bar1, totalCost, w, label = "Cost")
 plt.bar(barw, totalTimes, w, label = "Times")
