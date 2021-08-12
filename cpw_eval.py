@@ -2,6 +2,7 @@
 import parsl
 from parsl import python_app
 from parsl.monitoring import MonitoringHub
+import matplotlib.pyplot as plt
 
 import multiprocessing
 
@@ -276,6 +277,16 @@ for i in range(len(cpw)):
     parsl.dfk().cleanup()
     parsl.clear()
 
+
+nodes = []
+for x in range(len(cpw)):
+    nodes[x] = cores / cpw[x]
+
+plt.plot(nodes, totalCost, linestyle='dotted', label='TotalCost v. Nodes')
+plt.plot(nodes, totalTimes, label= 'TotalTimes v. Nodes')
+plt.xlabel('Nodes(Cores)')
+plt.show()
+
 # Finding and printing most efficient use of cores per worker
 
 minCost = min(totalCost)
@@ -297,8 +308,6 @@ secondTime = min(totalTimes)
 pctCost = ((secondCost / minCost) - 1) * 100
 pctTime = ((secondTime / minTime) - 1) * 100
 
-round(secondCost, 2)
-round(secondCost / secondNodes, 2)
 
 # Output Statements
 
