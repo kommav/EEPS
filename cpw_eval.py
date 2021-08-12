@@ -280,7 +280,7 @@ for i in range(len(cpw)):
 
 nodes = []
 for x in range(len(cpw)):
-    nodes[x] = cores / cpw[x]
+    nodes.append(cores / cpw[x])
 
 plt.plot(nodes, totalCost, linestyle='dotted', label='TotalCost v. Nodes')
 plt.plot(nodes, totalTimes, label= 'TotalTimes v. Nodes')
