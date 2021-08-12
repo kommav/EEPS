@@ -296,7 +296,7 @@ for y in range(len(totalCost)):
 plt.plot(nodes, totalCpT)
 plt.xticks(nodes)
 plt.xlabel('Nodes(Cores)')
-plt.ylabel('Cost/Time v. Nodes)
+plt.ylabel('Cost/Time v. Nodes')
 plt.show()
 
 # Finding and printing most efficient use of cores per worker
