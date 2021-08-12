@@ -3,6 +3,7 @@ import parsl
 from parsl import python_app
 from parsl.monitoring import MonitoringHub
 import matplotlib.pyplot as plt
+import numpy as np
 
 import multiprocessing
 
@@ -282,11 +283,14 @@ nodes = []
 for x in range(len(cpw)):
     nodes.append(cores / cpw[x])
 
-plt.plot(nodes, totalCost, linestyle='dotted', label='TotalCost v. Nodes')
-plt.plot(nodes, totalTimes, label= 'TotalTimes v. Nodes')
-plt.xticks(nodes)
-plt.xlabel('Nodes(Cores)')
-plt.ylabel('Cost (dotted) Time (solid)')
+w = 0.4
+bar1 = np.arange(len(nodes))
+bar2 = [i+w for i bar1]
+
+plt.bar(bar1, totalCost, w, label = "Cost")
+plt.bar(barw, totalTimes, w, label = "Times")
+plt.title("Cost and Time v. Nodes (Cores)")
+plt.xticks(bar1 + w/2, nodes)
 plt.show()
 
 totalCpT = []
