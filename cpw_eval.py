@@ -284,7 +284,19 @@ for x in range(len(cpw)):
 
 plt.plot(nodes, totalCost, linestyle='dotted', label='TotalCost v. Nodes')
 plt.plot(nodes, totalTimes, label= 'TotalTimes v. Nodes')
+plt.xticks(nodes)
 plt.xlabel('Nodes(Cores)')
+plt.ylabel('Cost (dotted) Time (solid)')
+plt.show()
+
+totalCpT = []
+for y in range(len(totalCost)):
+    totalCpT.append(totalCost/totalTimes)
+
+plt.plot(nodes, totalCpT)
+plt.xticks(nodes)
+plt.xlabel('Nodes(Cores)')
+plt.ylabel('Cost/Time v. Nodes)
 plt.show()
 
 # Finding and printing most efficient use of cores per worker
