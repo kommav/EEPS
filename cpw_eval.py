@@ -291,7 +291,7 @@ plt.show()
 
 totalCpT = []
 for y in range(len(totalCost)):
-    totalCpT.append(totalCost/totalTimes)
+    totalCpT.append(totalCost[y]/totalTimes[y])
 
 plt.plot(nodes, totalCpT)
 plt.xticks(nodes)
