@@ -287,16 +287,20 @@ w = 0.4
 bar1 = np.arange(len(nodes))
 bar2 = [i+w for i in bar1]
 
-plt.bar(bar1, totalCost, w, label = "Cost")
-plt.bar(bar2, totalTimes, w, label = "Times")
+plt.bar(bar1, totalCost, w, label="Cost")
+plt.bar(bar2, totalTimes, w, label="Times")
 plt.title("Cost and Time v. Nodes (Cores)")
 plt.xticks(bar1 + w/2, nodes)
+plt.xlabel('Nodes(Cores)')
+plt.ylabel('Cost/Time v. Nodes')
+plt.legend(loc="upper left")
 plt.savefig('CTvN.png')
 
 totalCpT = []
 for y in range(len(totalCost)):
     totalCpT.append(totalCost[y]/totalTimes[y])
 
+plt.figure()
 plt.plot(nodes, totalCpT)
 plt.xticks(nodes)
 plt.xlabel('Nodes(Cores)')
