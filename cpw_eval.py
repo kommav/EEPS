@@ -300,7 +300,7 @@ plt.savefig('CTvN.png')
 plt.figure()
 plt.plot(totalCost, totalTimes)
 for g in range(len(nodes)):
-    plt.annotate("Nodes: " + str(nodes[g]), (totalCost[g],totalTimes[g]))
+    plt.annotate(str(int(nodes[g])), (totalCost[g],totalTimes[g]))
 plt.title("Time v. Cost")
 plt.xlabel('Cost(core seconds)')
 plt.ylabel('Time(seconds)')
