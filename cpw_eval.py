@@ -292,20 +292,16 @@ plt.bar(bar2, totalTimes, w, label="Times")
 plt.title("Cost and Time v. Nodes(Cores)")
 plt.xticks(bar1 + w/2, nodes)
 plt.xlabel('Nodes(Cores)')
-plt.ylabel('Cost/Time v. Nodes')
+plt.ylabel('Time(Seconds) or Cost(Core Seconds)')
 plt.legend(loc="upper left")
 plt.savefig('CTvN.png')
 
-totalCpT = []
-for y in range(len(totalCost)):
-    totalCpT.append(totalCost[y]/totalTimes[y])
 
 plt.figure()
-plt.plot(nodes, totalCpT)
-plt.xticks(nodes)
-plt.title("Cost/Time v. Nodes(Cores)")
-plt.xlabel('Nodes(Cores)')
-plt.ylabel('Cost/Time')
+plt.plot(totalCost, totalTimes)
+plt.title("Time v. Cost")
+plt.xlabel('Time(seconds)')
+plt.ylabel('Cost(core seconds)')
 plt.savefig('CpTvN.png')
 
 # Finding and printing most efficient use of cores per worker
