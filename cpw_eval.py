@@ -300,8 +300,8 @@ plt.savefig('CTvN.png')
 plt.figure()
 plt.plot(totalCost, totalTimes)
 plt.title("Time v. Cost")
-plt.xlabel('Time(seconds)')
-plt.ylabel('Cost(core seconds)')
+plt.xlabel('Cost(core seconds)')
+plt.ylabel('Time(seconds)')
 plt.savefig('CpTvN.png')
 
 # Finding and printing most efficient use of cores per worker
