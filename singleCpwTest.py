@@ -1,4 +1,4 @@
-# Import Statements
+# After Using EEPS.py, one can use singleCpwTest.py to test a specific cpw value (Total Cores / # Nodes you want to test). 
 import parsl
 from parsl import python_app
 from parsl.monitoring import MonitoringHub
@@ -22,7 +22,7 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 import time
 
 
-# Scanner for Cores of System
+# Loading list of cpw depending on the amount of cores in ones system
 
 cpw = []
 
@@ -35,6 +35,10 @@ for j in range(1, cores+1):
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
+
+# Creation of fresh config change line 49 to whatever cpw you want to test 
+# cpw = Total Cores / # Nodes you want to test
+
 def fresh_config():
     return Config(
         executors=[
@@ -43,7 +47,7 @@ def fresh_config():
                 working_dir=working_dir,
                 storage_access=[FTPInTaskStaging(), HTTPInTaskStaging(), NoOpFileStaging()],
                 worker_debug=True,
-                cores_per_worker = 0.25, # Varies based on list cpw
+                cores_per_worker = 0.25, # Change based on your test
                 heartbeat_period=2,
                 heartbeat_threshold=5,
                 poll_period=100,
@@ -72,7 +76,7 @@ config = fresh_config()
 parsl.load(config)
 
 
-# Applications
+# Replace lines 81-239 with your own apps
 
 @python_app
 def app_A():
@@ -238,30 +242,7 @@ total = 0
 
 t0 = time.perf_counter()
 
-'''
-
-1 - app_D(app_A(),app_G(),app_M())
-2 - app_E(app_B(3),app_C(5,18),app_D(app_A(), 3, app_B()),app_A())
-3 - app_F(9,app_M(),app_E(19, app_N(6),24,34),45,app_B(8))
-4 - app_J(app_H(app_G()),app_D(5,2,9),5)
-5 - app_K(52,app_A(),13,54)
-6 - app_L(app_N(13),22,app_H(11),27,18)
-7 - app_P(50,16,app_M())
-8 - app_Q(14,23,20,45)
-9 - app_R(48,20,30,app_O(21,38),23)
-10 - app_S(app_I(47,7),29,48,3,5,24)
-11 - app_T(4,11,46,36,48,38,6)
-12 - app_U(25,29,36,12,7,14,10,50)
-13 - app_V(44,30,35,10,app_Q(34,8,12,49),7,15,21,47)
-14 - app_W(49,31,app_I(9,7),20,32,29,23,15,27,1)
-15 - app_X(41,20,app_B(44),21,48,45,41,20,app_C(24,33),7,36)
-16 - app_Y(0,31,5,app_N(40),46,40,22,1,16,32,12,42)
-17 - app_A()
-18 - app_B(28)
-19 - app_C(45, app_B(app_P(42,37,app_M())))
-20 - app_M()
-
-'''
+# Total function for our apps, change for your individual case
 
 total = app_Z(app_D(app_A(),app_G(),app_M()),
                       app_E(5,10,15,20),
