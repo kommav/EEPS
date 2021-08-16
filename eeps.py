@@ -304,7 +304,7 @@ plt.xticks(bar1 + w/2, workers)
 plt.xlabel('Workers')
 plt.ylabel('Time(Seconds) or Cost(Core Seconds)')
 plt.legend(loc="upper left")
-plt.savefig('CTvN.png')
+plt.savefig('CTvW.png')
 
 # Line Graph
 
@@ -315,7 +315,7 @@ for g in range(len(workers)):
 plt.title("Time v. Cost")
 plt.xlabel('Cost(core seconds)')
 plt.ylabel('Time(seconds)')
-plt.savefig('CpTvN.png')
+plt.savefig('CpTvW.png')
 
 # Finding the cheapest option for cores, the second cheapest option, and the fastest option
 # Percents are also found as comparisons between runtimes and costs
