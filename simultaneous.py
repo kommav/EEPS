@@ -1,5 +1,7 @@
-import parsl
+# Code used to understand Parsl and how runs and dependacies work
+# Does not need to be used in final product
 
+import parsl
 
 # imports for monitoring:
 from parsl.monitoring import MonitoringHub
