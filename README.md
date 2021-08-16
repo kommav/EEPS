@@ -21,11 +21,7 @@ After determining a select few amount of nodes that you may want to test, instea
 
 Results:
 
-![Image of Graph 1](https://github.com/kommav/EEPS/images/CTvN.png)
-
 ![Image of Graph 1](https://raw.githubusercontent.com/kommav/EEPS/main/images/CTvN.png)
-
-![Image of Graph 2](https://github.com/kommav/EEPS/images/CpTvN.png)
 
 ![Image of Graph 2](https://raw.githubusercontent.com/kommav/EEPS/main/images/CpTvN.png)
 
