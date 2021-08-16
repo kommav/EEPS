@@ -37,9 +37,12 @@ with your select values. Read the comments to know where to enter/replace these 
 ## Results
 ​
 ![Image of Graph 1](https://raw.githubusercontent.com/kommav/EEPS/main/images/CTvW.png)
+
 ​
 ![Image of Graph 2](https://raw.githubusercontent.com/kommav/EEPS/main/images/CvT.png)
+
 ​
+
 The first graph displays how increasing the amount of workers impacts how cost and runtime change. This graph is specific to our apps
 and total compilation function. Based on this graph, one can notice that as the number of workers increases, there is more loss despite
 the time decreasing. If one's applications are uniform and require a fixed number of workers at all times, the blue bars will create a
