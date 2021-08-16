@@ -24,7 +24,7 @@ from parsl.data_provider.file_noop import NoOpFileStaging
 import time
 
 
-# Scanner for Cores of System
+# Loading list of cpw depending on the amount of cores in ones system
 
 cpw = []
 
@@ -36,6 +36,11 @@ for j in range(1, cores+1):
     cpw.append(cores / j)
 
 working_dir = os.getcwd() + "/" + "test_htex_alternate"
+
+
+# Creation of fresh config that is variable
+# The config will change everytime the loop runs as cpw_input will be varied
+# The config will be loaded and cleared at several locations during the loop cycle
 
 def fresh_config(cpw_input):
     return Config(
@@ -70,6 +75,7 @@ def fresh_config(cpw_input):
     )
 
 # Applications
+# Replaces Lines 81-239 with your own apps to test
 
 
 @python_app
@@ -239,6 +245,7 @@ totalCost = []
 
 
 # Printing statistics for each runtime based on cores per worker
+# Data such as Total Runtime for each cpw and Total Cost for each cpw are recorded
 
 for i in range(len(cpw)):
     cores_per_worker = cpw[i]
@@ -278,11 +285,14 @@ for i in range(len(cpw)):
     parsl.dfk().cleanup()
     parsl.clear()
 
+# Matplots
 
 nodes = []
 for x in range(len(cpw)):
     nodes.append(cores / cpw[x])
 
+# Bar Graph
+    
 w = 0.4
 bar1 = np.arange(len(nodes))
 bar2 = [i+w for i in bar1]
@@ -296,6 +306,7 @@ plt.ylabel('Time(Seconds) or Cost(Core Seconds)')
 plt.legend(loc="upper left")
 plt.savefig('CTvN.png')
 
+# Line Graph
 
 plt.figure()
 plt.plot(totalCost, totalTimes)
@@ -306,7 +317,8 @@ plt.xlabel('Cost(core seconds)')
 plt.ylabel('Time(seconds)')
 plt.savefig('CpTvN.png')
 
-# Finding and printing most efficient use of cores per worker
+# Finding the cheapest option for cores, the second cheapest option, and the fastest option
+# Percents are also found as comparisons between runtimes and costs
 
 minCost = min(totalCost)
 minIndex = totalCost.index(minCost)
@@ -349,13 +361,3 @@ print("Core seconds: " + str(round(fastCost, 2)))
 print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
 print("Percentage faster: " + str(round(pctTime, 2)) + "%")
-
-
-
-'''
-Goal: Least amount of nodes necessary
-Translation: Least amount of workers
-Workers = C/(C/W)
-Decrement for loop from top to bottom, then we can actually return cores of system / C/W
-C/W we have to make it fluid (the list)
-'''
