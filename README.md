@@ -21,17 +21,13 @@ After determining a select few amount of nodes that you may want to test, instea
 
 Results:
 
-![Image of Graph 1]
-(https://github.com/kommav/EEPS/images/CTvN.png)
+![Image of Graph 1](https://github.com/kommav/EEPS/images/CTvN.png)
 
-![Image of Graph 1]
-(https://raw.githubusercontent.com/kommav/EEPS/main/images/CTvN.png)
+![Image of Graph 1](https://raw.githubusercontent.com/kommav/EEPS/main/images/CTvN.png)
 
-![Image of Graph 2]
-(https://github.com/kommav/EEPS/images/CpTvN.png)
+![Image of Graph 2](https://github.com/kommav/EEPS/images/CpTvN.png)
 
-![Image of Graph 2]
-(https://raw.githubusercontent.com/kommav/EEPS/main/images/CpTvN.png)
+![Image of Graph 2](https://raw.githubusercontent.com/kommav/EEPS/main/images/CpTvN.png)
 
 The first graph displays how increasing the amount of nodes impacts how cost and runtime change. This graph is specific to our apps and total compilation function. Based on this graph, one can notice that as the number of nodes increases, there is more loss despite the time decreasing. If one's applications are uniform and require a fixed number of nodes at all times, the blue bars will create a flat line or asymptote while the times decrease. This graph can be used so one can determine how many nodes (workers) they want to use. Our program prints suggested values as the cheapest and the fastest, but one can choose for themself while analyzing the graph.
 
