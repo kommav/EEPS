@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-## wstat.py - workflow execution reports and plots derived from Parsl monitoring database
-## The idea is not to replace the "sqlite3" interactive command or the
-## Parsl web interface, but to complement them to create some useful
-## interactive summaries specific to Parsl workflows.
+## Implemented from Tom Glanzman's 'Perp' project
 
-## Python dependencies: sqlite3, tabulate, matplotlib
-
-## T.Glanzman - Spring 2019
 __version__ = "2.0.0beta"  # 4/1/2021
 pVersion = '1.1.0:desc'  ## Parsl version
 
