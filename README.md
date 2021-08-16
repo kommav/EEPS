@@ -39,3 +39,4 @@ The first graph displays how increasing the amount of workers impacts how cost a
 The second graph displays the relationship between cost and time as the amount of workers increases. The number next to the data points states the amount of workers for the specific run. This graph can be used to understand how much time and cost change as the amount of workers is altered. In our case it seems like after about 4 or 5 workers, there is little change in time and a lot of change in cost. Hence, if efficiency and decent speed is our priority we would use 4 or 5 workers for our specific compilation of apps. If speed is our only priority and efficiency does not matter, 16 workers is a viable option as well.
 
 Overall, we wanted to provide graphs that provide the necessary information for one to make their own decisions based on their needs.
+
