@@ -1,26 +1,26 @@
 # EEPS
 
-## Intro:
+## Intro
 
 Hello! Our names are Ved Kommalapati and Ananth Hariharan and we are seniors at Normal Community High School in Normal, Illinois. We are both passionate about computer science and its applications in research. We both also plan on pursuing careers in the computer science field and we believe that this research opportunity helped us widen our horizons and gain experience in applying our computer science knowledge in research. 
 
-## Problem we faced:
+## Problem we faced
 During our research, however, we did face an obstacle. During our development of eeps.py, we wanted to change the cores_per_worker in the config. However, we were just resetting the variable and failing to actually reset the config. After analyzing our data and graphs, we came to notice this. Hence, we altered our loop to reload the configuration with the new cores_per_worker value for each loop iteration. We also made the fresh_config function have a parameter so we could pass the value from the cpw list as the new cores_per_worker. In order to make this work, we also had to dfk.cleanup() and clear() the parsl config at the end of each loop iteration. 
 
-## Skills Learned:
+## Skills Learned
 During our research, we also gained several invaluable skills. We learned how to properly use git commands. We learned how to interact with linux machines and use the command line and terminal. We also learned how to use the scp protocol to recover files from a cloud machine to our personal desktops. We also became more experienced in python and sql throughout this experience.
 
 We would also like to thank Dr. Daniel S. Katz and Mr. Ben Clifford for their help. 
 
-## Overview:
+## Overview
 
 EEPS, or the Efficiency Evaluator for Parallel Scripting, serves as an important tool for users to evaluate the costs and efficiency associated with running parallel scripted applications. It evaluates the speed and cost of running the user’s code based on the number of nodes (cores) used. The information is provided in lists and as a graphical output that helps the user understand and evaluate the best node-to-cost and node-to-time ratios for them.
 
-## Purpose:
+## Purpose
 
 EEPS enables one to test several different cores-per-worker values for the same Python-based applications (that connect and have a ‘total’ statement). EEPS will provide graphs so one can evaluate how many nodes they believe are necessary for their specific use case. EEPS will not suggest a specific value, as companies and programs have different goals. Rather, it provides graphs that provide you information regarding how the number of nodes affects the cost and runtime of their compilation of applications.
 
-## How to use:
+## How to use
 
 After reading the comments on eeps.py and replacing the lines of code that we indicated (you can run with our apps as well and skip the replacement step), run eeps.py.
 
@@ -28,7 +28,7 @@ Although this run may take a long time, it will enable you to save time for futu
 
 After determining a select few amount of nodes that you may want to test, instead of re-running eeps.py, you can run singleCpwTest.py with your select values. Read the comments to know where to enter/replace these values.
 
-## Results:
+## Results
 
 ![Image of Graph 1](https://raw.githubusercontent.com/kommav/EEPS/main/images/CTvN.png)
 
