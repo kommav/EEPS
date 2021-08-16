@@ -1,4 +1,4 @@
-# After Using EEPS.py, one can use singleCpwTest.py to test a specific cpw value (Total Cores / # Nodes you want to test). 
+# After Using EEPS.py, one can use singleCpwTest.py to test a specific cpw value (Total Cores / # Workers you want to test). 
 import parsl
 from parsl import python_app
 from parsl.monitoring import MonitoringHub
@@ -37,7 +37,7 @@ working_dir = os.getcwd() + "/" + "test_htex_alternate"
 
 
 # Creation of fresh config change line 49 to whatever cpw you want to test 
-# cpw = Total Cores / # Nodes you want to test
+# cpw = Total Cores / # Workers you want to test
 
 def fresh_config():
     return Config(
