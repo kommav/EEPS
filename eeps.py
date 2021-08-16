@@ -315,7 +315,7 @@ for g in range(len(workers)):
 plt.title("Time v. Cost")
 plt.xlabel('Cost(core seconds)')
 plt.ylabel('Time(seconds)')
-plt.savefig('CpTvW.png')
+plt.savefig('CvT.png')
 
 # Finding the cheapest option for cores, the second cheapest option, and the fastest option
 # Percents are also found as comparisons between runtimes and costs
