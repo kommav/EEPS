@@ -287,21 +287,21 @@ for i in range(len(cpw)):
 
 # Matplots
 
-nodes = []
+workers = []
 for x in range(len(cpw)):
-    nodes.append(cores / cpw[x])
+    workers.append(cores / cpw[x])
 
 # Bar Graph
     
 w = 0.4
-bar1 = np.arange(len(nodes))
+bar1 = np.arange(len(workers))
 bar2 = [i+w for i in bar1]
 
 plt.bar(bar1, totalCost, w, label="Cost")
 plt.bar(bar2, totalTimes, w, label="Times")
-plt.title("Cost and Time v. Nodes(Cores)")
-plt.xticks(bar1 + w/2, nodes)
-plt.xlabel('Nodes(Cores)')
+plt.title("Cost and Time v. Workers")
+plt.xticks(bar1 + w/2, workers)
+plt.xlabel('Workers')
 plt.ylabel('Time(Seconds) or Cost(Core Seconds)')
 plt.legend(loc="upper left")
 plt.savefig('CTvN.png')
@@ -310,8 +310,8 @@ plt.savefig('CTvN.png')
 
 plt.figure()
 plt.plot(totalCost, totalTimes)
-for g in range(len(nodes)):
-    plt.annotate(str(int(nodes[g])), (totalCost[g],totalTimes[g]))
+for g in range(len(workers)):
+    plt.annotate(str(int(workers[g])), (totalCost[g],totalTimes[g]))
 plt.title("Time v. Cost")
 plt.xlabel('Cost(core seconds)')
 plt.ylabel('Time(seconds)')
@@ -323,17 +323,17 @@ plt.savefig('CpTvN.png')
 minCost = min(totalCost)
 minIndex = totalCost.index(minCost)
 optimalCPW = cpw[minIndex]
-nodesNecessary = cores / optimalCPW
+workersNecessary = cores / optimalCPW
 totalCost.remove(minCost)
 secondCost = min(totalCost)
 secondIndex = totalCost.index(secondCost) + 1
 secondCPW = cpw[secondIndex]
-secondNodes = cores / secondCPW
+secondWorkers = cores / secondCPW
 minTime = min(totalTimes)
 fastIndex = totalTimes.index(minTime)
 fastCPW = cpw[fastIndex]
-fastNodes = cores / fastCPW
-fastCost = minTime * fastNodes
+fastWorkers = cores / fastCPW
+fastCost = minTime * fastWorkers
 totalTimes.remove(minTime)
 secondTime = min(totalTimes)
 pctCost = ((secondCost / minCost) - 1) * 100
@@ -344,19 +344,19 @@ pctTime = ((secondTime / minTime) - 1) * 100
 
 print()
 print("Cheapest: ")
-print("Optimal number of cores: " + str(nodesNecessary))
+print("Optimal number of workers: " + str(workersNecessary))
 print("Core seconds: " + str(round(minCost, 2)))
-print("Seconds: " + str(round(minCost / nodesNecessary, 2)))
+print("Seconds: " + str(round(minCost / workersNecessary, 2)))
 print(" ")
 print("Second Cheapest: ")
-print("Number of Cores: " + str(secondNodes))
+print("Number of Cores: " + str(secondWorkers))
 print("Core seconds: " + str(round(secondCost, 2)))
-print("Seconds: " + str(round(secondCost / secondNodes, 2)))
+print("Seconds: " + str(round(secondCost / secondWorkers, 2)))
 print(str(round(secondCost-minCost, 2)) + " core seconds off optimal value")
 print("Percentage greater than optimal cost: " + str(round(pctCost, 2)) + "%")
 print(" ")
 print("Fastest: ")
-print("Number of Cores: " + str(fastNodes))
+print("Number of Cores: " + str(fastWorkers))
 print("Core seconds: " + str(round(fastCost, 2)))
 print("Seconds: " + str(round(minTime, 2)))
 print(str(round(secondTime - minTime, 2)) + " seconds faster than next fastest")
