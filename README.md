@@ -30,9 +30,9 @@ After determining a select few amount of workers that you may want to test, inst
 
 ## Results
 
-![Image of Graph 1](https://raw.githubusercontent.com/kommav/EEPS/main/images/CTvN.png)
+![Graph 1](https://raw.githubusercontent.com/kommav/EEPS/main/images/CTvN.png)
 
-![Image of Graph 2](https://raw.githubusercontent.com/kommav/EEPS/main/images/CpTvN.png)
+![Graph 2](https://raw.githubusercontent.com/kommav/EEPS/main/images/CpTvN.png)
 
 The first graph displays how increasing the amount of workers impacts how cost and runtime change. This graph is specific to our apps and total compilation function. Based on this graph, one can notice that as the number of workers increases, there is more loss despite the time decreasing. If one's applications are uniform and require a fixed number of workers at all times, the blue bars will create a flat line or asymptote while the times decrease. This graph can be used so one can determine how many workers they want to use. Our program prints suggested values as the cheapest and the fastest, but one can choose for themself while analyzing the graph.
 
